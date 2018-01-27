@@ -1,0 +1,4 @@
+1 customer1 customer1 customer1@ petro
+2 customer2 customer2 customer2@ nastya
+3 customer3 customer3 customer3@ kostya
+4 customer4 customer4 customer4@mail.ru kostya
