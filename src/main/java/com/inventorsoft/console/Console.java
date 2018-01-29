@@ -21,10 +21,13 @@ public class Console {
     public static void main(String[] args) throws IOException {
         view.welcome();
         String answer = view.howToWork();
-        userList = info.getInfoFromFile(answer);
+        System.out.println(answer);
+        userList = info.getUsersFromFile(answer);
         view.delimiter();
         answer += view.registrationOrLogin();
+        System.out.println(answer);
         loginInUser(answer, userList);
+
     }
 
     public static void loginInUser(String answer, List<? extends User> userList) {

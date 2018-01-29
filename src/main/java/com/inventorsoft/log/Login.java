@@ -12,9 +12,29 @@ public class Login {
 
     LoginInValidator loginInValidator = new LoginInValidator();
 
-    public Login() {}
+    private List<? extends User> userList;
+
+    public void setUserList(List<? extends User> userList) {
+        this.userList = userList;
+    }
+
+    public Login() {
+    }
 
     public Login(List<? extends User> userList) {
+        setUserList(userList);
+
+        //while i get no correct info
+        while (!checkLogin()) {
+            checkLogin();
+        }
+
+        while (!checkPassword()) {
+            checkPassword();
+        }
+    }
+
+    private boolean checkLogin() {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //check login
         String login = "";
@@ -23,19 +43,23 @@ public class Login {
             login = br.readLine();
             if (!loginInValidator.validateLogin(login)) {
                 System.out.println("Please input correct type of login!");
-                new Login(userList);
+                return false;
             }
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
         if (!loginInValidator.validateForUniqueValue(userList, login, "login")) {
             System.out.println("This login missing, please complete registration before login!");
-            new Login(userList);
+            return false;
         }
 
+        return true;
 
+    }
+
+    private boolean checkPassword() {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //check password
         String password = "";
         System.out.println("Input password:");
@@ -44,20 +68,21 @@ public class Login {
             password = br.readLine();
             if (!loginInValidator.validatePassword(password)) {
                 System.out.println("Please input correct type of password!");
-                new Login(userList);
+                return false;
             }
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
-        //validForThreeTimesInvalidPassword
-        loginInValidator.validForThreeTimesInvalidPassword();
 
         if (!loginInValidator.validateForUniqueValue(userList, password, "password")) {
             System.out.println("This password not correct for this login, please try again!");
-            new Login(userList);
+            //validForThreeTimesInvalidPassword
+            loginInValidator.validForThreeTimesInvalidPassword();
+            return false;
         }
+
+        return true;
     }
 
 }

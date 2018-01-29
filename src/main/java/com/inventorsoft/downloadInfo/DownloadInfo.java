@@ -1,11 +1,14 @@
 package com.inventorsoft.downloadInfo;
 
+import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Admin;
 import com.inventorsoft.model.user.Customer;
 import com.inventorsoft.model.user.User;
-import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
 
 import java.io.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +16,10 @@ public class DownloadInfo {
 
     private static final String ADMINS_FILE = "src/main/resources/admins.txt";
     private static final String CUSTOMERS_FILE = "src/main/resources/customers.txt";
+    private static final String FILE_OFFERS = "src/com/TextTest/offers.txt";
+    private static final String FILE_TICKETS = "src/com/TextTest/tickets.txt";
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
+
 
     /**
      *
@@ -20,7 +27,7 @@ public class DownloadInfo {
      * @return List<Customer> or List<Admin>
      * @throws IOException
      */
-    public List<? extends User> getInfoFromFile(String userType) throws IOException {
+    public List<? extends User> getUsersFromFile(String userType) throws IOException {
 
         if (userType.equals("1")) {
             List<Customer> customerList = new ArrayList<>();
@@ -64,6 +71,62 @@ public class DownloadInfo {
             return adminList;
         }
         return null;
+    }
+
+    public List<Ticket> getTicketsFromFile() throws IOException {
+        List<Ticket> ticketList = new ArrayList<>();
+        File file = new File(FILE_OFFERS);
+        FileReader fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+        while ((line = br.readLine()) != null) {
+            String[] s = line.split(" ");
+            Ticket ticket = new Ticket();
+            ticket.setName((s[0]));
+            ticket.setCustomerId(Integer.parseInt(s[1]));
+            ticket.setOfferId(Integer.parseInt(s[2]));
+            ticket.setRoute((s[3]));
+            try {
+                ticket.setDeparture_time(DATE_FORMAT.parse(s[4]));
+                ticket.setArrival_time(DATE_FORMAT.parse(s[5]));
+            } catch (ParseException e) {
+                System.out.println("Problem in DownloadInfo method getTicketsFromFile()");
+                e.printStackTrace();
+            }
+            ticket.setNumber(s[6]);
+            ticket.setPrice(Integer.parseInt(s[7]));
+            ticketList.add(ticket);
+        }
+        br.close();
+        fr.close();
+        return ticketList;
+    }
+
+    public List<Offer> getOffersFromFile() throws IOException {
+        List<Offer> offerList = new ArrayList<>();
+        File file = new File(FILE_OFFERS);
+        FileReader fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+        while ((line = br.readLine()) != null) {
+            String[] s = line.split(" ");
+                Offer offer = new Offer();
+                offer.setId(Integer.parseInt(s[0]));
+                offer.setRoute((s[1]));
+            try {
+                offer.setDepartureDate(DATE_FORMAT.parse(s[2]));
+                offer.setArrivalDate(DATE_FORMAT.parse(s[3]));
+            } catch (ParseException e) {
+                System.out.println("Problem in DownloadInfo method getOffersFromFile() ");
+                e.printStackTrace();
+            }
+            offer.setNumberOfSeats(s[4]);
+                offer.setPrice(Integer.parseInt(s[5]));
+                offerList.add(offer);
+        }
+        br.close();
+        fr.close();
+        return offerList;
     }
 }
 

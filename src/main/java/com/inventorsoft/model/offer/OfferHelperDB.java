@@ -144,9 +144,9 @@ public class OfferHelperDB {
 
 
         System.out.println("Input Number Of Seats:");
-        offer.setNumber_of_seats(writeNumberOfSeats(validNull(reader.readLine())));
+        offer.setNumberOfSeats(writeNumberOfSeats(validNull(reader.readLine())));
         System.out.println(offer.toString());
-        writeOffer();
+        writeOfferInFile();
     }
 
     private void editOffer() throws IOException, ParseException {
@@ -171,13 +171,13 @@ public class OfferHelperDB {
                 offer.setRoute(validNull(s[1]));
                 offer.setDeparture_time(DATE_FORMAT.parse(s[2]));
                 offer.setArrival_time(DATE_FORMAT.parse(s[3]));
-                offer.setNumber_of_seats(validNull(s[4]));
+                offer.setNumberOfSeats(validNull(s[4]));
                 System.out.println(offer);
                 editFindValue();
                 continue;
             }
 
-            writeOffer(line);
+            writeOfferInFile(line);
         }
         br.close();
         fr.close();
@@ -197,7 +197,7 @@ public class OfferHelperDB {
             if (Integer.parseInt(s[0]) == idForDelete) {
                 continue;
             }
-            writeOffer(line);
+            writeOfferInFile(line);
         }
         br.close();
         fr.close();
@@ -206,21 +206,21 @@ public class OfferHelperDB {
 
 
 
-    private void writeOffer() throws IOException {
+    private void writeOfferInFile() throws IOException {
         FileWriter writer = new FileWriter(FILE_OFFERS, true);
         writer.append(offer.toString());
         writer.flush();
         writer.close();
     }
 
-    private void writeOffer(Offer offer) throws IOException {
+    private void writeOfferInFile(Offer offer) throws IOException {
         FileWriter writer = new FileWriter(FILE_BUFFER_OFFERS, true);
         writer.append(offer.toString());
         writer.flush();
         writer.close();
     }
 
-    private void writeOffer(String line) throws IOException {
+    private void writeOfferInFile(String line) throws IOException {
         FileWriter writer = new FileWriter(FILE_BUFFER_OFFERS, true);
         line += "\n";
         writer.append(line);
@@ -271,10 +271,10 @@ public class OfferHelperDB {
                 break;
             case "number_of_seats":
                 System.out.println("Input new value:");
-                offer.setNumber_of_seats(writeNumberOfSeats(validNull(reader.readLine())));
+                offer.setNumberOfSeats(writeNumberOfSeats(validNull(reader.readLine())));
                 break;
         }
-    writeOffer(offer);
+    writeOfferInFile(offer);
     }
 
     private void cleanFile(String filename) throws IOException {
@@ -308,7 +308,7 @@ public class OfferHelperDB {
                     offer.setRoute(validNull(s[1]));
                     offer.setDeparture_time(DATE_FORMAT.parse(s[2]));
                     offer.setArrival_time(DATE_FORMAT.parse(s[3]));
-                    offer.setNumber_of_seats(validNull(s[4]));
+                    offer.setNumberOfSeats(validNull(s[4]));
                 }
             }
             br.close();
@@ -364,7 +364,7 @@ public class OfferHelperDB {
             }
         }
         System.out.println(numberOfSeats);
-        offer.setNumber_of_seats(numberOfSeats);
+        offer.setNumberOfSeats(numberOfSeats);
 
         file = new File(FILE_OFFERS);
         fr = new FileReader(file);
@@ -372,10 +372,10 @@ public class OfferHelperDB {
         while ((line = br.readLine()) != null) {
             s = line.split(" ");
             if (s[0].equals(necessaryId)) {
-                writeOffer(offer);
+                writeOfferInFile(offer);
                 continue;
             }
-            writeOffer(line);
+            writeOfferInFile(line);
         }
 
         TicketHelper.ticket.setName(IdentifyUser.customer.getName());

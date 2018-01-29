@@ -5,31 +5,23 @@ import java.util.Date;
 
 public class Offer {
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
-    private int offerId;
+    private int id;
     private String route;
-    private Date departure_time;
-    private Date arrival_time;
-    private String number_of_seats;
+    private Date departureDate;
+    private Date arrivalDate;
+    private String numberOfSeats;
     private int price;
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
 
     public static SimpleDateFormat getDateFormat() {
         return DATE_FORMAT;
     }
 
-    public int getOfferId() {
-        return offerId;
+    public int getId() {
+        return id;
     }
 
-    public void setOfferId(int offerId) {
-        this.offerId = offerId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getRoute() {
@@ -40,37 +32,45 @@ public class Offer {
         this.route = route;
     }
 
-    public Date getDeparture_time() {
-        return departure_time;
+    public Date getDepartureDate() {
+        return departureDate;
     }
 
-    public void setDeparture_time(Date departure_time) {
-        this.departure_time = departure_time;
+    public void setDepartureDate(Date departureDate) {
+        this.departureDate = departureDate;
     }
 
-    public Date getArrival_time() {
-        return arrival_time;
+    public Date getArrivalDate() {
+        return arrivalDate;
     }
 
-    public void setArrival_time(Date arrival_time) {
-        this.arrival_time = arrival_time;
+    public void setArrivalDate(Date arrivalDate) {
+        this.arrivalDate = arrivalDate;
     }
 
-    public String getNumber_of_seats() {
-        return number_of_seats;
+    public String getNumberOfSeats() {
+        return numberOfSeats;
     }
 
-    public void setNumber_of_seats(String number_of_seats) {
-        this.number_of_seats = number_of_seats;
+    public void setNumberOfSeats(String numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     @Override
     public String toString() {
-        return offerId + " "
+        return id + " "
                 + route + " "
-                + DATE_FORMAT.format(departure_time) + " "
-                + DATE_FORMAT.format(arrival_time) + " "
-                + number_of_seats + " "
+                + DATE_FORMAT.format(departureDate) + " "
+                + DATE_FORMAT.format(arrivalDate) + " "
+                + numberOfSeats + " "
                 + price + "\n";
     }
 }

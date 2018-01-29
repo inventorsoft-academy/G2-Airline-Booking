@@ -18,10 +18,6 @@ public class LoginInValidator {
         return --threeTimes;
     }
 
-    public boolean validateForNull(String value){
-        return !String.valueOf(value).equals("");
-    }
-
     public boolean validateForOneOrTwo(String value) {
         return value.equals("1") || value.equals("2");
     }
@@ -56,16 +52,14 @@ public class LoginInValidator {
         if (checkPasswordThreeTimes() == 0) {
             String answer = "";
             System.out.println("Please recall the password!");
-            View view = new View();
-            view.delimiter();
             System.out.println("You want to continue input password?" + "\n"
                     + "1 - yes" + "\n"
                     + "2 - no");
             try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
                 answer = br.readLine();
-                if (!validateForNull(answer) || !validateForOneOrTwo(answer)) {
+                while (validateForOneOrTwo(answer)) {
                     System.out.println("Please input 1 or 2!");
-                    validForThreeTimesInvalidPassword();
+                    answer = br.readLine();
                 }
             } catch (IOException e) {
                 System.out.println("Problem in validForThreeTimesInvalidPassword" + answer);
