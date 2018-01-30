@@ -1,57 +1,71 @@
 package com.inventorsoft.console;
 
-import com.inventorsoft.downloadInfo.DownloadInfo;
-import com.inventorsoft.log.Login;
-import com.inventorsoft.log.Registration;
+import com.inventorsoft.downloadInfo.*;
+import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Admin;
 import com.inventorsoft.model.user.Customer;
-import com.inventorsoft.model.user.User;
+import com.inventorsoft.session.AdminSession;
+import com.inventorsoft.session.CustomerSession;
 import com.inventorsoft.view.View;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.List;
+import java.util.Scanner;
 
 public class Console {
-    private static final String ADMINS_FILE = "src/main/resources/admins.txt";
-    private static final String CUSTOMERS_FILE = "src/main/resources/customers.txt";
     private static final View view = new View();
-    private static final DownloadInfo info = new DownloadInfo();
-    private static List<? extends User> userList;
+    private List<Offer> offerList = DownloadOffers.getInfo();
+    private List<Ticket> ticketList = DownloadTickets.getInfo();
 
     public static void main(String[] args) throws IOException {
+
+
         view.welcome();
-        String answer = view.howToWork();
-        System.out.println(answer);
-        userList = info.getUsersFromFile(answer);
-        view.delimiter();
-        answer += view.registrationOrLogin();
-        System.out.println(answer);
-        loginInUser(answer, userList);
+        Console console = new Console();
+        console.start();
 
     }
 
-    public static void loginInUser(String answer, List<? extends User> userList) {
+    public void start() {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("How do you want to work?" + "\n"
+                + "like a customer - 1" + "\n"
+                + "like a admin - 2");
+
+        int answer = scn.nextInt();
+        System.out.println(answer);
+        while (!validateForEqualsInRange(answer, 2)) {
+            System.out.println("Please input 1 or 2!");
+            answer = scn.nextInt();
+        }
+
         switch (answer) {
-            case "11":
+            case 1:
+                List<Customer> customerList;
+                customerList = DownloadCustomer.getInfo();
+                new CustomerSession(customerList);
+                break;
+            case 2:
+                List<Admin> adminList;
+                adminList = DownloadAdmin.getInfo();
                 try {
-                    new Registration(new Customer(), userList, CUSTOMERS_FILE);
+                    new AdminSession(adminList, offerList, ticketList);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                break;
-            case "12":
-                new Login(userList);
-                break;
-            case "21":
-                try {
-                    new Registration(new Admin(), userList, ADMINS_FILE);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                break;
-            case "22":
-                new Login(userList);
                 break;
         }
+    }
+
+    public boolean validateForEqualsInRange(int value, int number) {
+        for (int k = 1; k <= number; k++) {
+            if (k == value) {
+                return true;
+            }
+        }
+        return false;
     }
 }

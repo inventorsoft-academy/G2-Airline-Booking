@@ -9,26 +9,13 @@ public class Ticket {
     private int customerId;
     private int offerId;
     private String route;
-    private Date departure_time;
-    private Date arrival_time;
+    private Date departureDate;
+    private Date arrivalDate;
     private String number;
     private int price;
 
-    public Date getArrival_time() {
-        return arrival_time;
-    }
-
-    public void setArrival_time(Date arrival_time) {
-        this.arrival_time = arrival_time;
-    }
-
-    public int getPrice() {
-
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
+    public static SimpleDateFormat getDateFormat() {
+        return DATE_FORMAT;
     }
 
     public String getName() {
@@ -63,20 +50,20 @@ public class Ticket {
         this.route = route;
     }
 
-    public Date getDeparture_time() {
-        return departure_time;
+    public Date getDepartureDate() {
+        return departureDate;
     }
 
-    public void setDeparture_time(Date departure_time) {
-        this.departure_time = departure_time;
+    public void setDepartureDate(Date departureDate) {
+        this.departureDate = departureDate;
     }
 
-    public Date getArrical_time() {
-        return arrival_time;
+    public Date getArrivalDate() {
+        return arrivalDate;
     }
 
-    public void setArrical_time(Date arrival_time) {
-        this.arrival_time = arrival_time;
+    public void setArrivalDate(Date arrivalDate) {
+        this.arrivalDate = arrivalDate;
     }
 
     public String getNumber() {
@@ -87,6 +74,13 @@ public class Ticket {
         this.number = number;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
 
     @Override
     public String toString() {
@@ -94,8 +88,9 @@ public class Ticket {
                 + customerId + " "
                 + offerId + " "
                 + route + " "
-                + DATE_FORMAT.format(departure_time) + " "
-                + DATE_FORMAT.format(arrival_time) + " "
+                + DATE_FORMAT.format(departureDate) + " "
+                + DATE_FORMAT.format(arrivalDate) + " "
                 + number + "\n";
     }
+
 }

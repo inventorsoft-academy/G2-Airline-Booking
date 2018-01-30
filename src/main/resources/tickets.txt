@@ -1,5 +1,5 @@
-kostya 3 4 pgfppgfp 12/12/2018-01:15 12/12/2018-07:50 13
-kostya 3 3 Amsterdam->Ukraine 12/03/2018-12:03 12/03/2018-18:45 8
-kostya 3 3 Amsterdam->Ukraine 12/03/2018-12:03 12/03/2018-18:45 41
-kostya 3 3 Amsterdam->Ukraine 12/03/2018-12:03 12/03/2018-18:45 64
-kostya 3 1 ESP->NED 12/12/2018-14:04 12/12/2018-18:45 10
+kostya 3 4 pgfppgfp 12/12/2018-01:15 12/12/2018-07:50 13 150
+kostya 3 3 Amsterdam->Ukraine 12/03/2018-12:03 12/03/2018-18:45 8 125
+kostya 3 3 Amsterdam->Ukraine 12/03/2018-12:03 12/03/2018-18:45 41 225
+kostya 3 3 Amsterdam->Ukraine 12/03/2018-12:03 12/03/2018-18:45 64 300
+kostya 3 1 ESP->NED 12/12/2018-14:04 12/12/2018-18:45 10 85

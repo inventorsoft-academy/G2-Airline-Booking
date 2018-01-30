@@ -143,7 +143,7 @@ public class Registration {
         return true;
     }
 
-    String registrationInFile(final String fileName, User user) throws IOException {
+    private String registrationInFile(final String fileName, User user) throws IOException {
         FileWriter writer = new FileWriter(fileName, true);
         writer.append(user.toString());
         writer.flush();

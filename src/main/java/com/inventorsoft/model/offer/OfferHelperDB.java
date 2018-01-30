@@ -129,7 +129,7 @@ public class OfferHelperDB {
         offer.setRoute(validNull(reader.readLine()));
         System.out.println("Input departure time: (dd/mm/yyyy-hh:mm)");
         try {
-            offer.setDeparture_time(DATE_FORMAT.parse(reader.readLine()));
+            offer.setDepartureDate(DATE_FORMAT.parse(reader.readLine()));
         } catch (ParseException e) {
             System.out.println("Wrong date format!");
             System.exit(0);
@@ -137,7 +137,7 @@ public class OfferHelperDB {
 
         System.out.println("Input Time Of Arrival: (dd/mm/yyyy-hh:mm)");
         try {
-            offer.setArrival_time(DATE_FORMAT.parse(reader.readLine()));
+            offer.setArrivalDate(DATE_FORMAT.parse(reader.readLine()));
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -169,8 +169,8 @@ public class OfferHelperDB {
             if (Integer.parseInt(s[0]) == necessaryId) {
                 offer.setOfferId(necessaryId);
                 offer.setRoute(validNull(s[1]));
-                offer.setDeparture_time(DATE_FORMAT.parse(s[2]));
-                offer.setArrival_time(DATE_FORMAT.parse(s[3]));
+                offer.setDepartureDate(DATE_FORMAT.parse(s[2]));
+                offer.setArrivalDate(DATE_FORMAT.parse(s[3]));
                 offer.setNumberOfSeats(validNull(s[4]));
                 System.out.println(offer);
                 editFindValue();
@@ -263,11 +263,11 @@ public class OfferHelperDB {
                 break;
             case "departure_time":
                 System.out.println("Input new value:");
-                offer.setDeparture_time(DATE_FORMAT.parse(reader.readLine()));
+                offer.setDepartureDate(DATE_FORMAT.parse(reader.readLine()));
                 break;
             case "arrival_time":
                 System.out.println("Input new value:");
-                offer.setArrival_time(DATE_FORMAT.parse(reader.readLine()));
+                offer.setArrivalDate(DATE_FORMAT.parse(reader.readLine()));
                 break;
             case "number_of_seats":
                 System.out.println("Input new value:");
@@ -306,8 +306,8 @@ public class OfferHelperDB {
                         || s[1].equals(necessaryOfferId)) {
                     offer.setOfferId(Integer.parseInt(s[0]));
                     offer.setRoute(validNull(s[1]));
-                    offer.setDeparture_time(DATE_FORMAT.parse(s[2]));
-                    offer.setArrival_time(DATE_FORMAT.parse(s[3]));
+                    offer.setDepartureDate(DATE_FORMAT.parse(s[2]));
+                    offer.setArrivalDate(DATE_FORMAT.parse(s[3]));
                     offer.setNumberOfSeats(validNull(s[4]));
                 }
             }
@@ -382,8 +382,8 @@ public class OfferHelperDB {
         TicketHelper.ticket.setCustomerId(IdentifyUser.customer.getCustomerId());
         TicketHelper.ticket.setOfferId(offer.getOfferId());
         TicketHelper.ticket.setRoute(offer.getRoute());
-        TicketHelper.ticket.setDeparture_time(offer.getDeparture_time());
-        TicketHelper.ticket.setArrical_time(offer.getArrival_time());
+        TicketHelper.ticket.setDepartureDate(offer.getDepartureDate());
+        TicketHelper.ticket.setArrical_time(offer.getArrivalDate());
         TicketHelper.ticket.setNumber(number);
 
         br.close();
