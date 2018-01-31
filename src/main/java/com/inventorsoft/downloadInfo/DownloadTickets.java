@@ -33,7 +33,7 @@ public class DownloadTickets implements DownloadInfo {
                     System.out.println("Problem in DownloadTickets() ");
                     e.printStackTrace();
                 }
-                ticket.setNumber(s[6]);
+                ticket.setNumber(Integer.parseInt(s[6]));
                 ticket.setPrice(Integer.parseInt(s[7]));
                 ticketList.add(ticket);
             }

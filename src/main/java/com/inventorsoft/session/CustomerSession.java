@@ -5,13 +5,9 @@ import com.inventorsoft.log.Registration;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.offer.OfferOperations;
 import com.inventorsoft.model.ticket.Ticket;
-import com.inventorsoft.model.user.Admin;
+import com.inventorsoft.model.ticket.TicketOperations;
 import com.inventorsoft.model.user.Customer;
-import com.inventorsoft.model.user.User;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.util.List;
 import java.util.Scanner;
@@ -19,8 +15,12 @@ import java.util.Scanner;
 public class CustomerSession {
     private static final String CUSTOMERS_FILE = "src/main/resources/customers.txt";
     OfferOperations offerOperations = new OfferOperations();
-
+    TicketOperations ticketOperations = new TicketOperations();
+    Customer customer = new Customer();
+    Registration registration;
+    Login login;
     public CustomerSession(List<Customer> customerList, List<Offer> offerList, List<Ticket> ticketList) throws IOException {
+
 
         Authorization(customerList);
 
@@ -50,13 +50,13 @@ public class CustomerSession {
         switch (necessaryField) {
             case 1:
                 try {
-                    new Registration(new Customer(), customerList, CUSTOMERS_FILE);
+                    registration = new Registration(customer, customerList, CUSTOMERS_FILE);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 2:
-                new Login(customerList);
+                login = new Login(customerList , customer);
                 break;
         }
     }
@@ -69,7 +69,7 @@ public class CustomerSession {
                 + "view all offers - 1" + "\n"
                 + "search by needs parameter - 2" + "\n"
                 + "book ticket - 3" + "\n"
-                + "view all tickets - 4" + "\n"
+                + "view all ordered tickets - 4" + "\n"
                 + "download ticket - 5" + "\n"
                 + "to log out - 6");
         int necessaryField = scn.nextInt();
@@ -80,26 +80,22 @@ public class CustomerSession {
 
         switch (necessaryField) {
             case 1:
-                offerOperations.createOffer(offerList);
+                ticketOperations.importAllOffers(offerList);
                 break;
             case 2:
-                offerOperations.importAllOffers(offerList);
+                //
                 break;
             case 3:
-                try {
-                    offerOperations.editOffer(offerList, changeNeedsParameter());
-                } catch (ParseException e) {
-                    e.printStackTrace();
-                }
+                ticketOperations.bookTicket(offerList,customer);
                 break;
             case 4:
-                offerOperations.delete(offerList);
+                ticketOperations.viewAllOrderedTickets(ticketList,customer);
                 break;
             case 5:
-                //needs ticket
+                ticketOperations.downloadTicket(ticketList,customer);
                 break;
             case 6:
-                offerOperations.exit();
+                ticketOperations.exit();
                 break;
         }
     }

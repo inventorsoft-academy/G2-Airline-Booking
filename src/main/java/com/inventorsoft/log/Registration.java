@@ -1,31 +1,38 @@
 package com.inventorsoft.log;
 
 import com.inventorsoft.model.user.User;
-import com.inventorsoft.validator.LoginInValidator;
+import com.inventorsoft.validator.AuthorizationValidator;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.Scanner;
 
 public class Registration {
-    private static final LoginInValidator loginInValidator = new LoginInValidator();
+    private static final AuthorizationValidator loginInValidator = new AuthorizationValidator();
 
     private List<? extends User> userList;
+
     private User newUser;
+
     private String fileName;
 
-    public void setUserList(List<? extends User> userList) {
+    private void setUserList(List<? extends User> userList) {
         this.userList = userList;
     }
 
-    public void setNewUser(User newUser) {
+    private void setNewUser(User newUser) {
         this.newUser = newUser;
     }
 
-    public void setFileName(String fileName) {
+    private void setFileName(String fileName) {
         this.fileName = fileName;
+    }
+
+    public User getNewUser() {
+        return newUser;
     }
 
     public Registration(User newUser, List<? extends User> userList, final String fileName) throws IOException {
@@ -33,114 +40,92 @@ public class Registration {
         setUserList(userList);
         setFileName(fileName);
 
-        //while i get no correct info
-        while (!inputLogin()) {
-            //wait for correct info
-        }
-
-        while (!inputPassword()) {
-            //wait for correct info
-        }
-
-        while (!inputEmail()) {
-            //wait for correct info
-        }
-
-        //admin without field "name"
-        if (userList.get(1).getName() != null) {
-            while (!inputName()) {
-                //wait for correct info
-            }
-        }
-
+        //auto increment id
+        newUser.setId(loginInValidator.autoIncrementId(userList));
+        inputLogin();
+        inputPassword();
+        inputEmail();
+        inputName();
         //write in file
         System.out.println(registrationInFile(fileName, newUser));
     }
 
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    private boolean inputLogin() {
-        //auto increment id
-        newUser.setId(loginInValidator.autoIncrementId(userList));
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    private void inputLogin() {
+        Scanner scn = new Scanner(System.in);
         //input login
-        String login = "";
         System.out.println("Input login:");
-        try {
-            login = br.readLine();
-            if (!loginInValidator.validateLogin(login)) {
-                System.out.println("Wrong login type!");
-                return false;
+        String login = scn.next();
+        while (true) {
+            if (loginInValidator.validateLogin(login)) {
+                newUser = loginInValidator.validateForUniqueValue(userList, login, 1);
+                if (newUser == null) {
+                    break;
+                } else {
+                    System.out.println("This login already exist!");
+                }
+            } else {
+                System.out.println("Please input correct type of login!");
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        if (loginInValidator.validateForUniqueValue(userList, login, "login")) {
-            System.out.println("This login already exist, please try again!");
-            return false;
+            login = scn.next();
         }
         newUser.setLogin(login);
-        return true;
     }
 
 
-    private boolean inputPassword() {
+    private void inputPassword() {
         //input password
-        String password = "";
+        Scanner scn = new Scanner(System.in);
         System.out.println("Input password:");
-
-        try {
-            password = br.readLine();
-            if (!loginInValidator.validatePassword(password)) {
-                System.out.println("Wrong password type!");
-                return false;
+        String password = scn.next();
+        while (true) {
+            if (loginInValidator.validatePassword(password)) {
+                break;
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+            else {
+                System.out.println("Wrong password type!");
+            }
+            password = scn.next();
         }
         newUser.setPassword(password);
-        return true;
     }
 
-    private boolean inputEmail() {
+    private void inputEmail() {
         //input email
-        String email = "";
+        Scanner scn = new Scanner(System.in);
         System.out.println("Input email:");
-        try {
-            email = br.readLine();
-            if (!loginInValidator.validateEmail(email)) {
-                System.out.println("Wrong email type!");
-                return false;
+        String email = scn.next();
+        while (true) {
+            if (loginInValidator.validateEmail(email)) {
+                newUser = loginInValidator.validateForUniqueValue(userList, email, 2);
+                if (newUser == null) {
+                    break;
+                } else {
+                    System.out.println("This email already exist!");
+                }
+            } else {
+                System.out.println("Please input correct type of email!");
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        if (loginInValidator.validateForUniqueValue(userList, email, "email")) {
-            System.out.println("This email already exist, please try again!");
-            return false;
+            email = scn.next();
         }
         newUser.setEmail(email);
-        return true;
     }
 
-    private boolean inputName() {
+    private void inputName() {
         //input name
-        String name = "";
+        Scanner scn = new Scanner(System.in);
         System.out.println("Input name:");
-
-        try {
-            name = br.readLine();
-            if (!loginInValidator.validateName(name)) {
-                System.out.println("Wrong name type!");
-                return false;
+        String name = scn.next();
+        while (true) {
+            if (loginInValidator.validateName(name)) {
+                break;
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+            else {
+                System.out.println("Wrong name type!");
+            }
+            name = scn.next();
         }
         newUser.setName(name);
-        return true;
     }
 
     private String registrationInFile(final String fileName, User user) throws IOException {

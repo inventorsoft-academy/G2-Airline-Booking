@@ -41,19 +41,8 @@ public class OfferOperations {
         //set route
         newOffer.setRoute(setNewRoute());
 
-        //check for ParseException(null) and set departure time
-        Date newDepartureDate = setNewDepartureDate();
-        while (newDepartureDate == null) {
-            newOffer.setDepartureDate(setNewDepartureDate());
-        }
-        newOffer.setDepartureDate(newDepartureDate);
-
-        //check for ParseException(null) and set arrival time
-        Date newArrivalDate = setNewArrivalDate();
-        while (newArrivalDate == null) {
-            newOffer.setArrivalDate(setNewArrivalDate());
-        }
-        newOffer.setArrivalDate(newArrivalDate);
+        newOffer.setDepartureDate(setNewDepartureDate());
+        newOffer.setArrivalDate(setNewArrivalDate());
 
         //set number of seats
         newOffer.setNumberOfSeats(setNewNumberOfSeats());
@@ -85,16 +74,25 @@ public class OfferOperations {
     private Date setNewDepartureDate() {
         Scanner scn = new Scanner(System.in);
         //check departure date
+        String departureDateValidate;
         Date departureDate = null;
         System.out.println("Input departure date: (dd/mm/yyyy-hh:mm)");
         try {
-            while (!ov.compareToCurrentDate(DATE_FORMAT.parse(scn.next()))) {
-                System.out.println("Please don't input date from the past !");
-                departureDate = DATE_FORMAT.parse(scn.next());
+            while (true) {
+                departureDateValidate = scn.next();
+                if (ov.validateDate(scn.next())) {
+                    if (ov.compareToCurrentDate(DATE_FORMAT.parse(departureDateValidate))) {
+                        break;
+                    } else {
+                        System.out.println("Please don't input date from the past !");
+                    }
+                } else {
+                    System.out.println("Wrong date format! Please input correct type of date (dd/MM/yyyy-kk:mm)");
+                }
             }
+            departureDate = DATE_FORMAT.parse(departureDateValidate);
         } catch (ParseException e) {
-            System.out.println("Wrong date format! Please input correct type of date (dd/MM/yyyy-kk:mm)");
-            return null;
+            e.printStackTrace();
         }
         return departureDate;
     }
@@ -103,25 +101,31 @@ public class OfferOperations {
         Scanner scn = new Scanner(System.in);
         //check arrival date
         Date arrivalDate = null;
+        String arrivalDateValidate;
         System.out.println("Input arrival date: (dd/mm/yyyy-hh:mm)");
         try {
             //check for compareDepartureDateToArrivalDate and compareToCurrentDate
             while (true) {
-                arrivalDate = DATE_FORMAT.parse(scn.next());
-                if (ov.compareToCurrentDate(arrivalDate)) {
-                    if (ov.compareDepartureDateToArrivalDate(arrivalDate, newOffer.getDepartureDate())) {
-                        break;
+                arrivalDateValidate = scn.next();
+                if (ov.validateDate(scn.next())) {
+                    if (ov.compareToCurrentDate(DATE_FORMAT.parse(arrivalDateValidate))) {
+                        if (ov.compareDepartureDateToArrivalDate(DATE_FORMAT.parse(arrivalDateValidate), newOffer.getDepartureDate())) {
+                            break;
+                        } else {
+                            System.out.println("Please don't input earlier arrival date than departure date!");
+                        }
                     } else {
-                        System.out.println("Please don't input earlier arrival date than departure date!");
+                        System.out.println("Please don't input date from the past!");
                     }
                 } else {
-                    System.out.println("Please don't input date from the past!");
+                    System.out.println("Wrong date format! Please input correct type of date (dd/MM/yyyy-kk:mm)");
                 }
             }
+            arrivalDate = DATE_FORMAT.parse(arrivalDateValidate);
         } catch (ParseException e) {
-            System.out.println("Wrong date format! Please input correct type of date (dd/MM/yyyy-kk:mm)");
-            return null;
+            e.printStackTrace();
         }
+
         return arrivalDate;
     }
 

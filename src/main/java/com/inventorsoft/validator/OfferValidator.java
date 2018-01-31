@@ -56,4 +56,27 @@ public class OfferValidator {
         return false;
     }
 
+    public boolean validateDate(String s) {
+        char[] charArray = s.toCharArray();
+        if (s.length() < 16 ) {
+            return false;
+        }
+        return  (int)charArray[0] <= 57 && (int)charArray[0] >= 48 &&
+                (int)charArray[1] <= 57 && (int)charArray[1] >= 48 &&
+                (int)charArray[2] == 47 &&
+                (int)charArray[3] <= 57 && (int)charArray[3] >= 48 &&
+                (int)charArray[4] <= 57 && (int)charArray[4] >= 48 &&
+                (int)charArray[5] == 47 &&
+                (int)charArray[6] <= 57 && (int)charArray[6] >= 48 &&
+                (int)charArray[7] <= 57 && (int)charArray[7] >= 48 &&
+                (int)charArray[8] <= 57 && (int)charArray[8] >= 48 &&
+                (int)charArray[9] <= 57 && (int)charArray[9] >= 48 &&
+                (int)charArray[10] == 45 &&
+                (int)charArray[11] <= 57 && (int)charArray[11] >= 48 &&
+                (int)charArray[12] <= 57 && (int)charArray[12] >= 48 &&
+                (int)charArray[13] == 58 &&
+                (int)charArray[14] <= 57 && (int)charArray[14] >= 48 &&
+                (int)charArray[15] <= 57 && (int)charArray[15] >= 48;
+    }
+
 }

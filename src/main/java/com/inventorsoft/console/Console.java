@@ -46,7 +46,11 @@ public class Console {
             case 1:
                 List<Customer> customerList;
                 customerList = DownloadCustomer.getInfo();
-                new CustomerSession(customerList);
+                try {
+                    new CustomerSession(customerList, offerList, ticketList);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 break;
             case 2:
                 List<Admin> adminList;

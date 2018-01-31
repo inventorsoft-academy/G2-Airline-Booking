@@ -1,89 +1,98 @@
 package com.inventorsoft.log;
 
 import com.inventorsoft.model.user.User;
-import com.inventorsoft.validator.LoginInValidator;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import com.inventorsoft.validator.AuthorizationValidator;
 import java.util.List;
+import java.util.Scanner;
 
 public class Login {
 
-    LoginInValidator loginInValidator = new LoginInValidator();
+    private AuthorizationValidator loginInValidator = new AuthorizationValidator();
 
     private List<? extends User> userList;
 
-    public void setUserList(List<? extends User> userList) {
+    private User newUser;
+
+    private String login = "";
+
+    private void setUserList(List<? extends User> userList) {
         this.userList = userList;
     }
+
+    private void setNewUser(User newUser) {
+        this.newUser = newUser;
+    }
+
+    public User getNewUser() {
+        return newUser;
+    }
+
 
     public Login() {
     }
 
-    public Login(List<? extends User> userList) {
+    public Login(List<? extends User> userList, User newUser) {
         setUserList(userList);
-
-        //while i get no correct info
-        while (!checkLogin()) {
-            checkLogin();
-        }
-
-        while (!checkPassword()) {
-            checkPassword();
-        }
+        setNewUser(newUser);
+        //check user login and password
+        checkLogin();
+        checkPassword();
+        setAllFieldsInNewUser(login);
     }
 
-    private boolean checkLogin() {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    private void checkLogin() {
+        Scanner scn = new Scanner(System.in);
         //check login
-        String login = "";
         System.out.println("Input login:");
-        try {
-            login = br.readLine();
-            if (!loginInValidator.validateLogin(login)) {
+        login = scn.next();
+        while (true) {
+            if (loginInValidator.validateLogin(login)) {
+                newUser = loginInValidator.validateForUniqueValue(userList, login, 1);
+                if (newUser != null) {
+                    break;
+                } else {
+                    System.out.println("This login missing, please complete registration before login or try again!");
+                }
+            } else {
                 System.out.println("Please input correct type of login!");
-                return false;
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+            login = scn.next();
         }
-
-        if (!loginInValidator.validateForUniqueValue(userList, login, "login")) {
-            System.out.println("This login missing, please complete registration before login!");
-            return false;
-        }
-
-        return true;
-
     }
 
-    private boolean checkPassword() {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    private void checkPassword() {
+        Scanner scn = new Scanner(System.in);
         //check password
-        String password = "";
         System.out.println("Input password:");
-
-        try {
-            password = br.readLine();
-            if (!loginInValidator.validatePassword(password)) {
-                System.out.println("Please input correct type of password!");
-                return false;
+        String password = scn.next();
+        while (true) {
+            if (loginInValidator.validatePassword(password)) {
+                if (loginInValidator.validateForUniqueValue(password, newUser.getPassword())) {
+                    break;
+                } else {
+                    System.out.println("This password not correct for this login, please try again!");
+                    //validForThreeTimesInvalidPassword
+                    loginInValidator.validForThreeTimesInvalidPassword();
+                }
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+            else {
+                System.out.println("Please input correct type of password!");
+            }
+            password = scn.next();
         }
-
-
-        if (!loginInValidator.validateForUniqueValue(userList, password, "password")) {
-            System.out.println("This password not correct for this login, please try again!");
-            //validForThreeTimesInvalidPassword
-            loginInValidator.validForThreeTimesInvalidPassword();
-            return false;
-        }
-
-        return true;
     }
 
+    private void setAllFieldsInNewUser(String login) {
+        //save if user exist in file
+        for (User user : userList) {
+            if (user.getLogin().equals(login)) {
+                newUser.setId(user.getId());
+                newUser.setLogin(user.getLogin());
+                newUser.setPassword(user.getPassword());
+                newUser.setEmail(user.getEmail());
+                newUser.setName(user.getName());
+            }
+        }
+    }
 }
 

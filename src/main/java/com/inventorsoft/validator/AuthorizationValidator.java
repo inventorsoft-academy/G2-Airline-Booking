@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-public class LoginInValidator {
+public class AuthorizationValidator {
 
     //static value for 3 times invalid password;
     static int threeTimes = 3;
@@ -22,31 +22,28 @@ public class LoginInValidator {
         return value.equals("1") || value.equals("2");
     }
 
-
-    //specific user for check password
-    String specificUserPassword = "";
-    public boolean validateForUniqueValue(List<? extends User> userList, String value, String field) {
+    public User validateForUniqueValue(List<? extends User> userList, String value, int field) {
         switch (field) {
-            case "login":
-                for (User user: userList) {
+            case 1:
+                for (User user : userList) {
                     if (user.getLogin().equals(value)) {
-                        specificUserPassword = user.getPassword();
-                        System.out.println(specificUserPassword);
-                        return true;
+                        return user;
                     }
                 }
-            case "password":
-                return specificUserPassword.equals(value);
-            case "email":
-                for (User user: userList) {
-                    if (user.getEmail().equals(value)){
-                        return true;
+            case 2:
+                for (User user : userList) {
+                    if (user.getEmail().equals(value)) {
+                        return user;
                     }
                 }
-
         }
-        return false;
+        return null;
     }
+
+    public boolean validateForUniqueValue(String value, String password) {
+        return password.equals(value);
+    }
+
 
     public void validForThreeTimesInvalidPassword() {
         if (checkPasswordThreeTimes() == 0) {
@@ -73,7 +70,7 @@ public class LoginInValidator {
 
     public int autoIncrementId(final List<? extends User> userList) {
         int maxId = 0;
-        for (User user: userList) {
+        for (User user : userList) {
             if (maxId < user.getId()) {
                 maxId = user.getId();
             }
@@ -83,7 +80,7 @@ public class LoginInValidator {
     }
 
     public boolean validateEmail(String email) {
-        String[] prefixEmail = email.split("@",1);
+        String[] prefixEmail = email.split("@", 1);
         return email.contains("@") && email.contains("mail.") && prefixEmail[0].length() >= 6;
     }
 

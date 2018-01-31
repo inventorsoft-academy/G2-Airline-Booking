@@ -5,6 +5,7 @@ import com.inventorsoft.log.Registration;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.offer.OfferOperations;
 import com.inventorsoft.model.ticket.Ticket;
+import com.inventorsoft.model.ticket.TicketOperations;
 import com.inventorsoft.model.user.Admin;
 import java.io.IOException;
 import java.text.ParseException;
@@ -14,7 +15,9 @@ import java.util.Scanner;
 public class AdminSession {
     private static final String ADMINS_FILE = "src/main/resources/admins.txt";
     OfferOperations offerOperations = new OfferOperations();
-
+    TicketOperations ticketOperations = new TicketOperations();
+    Registration registration;
+    Login login;
     public AdminSession(List<Admin> adminList, List<Offer> offerList, List<Ticket> ticketList) throws IOException {
 
         Authorization(adminList);
@@ -45,13 +48,13 @@ public class AdminSession {
         switch (necessaryField) {
             case 1:
                 try {
-                    new Registration(new Admin(), adminList, ADMINS_FILE);
+                    registration = new Registration(new Admin(), adminList, ADMINS_FILE);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 2:
-                new Login(adminList);
+                login = new Login(adminList, new Admin());
                 break;
         }
     }
@@ -68,7 +71,7 @@ public class AdminSession {
                 + "view balance of bought tickets - 5" + "\n"
                 + "to log out - 6");
         int necessaryField = scn.nextInt();
-        while (!validateForEqualsInRange(necessaryField, 8)) {
+        while (!validateForEqualsInRange(necessaryField, 6)) {
             System.out.println("Please input number from 1 to 6!");
             necessaryField = scn.nextInt();
         }
@@ -92,7 +95,7 @@ public class AdminSession {
                 offerOperations.delete(offerList);
                 break;
             case 5:
-                //needs ticket
+                ticketOperations.balanceOfBoughtTickets(ticketList);
                 break;
             case 6:
                 offerOperations.exit();

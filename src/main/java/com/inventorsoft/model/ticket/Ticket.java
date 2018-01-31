@@ -11,12 +11,8 @@ public class Ticket {
     private String route;
     private Date departureDate;
     private Date arrivalDate;
-    private String number;
+    private int number;
     private int price;
-
-    public static SimpleDateFormat getDateFormat() {
-        return DATE_FORMAT;
-    }
 
     public String getName() {
         return name;
@@ -66,11 +62,11 @@ public class Ticket {
         this.arrivalDate = arrivalDate;
     }
 
-    public String getNumber() {
+    public int getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 
@@ -90,7 +86,8 @@ public class Ticket {
                 + route + " "
                 + DATE_FORMAT.format(departureDate) + " "
                 + DATE_FORMAT.format(arrivalDate) + " "
-                + number + "\n";
+                + number + " "
+                + price + "\n";
     }
 
 }
