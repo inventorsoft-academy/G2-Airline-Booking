@@ -2,12 +2,13 @@ package com.inventorsoft.validator;
 
 
 import com.inventorsoft.model.user.User;
-import com.inventorsoft.view.View;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class AuthorizationValidator {
 
@@ -40,7 +41,16 @@ public class AuthorizationValidator {
         return null;
     }
 
-    public boolean validateForUniqueValue(String value, String password) {
+    public String getPasswordIfLoginExist(List<? extends User> userList, String login) {
+        for (User user : userList) {
+            if (user.getLogin().equals(login)) {
+                return user.getPassword();
+            }
+        }
+        return "";
+    }
+
+    public boolean checkForCorrectPassword(String value, String password) {
         return password.equals(value);
     }
 
@@ -68,31 +78,27 @@ public class AuthorizationValidator {
         }
     }
 
-    public int autoIncrementId(final List<? extends User> userList) {
-        int maxId = 0;
-        for (User user : userList) {
-            if (maxId < user.getId()) {
-                maxId = user.getId();
-            }
-
-        }
-        return ++maxId;
+    public boolean validateEmail(final String email) {
+        Pattern p = Pattern.compile("\\w{6,}@(gmail|mail)\\.(com|ru)");
+        Matcher m = p.matcher(email);
+        return m.matches();
     }
 
-    public boolean validateEmail(String email) {
-        String[] prefixEmail = email.split("@", 1);
-        return email.contains("@") && email.contains("mail.") && prefixEmail[0].length() >= 6;
-    }
-
-    public boolean validateName(String name) {
+    public boolean validateName(final String name) {
         return name.length() >= 2;
     }
 
-    public boolean validatePassword(String password) {
-        return password.length() >= 6;
+    public boolean validatePassword(final String password) {
+        Pattern p = Pattern.compile("[.\\S]{6,}");
+        Matcher m = p.matcher(password);
+        return m.matches();
     }
 
-    public boolean validateLogin(String login) {
-        return login.length() >= 6;
+    public boolean validateLogin(final String login) {
+        Pattern p = Pattern.compile("[.\\S]{6,}");
+        Matcher m = p.matcher(login);
+        return m.matches();
     }
+
+
 }

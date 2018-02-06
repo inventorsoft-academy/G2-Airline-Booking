@@ -1,0 +1,5 @@
+2 customer1 customer1 customer1@gmail.com ivan
+1 customer4 customer4 customer4@gmail.com vasya
+3 customer2 customer2 customer@gmail.com petro
+4 customer3 customer3 customer3@gmail.com kostya
+5 customer13 customer13 customer13@gmail.com lee

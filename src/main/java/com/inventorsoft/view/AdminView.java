@@ -1,46 +1,45 @@
-package com.inventorsoft.session;
+package com.inventorsoft.view;
 
-import com.inventorsoft.log.Login;
-import com.inventorsoft.log.Registration;
 import com.inventorsoft.model.offer.Offer;
-import com.inventorsoft.model.offer.OfferOperations;
 import com.inventorsoft.model.ticket.Ticket;
-import com.inventorsoft.model.ticket.TicketOperations;
 import com.inventorsoft.model.user.Admin;
+import com.inventorsoft.validator.ViewValidator;
+
 import java.io.IOException;
-import java.text.ParseException;
 import java.util.List;
 import java.util.Scanner;
 
-public class AdminSession {
-    private static final String ADMINS_FILE = "src/main/resources/admins.txt";
-    OfferOperations offerOperations = new OfferOperations();
-    TicketOperations ticketOperations = new TicketOperations();
-    Registration registration;
-    Login login;
-    public AdminSession(List<Admin> adminList, List<Offer> offerList, List<Ticket> ticketList) throws IOException {
+public class AdminView {
+    private static final String ADMINS_FILE = "resources/admins.txt";
 
-        Authorization(adminList);
+    OfferView offerView = new OfferView();
+    TicketView ticketView = new TicketView();
+
+    ViewValidator validator = new ViewValidator();
+    AuthorizationView authorizationView = new AuthorizationView();
+
+    public AdminView(List<Admin> adminList, List<Offer> offerList, List<Ticket> ticketList) throws IOException {
+
+        authorization(adminList);
 
         //first action
-        Action(offerList, ticketList);
+        action(offerList, ticketList);
 
         //all others
         while (AskUserToContinueOrExit()) {
-            Action(offerList, ticketList);
+            action(offerList, ticketList);
         }
 
     }
 
 
-
-    void Authorization(List<Admin> adminList) throws IOException {
+    void authorization(List<Admin> adminList) throws IOException {
         Scanner scn = new Scanner(System.in);
         System.out.println("Choose an action:" + "\n"
                 + "registration - 1" + "\n"
                 + "login - 2");
         int necessaryField = scn.nextInt();
-        while (!validateForEqualsInRange(necessaryField, 2)) {
+        while (!validator.validateForEqualsInRange(necessaryField, 2)) {
             System.out.println("Please input number 1 or 2!");
             necessaryField = scn.nextInt();
         }
@@ -48,18 +47,18 @@ public class AdminSession {
         switch (necessaryField) {
             case 1:
                 try {
-                    registration = new Registration(new Admin(), adminList, ADMINS_FILE);
+                    authorizationView.registration(new Admin(), adminList, ADMINS_FILE, false);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 2:
-                login = new Login(adminList, new Admin());
+                authorizationView.login(new Admin(), adminList, false);
                 break;
         }
     }
 
-    void Action(List<Offer> offerList, List<Ticket> ticketList) throws IOException {
+    void action(List<Offer> offerList, List<Ticket> ticketList) throws IOException {
         System.out.println(offerList);
         System.out.println(ticketList);
         Scanner scn = new Scanner(System.in);
@@ -71,34 +70,29 @@ public class AdminSession {
                 + "view balance of bought tickets - 5" + "\n"
                 + "to log out - 6");
         int necessaryField = scn.nextInt();
-        while (!validateForEqualsInRange(necessaryField, 6)) {
+        while (!validator.validateForEqualsInRange(necessaryField, 6)) {
             System.out.println("Please input number from 1 to 6!");
             necessaryField = scn.nextInt();
         }
 
         switch (necessaryField) {
             case 1:
-                System.out.println("info");
-                offerOperations.createOffer(offerList);
+                offerView.createOffer(offerList);
                 break;
             case 2:
-                offerOperations.importAllOffers(offerList);
+                offerView.importAllOffers(offerList);
                 break;
             case 3:
-                try {
-                    offerOperations.editOffer(offerList, changeNeedsParameter());
-                } catch (ParseException e) {
-                    e.printStackTrace();
-                }
+                offerView.editOffer(offerList, changeNeedsParameter());
                 break;
             case 4:
-                offerOperations.delete(offerList);
+                offerView.delete(offerList);
                 break;
             case 5:
-                ticketOperations.balanceOfBoughtTickets(ticketList);
+                ticketView.balanceOfBoughtTickets(ticketList);
                 break;
             case 6:
-                offerOperations.exit();
+                authorizationView.exit();
                 break;
         }
     }
@@ -113,20 +107,11 @@ public class AdminSession {
                 + "number of seats - 4" + "\n"
                 + "price - 5");
         int necessaryField = scn.nextInt();
-        while (!validateForEqualsInRange(necessaryField, 5)) {
+        while (!validator.validateForEqualsInRange(necessaryField, 5)) {
             System.out.println("Please input number from 1 to 5!");
             necessaryField = scn.nextInt();
         }
         return necessaryField;
-    }
-
-    public boolean validateForEqualsInRange(int value, int number) {
-        for (int k = 1; k <= number; k++) {
-            if (k == value) {
-                return true;
-            }
-        }
-        return false;
     }
 
     public boolean AskUserToContinueOrExit() throws IOException {
@@ -135,12 +120,11 @@ public class AdminSession {
                 + "Yes, continue - 1" + "\n"
                 + "No, logout - 2");
         int necessaryField = scn.nextInt();
-        while (!validateForEqualsInRange(necessaryField, 2)) {
+        while (!validator.validateForEqualsInRange(necessaryField, 2)) {
             System.out.println("Please input number 1 or 2!");
             necessaryField = scn.nextInt();
         }
 
         return necessaryField == 1;
     }
-
 }

@@ -2,16 +2,8 @@ package com.inventorsoft.validator;
 
 public class ViewValidator {
 
-    public boolean validateForNull(String value){
-        return !String.valueOf(value).equals("");
+    public boolean validateForEqualsInRange(int value, int number) {
+        return value >= 1 && value <= number;
     }
-
-    public boolean validateForOneOrTwo(String value) {
-        return value.equals("1") || value.equals("2");
-    }
-
-
-
-
 
 }

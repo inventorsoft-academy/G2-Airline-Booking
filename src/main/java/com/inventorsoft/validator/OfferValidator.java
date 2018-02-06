@@ -1,82 +1,98 @@
 package com.inventorsoft.validator;
+
 import com.inventorsoft.model.offer.Offer;
 
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class OfferValidator {
 
-    public int autoIncrementId(final List<Offer> offerList) {
-        int maxId = 0;
-        for (Offer offer: offerList) {
-            if (maxId < offer.getId()) {
-                maxId = offer.getId();
-            }
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
 
+    private String offersId = "";
+
+    public boolean validateForUniqueOfferId(String offerId) {
+        if (!offersId.contains(offerId)) {
+            offersId += offerId + ",";
+            return true;
         }
-        return ++maxId;
+        return false;
+    }
+
+
+    public boolean validateOfferId(String offerId) {
+        Pattern p = Pattern.compile("\\d+");
+        Matcher m = p.matcher(offerId);
+        return m.matches();
     }
 
     public boolean validateRoute(String route) {
-        String[] cityFromCityTO = route.split("->",2);
-        return route.contains("->") && cityFromCityTO[0].length() >= 6 && cityFromCityTO[1].length() >= 6;
+        Pattern p = Pattern.compile("[a-zA-z]{4,}->[a-zA-z]{4,}");
+        Matcher m = p.matcher(route);
+        return m.matches() && validateCityRoute(route);
     }
 
-    public boolean compareDepartureDateToArrivalDate(Date arrivalDate, Date departureDate) {
-        return arrivalDate.compareTo(departureDate) > 0;
+    public boolean validateLocation(String location) {
+        Pattern p = Pattern.compile("[a-zA-z]{4,}");
+        Matcher m = p.matcher(location);
+        return m.matches();
     }
 
-    public boolean validateNumberOfSeats(String numberOfSeats) {
-        return numberOfSeats.split(",").length >= 50;
+    private boolean validateCityRoute(String route) {
+        String[] array = route.split("->");
+        return !array[0].equals(array[1]);
+    }
+
+    public boolean validateDate(String date) {
+        Pattern p = Pattern.compile("\\d{2}/\\d{2}/\\d{4}-\\d{2}:\\d{2}");
+        Matcher m = p.matcher(date);
+        return m.matches() && compareToCurrentDate(date);
+    }
+
+    public boolean validateNumberOfSeats(String date) {
+        Pattern p = Pattern.compile("[\\d,]+");
+        Matcher m = p.matcher(date);
+        return m.matches() ;
     }
 
     public boolean validatePrice(int price) {
         return price >= 80;
     }
 
-    public boolean compareToCurrentDate(Date date) {
-        return new Date().compareTo(date) <= 0;
+
+    public boolean compareDepartureDateToArrivalDate(Date arrivalDate, Date departureDate) {
+        return arrivalDate.compareTo(departureDate) > 0;
     }
 
-    public boolean validateForOneOrTwo(String value) {
-        return value.equals("1") || value.equals("2");
+    public boolean validateNumberOfSeats(int numberOfSeats) {
+        return numberOfSeats >= 50;
     }
 
-    public boolean validateForNull(int number) {
-        return number >= 0;
+
+    public boolean compareToCurrentDate(String date) {
+        boolean compare = false;
+        try {
+            compare = new Date().compareTo(DATE_FORMAT.parse(date)) <= 0;
+        } catch (ParseException e) {
+            System.out.println("wrong date format!");
+        }
+        return compare;
     }
 
-    public boolean validateForEqualsInRange(int value, int number) {
-        for (int k = 1; k <= number; k++) {
-            if (k == value) {
+    public boolean validateForExistence(int id, List<Offer> offerList) {
+        for (Offer offer: offerList) {
+            if (offer.getId() == id) {
                 return true;
             }
         }
         return false;
     }
 
-    public boolean validateDate(String s) {
-        char[] charArray = s.toCharArray();
-        if (s.length() < 16 ) {
-            return false;
-        }
-        return  (int)charArray[0] <= 57 && (int)charArray[0] >= 48 &&
-                (int)charArray[1] <= 57 && (int)charArray[1] >= 48 &&
-                (int)charArray[2] == 47 &&
-                (int)charArray[3] <= 57 && (int)charArray[3] >= 48 &&
-                (int)charArray[4] <= 57 && (int)charArray[4] >= 48 &&
-                (int)charArray[5] == 47 &&
-                (int)charArray[6] <= 57 && (int)charArray[6] >= 48 &&
-                (int)charArray[7] <= 57 && (int)charArray[7] >= 48 &&
-                (int)charArray[8] <= 57 && (int)charArray[8] >= 48 &&
-                (int)charArray[9] <= 57 && (int)charArray[9] >= 48 &&
-                (int)charArray[10] == 45 &&
-                (int)charArray[11] <= 57 && (int)charArray[11] >= 48 &&
-                (int)charArray[12] <= 57 && (int)charArray[12] >= 48 &&
-                (int)charArray[13] == 58 &&
-                (int)charArray[14] <= 57 && (int)charArray[14] >= 48 &&
-                (int)charArray[15] <= 57 && (int)charArray[15] >= 48;
-    }
 
 }

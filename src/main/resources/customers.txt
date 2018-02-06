@@ -1,6 +1,0 @@
-1 customer1 customer1 customer1@ petro
-2 customer2 customer2 customer2@ nastya
-3 customer3 customer3 customer3@ kostya
-4 customer4 customer4 customer4@mail.ru kostya
-5 customer13 customer13 customer13@gmail.com vasyaaaaa
-6 customer12 customer12 customer12@gmail.com leonid
