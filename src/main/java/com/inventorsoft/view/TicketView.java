@@ -39,7 +39,6 @@ public class TicketView {
                 '}';
     }
 
-
     private String showTicket(Ticket ticket) {
         return "Ticket{" +
                 "name='" + ticket.getName() + '\'' +
@@ -162,8 +161,8 @@ public class TicketView {
                     fileName = scn.next();
                 }
                 try {
-                    String specificFileName = "resources/" + customer.getId() + fileName + ".txt";
-                    setModelToFile.setInfo(orderedTicket, specificFileName);
+                    String specificFileName = "resources/" + customer.getId() + fileName + ".xml";
+                    setModelToFile.setInfo(showTicket(orderedTicket), specificFileName);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -171,7 +170,7 @@ public class TicketView {
             case 2:
                 try {
                     String standardFileName = "resources/" + customer.getName() + orderedTicket.getOfferId() + ".xml";
-                    setModelToFile.setInfo(orderedTicket, standardFileName);
+                    setModelToFile.setInfo(showTicket(orderedTicket), standardFileName);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
