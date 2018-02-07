@@ -9,6 +9,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import static com.inventorsoft.console.Console.logger;
+
 public class OffersController {
     private List<Offer> offerList = new ArrayList<>();
 
@@ -104,10 +106,6 @@ public class OffersController {
         this.offerList = offerList;
     }
 
-    public void exit() {
-        System.exit(0);
-    }
-
 
     public List<Offer> searchOffer(List<Offer> offerList, String location, Date departureDate) {
         List<Offer> searchOffers = new ArrayList<>();
@@ -117,10 +115,12 @@ public class OffersController {
     }
 
     private List<Offer> searchOfferByLocation(List<Offer> offerList, List<Offer> searchOffers, String location) {
+        logger.info("searchOfferByLocation find these offers:");
         for (Offer offer : offerList) {
             String array[] = offer.getRoute().split("->");
             if (array[0].equals(location)) {
                 searchOffers.add(offer);
+                logger.info(offer.toString());
             }
         }
         return searchOffers;
@@ -128,7 +128,8 @@ public class OffersController {
     }
 
     private List<Offer> searchOfferByDepartureDate(List<Offer> offerList, List<Offer> searchOffers, Date departureDate) {
-
+        logger.info("searchOfferByDepartureDate filter these offers:");
+        logger.info(searchOffers.toString());
         Calendar plusThreeDays = Calendar.getInstance();
         plusThreeDays.setTime(departureDate);
         plusThreeDays.add(Calendar.DAY_OF_MONTH, 3);
@@ -143,6 +144,8 @@ public class OffersController {
                 searchOffers.remove(offer);
             }
         }
+        logger.info("after searchOfferByDepartureDate method left offers:");
+        logger.info(searchOffers.toString());
         return searchOffers;
     }
 

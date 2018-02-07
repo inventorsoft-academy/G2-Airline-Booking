@@ -170,7 +170,7 @@ public class TicketView {
                 break;
             case 2:
                 try {
-                    String standardFileName = "resources/" + customer.getName() + orderedTicket.getOfferId() + ".txt";
+                    String standardFileName = "resources/" + customer.getName() + orderedTicket.getOfferId() + ".xml";
                     setModelToFile.setInfo(orderedTicket, standardFileName);
                 } catch (IOException e) {
                     e.printStackTrace();

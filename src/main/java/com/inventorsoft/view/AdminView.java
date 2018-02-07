@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
+import static com.inventorsoft.console.Console.logger;
+
 public class AdminView {
     private static final String ADMINS_FILE = "resources/admins.txt";
 
@@ -59,8 +61,10 @@ public class AdminView {
     }
 
     void action(List<Offer> offerList, List<Ticket> ticketList) throws IOException {
-        System.out.println(offerList);
-        System.out.println(ticketList);
+        logger.info("beginning offer list:");
+        logger.info(offerList.toString());
+        logger.info("beginning ticket list:");
+        logger.info(ticketList.toString());
         Scanner scn = new Scanner(System.in);
         System.out.println("Choose an action:" + "\n"
                 + "create new offer - 1" + "\n"

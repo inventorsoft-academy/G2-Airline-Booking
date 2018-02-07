@@ -7,6 +7,8 @@ import com.inventorsoft.setInfoToFile.SetModelToFile;
 import java.io.IOException;
 import java.util.List;
 
+import static com.inventorsoft.console.Console.logger;
+
 public class AuthorizationController {
 
     private SetModelToFile setModelToFile = new SetModelToFile();
@@ -56,6 +58,7 @@ public class AuthorizationController {
 
         try {
             setModelToFile.setInfo(user, fileName);
+            logger.info("correct write new user im file " + user);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -14,9 +14,10 @@ import com.inventorsoft.validator.ViewValidator;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
+import static com.inventorsoft.console.Console.logger;
 
 public class View {
-    ViewValidator vw = new ViewValidator();
+    private ViewValidator vw = new ViewValidator();
     private GetOffersFromFile getOffersFromFile = new GetOffersFromFile();
     private GetTicketsFromFile getTicketsFromFile = new GetTicketsFromFile();
     private GetAdminsFromFile getAdminsFromFile = new GetAdminsFromFile();
@@ -29,8 +30,11 @@ public class View {
 
     public void start() {
         welcome();
+        logger.info("Start to get offers and tickets from file");
         List<Offer> offerList = getOffersFromFile.getInfo();
         List<Ticket> ticketList = getTicketsFromFile.getInfo();
+        logger.info("Correct work in get offers and tickets from file");
+
         Scanner scn = new Scanner(System.in);
         System.out.println("How do you want to work?" + "\n"
                 + "like a customer - 1" + "\n"
@@ -46,6 +50,7 @@ public class View {
         switch (answer) {
             case 1:
                 try {
+                    logger.info("User choose - 1(customer)");
                     List<Customer> customerList;
                     customerList = getCustomersFromFile.getInfo();
                     new CustomerView(customerList, offerList, ticketList);
@@ -54,6 +59,7 @@ public class View {
                 }
                 break;
             case 2:
+                logger.info("User choose - 2(admin)");
                 List<Admin> adminList;
                 adminList = getAdminsFromFile.getInfo();
                 try {

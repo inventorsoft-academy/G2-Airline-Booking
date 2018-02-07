@@ -11,6 +11,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
+import static com.inventorsoft.console.Console.logger;
+
 public class OfferView {
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
     private OfferValidator validator = new OfferValidator();
@@ -20,8 +22,10 @@ public class OfferView {
 
 
     public void importAllOffers(List<Offer> offerList) {
+        logger.info("inputAllOffers method:");
         for (Offer offer : offerList) {
             System.out.println(showOffer(offer));
+            logger.info(showOffer(offer));
         }
     }
 
