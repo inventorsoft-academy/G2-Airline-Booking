@@ -2,6 +2,7 @@ package com.inventorsoft.validator;
 
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
+import com.inventorsoft.model.user.Customer;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -11,7 +12,27 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class TicketValidator {
-    private String concatId= "";
+
+    public boolean validateForAllValues(String[] s) {
+        return validateTicketName(s[0])
+                && validateCustomerId(s[1])
+                && validateOfferId(s[2])
+                && validateForUniqueTicket(s[1], s[2])
+                && validateRoute(s[3])
+                && validateDate(s[4])
+                && validateDate(s[5])
+                && validateNumberOfSeats(Integer.parseInt(s[6]))
+                && validatePrice(Integer.parseInt(s[7]));
+    }
+
+    public boolean validateForUniqueTicket(List<Ticket> ticketList, Customer customer, int offerId) {
+        for (Ticket ticket: ticketList) {
+            concatId += String.valueOf(ticket.getCustomerId()) + String.valueOf(ticket.getOfferId()) + ",";
+        }
+        return concatId.contains(String.valueOf(customer.getId()) + String.valueOf(offerId));
+    }
+
+    private String concatId = "";
 
     public boolean validateForUniqueTicket(String customerId, String offerId) {
         if (!concatId.contains(customerId + offerId)) {
@@ -72,7 +93,7 @@ public class TicketValidator {
     }
 
     public boolean validateForExistenceOfferId(int id, List<Offer> offerList) {
-        for (Offer offer: offerList) {
+        for (Offer offer : offerList) {
             if (offer.getId() == id) {
                 return true;
             }
@@ -90,7 +111,7 @@ public class TicketValidator {
     }
 
     public boolean validateForExistenceNumberOfSeat(int id, int number, List<Offer> offerList) {
-        for (Offer offer: offerList) {
+        for (Offer offer : offerList) {
             if (offer.getNumberOfSeats().contains(String.valueOf(number))
                     && offer.getId() == id) {
                 return true;

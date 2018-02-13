@@ -12,4 +12,5 @@ public class Console {
     public static void main(String[] args) throws IOException {
         view.start();
     }
+
 }

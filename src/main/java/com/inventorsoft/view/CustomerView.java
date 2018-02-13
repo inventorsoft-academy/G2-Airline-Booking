@@ -92,7 +92,7 @@ public class CustomerView {
                 break;
             case 3:
                 logger.info("Customer choose book a ticket");
-                ticketView.bookTicket(offerList, customer);
+                ticketView.bookTicket(offerList, ticketList, customer);
                 break;
             case 4:
                 logger.info("Customer choose view all ordered tickets");

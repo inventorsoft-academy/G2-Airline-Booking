@@ -23,14 +23,7 @@ public class GetTicketsFromFile implements GetInfoFromFile {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] s = line.split(" ");
-                if (ticketValidator.validateTicketName(s[0])
-                        && ticketValidator.validateCustomerId(s[1])
-                        && ticketValidator.validateOfferId(s[2]) && ticketValidator.validateForUniqueTicket(s[1],s[2])
-                        && ticketValidator.validateRoute(s[3])
-                        && ticketValidator.validateDate(s[4])
-                        && ticketValidator.validateDate(s[5])
-                        && ticketValidator.validateNumberOfSeats(Integer.parseInt(s[6]))
-                        && ticketValidator.validatePrice(Integer.parseInt(s[7]))) {
+                if (ticketValidator.validateForAllValues(s)) {
                     Ticket ticket = new Ticket();
                     ticket.setName((s[0]));
                     ticket.setCustomerId(Integer.parseInt(s[1]));
@@ -42,12 +35,12 @@ public class GetTicketsFromFile implements GetInfoFromFile {
                         ticket.setDepartureDate(DATE_FORMAT.parse(s[4]));
                         ticket.setArrivalDate(DATE_FORMAT.parse(s[5]));
                     } catch (ParseException e) {
-                        System.out.println("Problem in GetTicketsFromFile() ");
+                        /*System.out.println("Problem in GetTicketsFromFile() ");*/
                         e.printStackTrace();
                     }
                     ticketList.add(ticket);
                 } else {
-                    System.out.println("Problem in GetTicketFromFile");
+                    /*System.out.println("Problem in GetTicketFromFile");*/
                     System.exit(1);
                 }
             }

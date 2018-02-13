@@ -51,25 +51,31 @@ public class TicketView {
                 '}';
     }
 
-    public void bookTicket(List<Offer> offerList, Customer customer) throws IOException {
+    public void bookTicket(List<Offer> offerList, List<Ticket> ticketList, Customer customer) throws IOException {
         Scanner scn = new Scanner(System.in);
         System.out.println("In which offer you are interested in?(id)");
         importAllOffers(offerList);
 
-        int id = scn.nextInt();
-        while (!ticketValidator.validateForExistenceOfferId(id, offerList)) {
-            System.out.println("Please input an existing id!");
-            id = scn.nextInt();
+        int offerId = scn.nextInt();
+        while (!ticketValidator.validateForExistenceOfferId(offerId, offerList)) {
+            System.out.println("Please input an existing offer id!");
+            offerId = scn.nextInt();
+        }
+
+        while (!ticketValidator.validateForUniqueTicket(ticketList, customer, offerId)) {
+            System.out.println("You already bought ticket for this plane, please choose other route!");
+            importAllOffers(offerList);
+            offerId = scn.nextInt();
         }
 
         System.out.println("What ticket you want to buy?(number)");
         int number = scn.nextInt();
-        while (!ticketValidator.validateForExistenceNumberOfSeat(id, number, offerList)) {
+        while (!ticketValidator.validateForExistenceNumberOfSeat(offerId, number, offerList)) {
             System.out.println("Please input an existing number of seat!");
             number = scn.nextInt();
         }
 
-        ticketsController.bookTicket(id, number, offerList, customer);
+        ticketsController.bookTicket(offerId, number, offerList, customer);
 
     }
 
@@ -106,16 +112,16 @@ public class TicketView {
             chooseFileNameToDownloadTicket(orderedTickets, customer, id);
 
         } else {
-            askCustomerToBuyATicket(offerList,customer);
+            askCustomerToBuyATicket(offerList, ticketList, customer);
         }
 
     }
 
-    private void askCustomerToBuyATicket(List<Offer> offerList, Customer customer) {
+    private void askCustomerToBuyATicket(List<Offer> offerList, List<Ticket> ticketList, Customer customer) {
         Scanner scn = new Scanner(System.in);
         System.out.println("You have not book a ticket yet" + "\n"
-        + "Maybe you want to book a ticket" + "\n"
-        + "yes - 1" + "\n" + "no - 2");
+                + "Maybe you want to book a ticket" + "\n"
+                + "yes - 1" + "\n" + "no - 2");
 
         int answer = scn.nextInt();
         System.out.println(answer);
@@ -125,7 +131,7 @@ public class TicketView {
         }
         if (answer == 1) {
             try {
-                bookTicket(offerList, customer);
+                bookTicket(offerList, ticketList, customer);
             } catch (IOException e) {
                 e.printStackTrace();
             }
