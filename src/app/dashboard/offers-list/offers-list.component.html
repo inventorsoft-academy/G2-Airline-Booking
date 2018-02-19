@@ -1,9 +1,10 @@
-<h1>All songs</h1>
+<h1>All offers</h1>
 <table class="table table-responsive">
   <thead>
   <tr>
     <th>Id</th>
-    <th>Route</th>
+    <th>Departure City</th>
+    <th>Arrival City</th>
     <th>Departure Date</th>
     <th>Arrival Date</th>
     <th>Number Of Seats</th>
@@ -13,7 +14,8 @@
   <tbody>
   <tr *ngFor="let offer of offersList" (click)="showOfferDetails(offer.id)">
     <td>{{offer.id}}</td>
-    <td>{{offer.route}}</td>
+    <td>{{offer.departureCity}}</td>
+    <td>{{offer.arrivalCity}}</td>
     <td>{{offer.departureDate}}</td>
     <td>{{offer.arrivalDate}}</td>
     <td>{{offer.numberOfSeats}}</td>

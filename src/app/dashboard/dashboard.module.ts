@@ -10,6 +10,7 @@ import {NewOfferComponent} from './new-offer/new-offer.component';
 import {OffersListComponentList} from './offers-list/offers-list.component';
 import {OfferDetailsComponent} from './offer-details/offer-details.component';
 import { DashboardComponent } from './dashboard.component';
+import {BalanceComponent} from "./actions/admin-actions/balance-of-bought-tickets/balance.component";
 
 @NgModule({
     imports: [
@@ -24,7 +25,8 @@ import { DashboardComponent } from './dashboard.component';
         NewOfferComponent,
         OffersListComponentList,
         OfferDetailsComponent,
-        DashboardComponent
+        DashboardComponent,
+        BalanceComponent
     ],
     providers: []
 })

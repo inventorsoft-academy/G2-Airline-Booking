@@ -10,7 +10,9 @@ import {OfferDetailsComponent} from "./dashboard/offer-details/offer-details.com
 import {NewOfferComponent} from "./dashboard/new-offer/new-offer.component";
 import {DashboardModule} from "./dashboard/dashboard.module";
 import {RouterModule} from "@angular/router";
-import {HttpService} from "./common/services/http.service";
+import {HttpOfferService} from "./common/services/http.offer.service";
+import {BalanceComponent} from "./dashboard/actions/admin-actions/balance-of-bought-tickets/balance.component";
+import {HttpBalanceService} from "./common/services/http.balance.service";
 
 const routes = [
   {
@@ -29,6 +31,10 @@ const routes = [
       {
         path: 'offers-list',
         component: OffersListComponentList
+      },
+      {
+        path: 'balance-of-bought-ticket',
+        component: BalanceComponent
       },
       {
         path: 'offer-details/:id',
@@ -57,7 +63,7 @@ const routes = [
     DashboardModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [HttpService],
+  providers: [HttpOfferService, HttpBalanceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

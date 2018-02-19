@@ -3,11 +3,11 @@ import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
-import { Offer } from '../models/offers/offer';
+import { Offer } from '../models/offer/offer';
 import { environment } from '../../../environments/environment';
 
 @Injectable()
-export class HttpService {
+export class HttpOfferService {
 
     constructor(private http: Http) {
     }

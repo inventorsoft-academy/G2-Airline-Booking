@@ -1,8 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { HttpService } from '../../common/services/http.service';
+import { HttpOfferService } from '../../common/services/http.offer.service';
 import { Subscription } from 'rxjs/Subscription';
 import { Router } from '@angular/router';
-import {Offer} from "../../common/models/offers/offer";
+import {Offer} from "../../common/models/offer/offer";
 
 @Component({
     templateUrl: './offers-list.component.html',
@@ -15,7 +15,7 @@ export class OffersListComponentList implements OnInit, OnDestroy {
 
     subscriptions: Subscription[] = [];
 
-    constructor(private httpService: HttpService,
+    constructor(private httpService: HttpOfferService,
                 private router: Router) {
     }
 

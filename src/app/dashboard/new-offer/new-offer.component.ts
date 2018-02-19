@@ -1,45 +1,46 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
-import { HttpService } from '../../common/services/http.service';
-import { Subscription } from 'rxjs/Subscription';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {FormBuilder, Validators} from '@angular/forms';
+import {HttpOfferService} from '../../common/services/http.offer.service';
+import {Subscription} from 'rxjs/Subscription';
 
 @Component({
-    templateUrl: './new-offer.component.html'
+  templateUrl: './new-offer.component.html'
 })
 export class NewOfferComponent implements OnInit, OnDestroy {
 
-    newOfferForm = this.fb.group({
-        route:['', Validators.required],
-        departureDate: ['', Validators.required],
-        arrivalDate: ['', Validators.required],
-        numberOfSeats: ['', Validators.required],
-        price: [[''], Validators.required]
-    });
+  newOfferForm = this.fb.group({
+    departureCity: ['', Validators.required],
+    arrivalCity: ['', Validators.required],
+    departureDate: ['', Validators.required],
+    arrivalDate: ['', Validators.required],
+    numberOfSeats: ['', Validators.required],
+    price: ['', Validators.required]
+  });
 
-    subscriptions: Subscription[] = [];
+  subscriptions: Subscription[] = [];
 
-    constructor(private fb: FormBuilder,
-                private httpService: HttpService) {
-    }
+  constructor(private fb: FormBuilder,
+              private httpService: HttpOfferService) {
+  }
 
-    ngOnInit() {
-    }
+  ngOnInit() {
+  }
 
-    saveOffer() {
-        let saveOfferSubs = this.httpService.saveOffer(this.newOfferForm.value).subscribe();
-        this.subscriptions.push(saveOfferSubs);
-        this.clearForm();
-    }
+  saveOffer() {
+    let saveOfferSubs = this.httpService.saveOffer(this.newOfferForm.value).subscribe();
+    this.subscriptions.push(saveOfferSubs);
+    this.clearForm();
+  }
 
-    clearForm() {
-        this.newOfferForm.reset();
-    }
+  clearForm() {
+    this.newOfferForm.reset();
+  }
 
-    ngOnDestroy(): void {
-        this.subscriptions.forEach(
-            subscription => {
-                subscription.unsubscribe();
-            }
-        )
-    }
+  ngOnDestroy(): void {
+    this.subscriptions.forEach(
+      subscription => {
+        subscription.unsubscribe();
+      }
+    )
+  }
 }
