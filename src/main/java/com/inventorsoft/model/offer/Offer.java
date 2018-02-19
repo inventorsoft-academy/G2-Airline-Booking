@@ -19,7 +19,9 @@ public class Offer {
 
     private int id;
 
-    private String route;
+    private String departureCity;
+
+    private String arrivalCity;
 
     private Date departureDate;
 
@@ -32,7 +34,8 @@ public class Offer {
     @Override
     public String toString() {
         return id + " "
-                + route + " "
+                + departureCity + " "
+                + arrivalCity + " "
                 + DATE_FORMAT.format(departureDate) + " "
                 + DATE_FORMAT.format(arrivalDate) + " "
                 + numberOfSeats + " "
@@ -41,7 +44,8 @@ public class Offer {
 
     public void update(Offer offer) {
         this.id = offer.id;
-        this.route = offer.route;
+        this.departureCity = offer.departureCity;
+        this.arrivalCity = offer.arrivalCity;
         this.departureDate = offer.departureDate;
         this.arrivalDate = offer.arrivalDate;
         this.numberOfSeats = offer.numberOfSeats;

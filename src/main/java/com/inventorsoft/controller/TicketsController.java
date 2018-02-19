@@ -3,7 +3,7 @@ package com.inventorsoft.controller;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Customer;
-import com.inventorsoft.setInfoToFile.SetModelToFile;
+import com.inventorsoft.dao.SetModel;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.List;
 
 public class TicketsController {
 
-    private SetModelToFile setModelToFile = new SetModelToFile();
+    private SetModel setModel = new SetModel();
 
     public void bookTicket(int id, int number, List<Offer> offerList, Customer customer) throws IOException {
 
@@ -26,7 +26,8 @@ public class TicketsController {
         ticket.setName(customer.getName());
         ticket.setCustomerId(customer.getId());
         ticket.setOfferId(offer.getId());
-        ticket.setRoute(offer.getRoute());
+        ticket.setDepartureCity(offer.getDepartureCity());
+        ticket.setArrivalCity(offer.getArrivalCity());
         ticket.setDepartureDate(offer.getDepartureDate());
         ticket.setArrivalDate(offer.getArrivalDate());
         ticket.setNumber(number);
@@ -39,9 +40,9 @@ public class TicketsController {
         }
 
 
-        setModelToFile.setInfo(offerList, "resources/offers.txt");
+        setModel.setInfo(offerList, "resources/offers.txt");
 
-        setModelToFile.setInfo(ticket, "resources/tickets.txt");
+        setModel.setInfo(ticket, "resources/tickets.txt");
 
     }
 

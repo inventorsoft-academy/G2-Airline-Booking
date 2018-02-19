@@ -1,4 +1,4 @@
-package com.inventorsoft.getInfoFromFile;
+package com.inventorsoft.dao;
 
 import com.inventorsoft.model.user.Admin;
 import com.inventorsoft.validator.UserValidator;
@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GetAdminsFromFile implements GetInfoFromFile {
+public class GetAdmins implements GetInfo {
 
-    private static final String ADMINS_FILE = "resources/admins.txt";
+    private static final String ADMINS_FILE = "src/main/resources/admins.txt";
     private final UserValidator userValidator = new UserValidator();
 
     public List<Admin> getInfo() {
@@ -24,10 +24,7 @@ public class GetAdminsFromFile implements GetInfoFromFile {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] s = line.split(" ");
-                if (userValidator.validateId(s[0]) && userValidator.validateForUniqueUserId(s[0])
-                        && userValidator.validateLogin(s[1]) && userValidator.validateForUniqueLogin(s[1])
-                        && userValidator.validatePassword(s[2])
-                        && userValidator.validateEmail(s[3]) && userValidator.validateForUniqueEmail(s[3])) {
+                if (userValidator.validateForAllValuesAdmin(s)) {
                     Admin admin = new Admin();
                     admin.setId(Integer.parseInt(s[0]));
                     admin.setLogin(s[1]);

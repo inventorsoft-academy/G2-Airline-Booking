@@ -1,0 +1,3096 @@
+        АБА	Абаза	Abaza	ХЯ	РФ
+        АБН	Абакан	Abakan	ХЯ	РФ	ABA	UNAA
+        АБК	Абакан [агентство 01АБК]	 	 	РФ
+        АББ	Абан	 	КЯ	РФ	 	УНЯА
+        АБТ	Абатское	 	ТЮ	РФ
+        YXX	Абботсфорд	Abbotsford	 	CA	YXX	CYXX
+        АБД	Абдулино	 	ОБ	РФ
+        ABZ	Абердин	Aberdin	 	ГБ	ABZ	EGPD
+        ABJ	Абиджан	Abidjan	 	CI	ABJ	DIAP
+        AUH	Абу Даби	Abu Dhabi	 	АЕ	AUH	OMAA
+        AVB	Авиано	Aviano	 	IT	AVB	LIPA
+        GMAA Агадир	Agadir	 	MA	 	GMAA
+        АГР	Агадырь	 	ЖЕ	КЗ
+        АГВ	Агвали	 	ДГ	РФ
+        АГД	Агдам	 	 	АЗ	 	UBEA
+        АГА	Агдаш	 	 	АЗ
+        АЖД	Агджабеди	 	 	АЗ
+        АЗУ	Агзу	 	ПР	РФ
+        АГИ	Агинское	 	КЯ	РФ
+        АГЗ	Агрыз	 	ТГ	РФ
+        АДМ	Адамовка	 	ОБ	РФ
+        ADA	Адана	Adana	 	ТР	ADA	LTAF
+        ADD	Аддис Абеба	Addis Ababa	 	ET	ADD	HAAL
+        ADL	Аделаида	Adelaide	 	AU	ADL	YPAD
+        ADE	Аден	Aden	 	YE	ADE	OYAA
+        АДК	Аджи-Кабул	 	 	АЗ
+        АДЗ	Адзьвавом	 	КИ	РФ
+        АЙД	Айдара	 	КЯ	РФ	 	UNIA
+        АЙМ	Аймаут	 	АЮ	КЗ
+        АЙН	Айни	 	ЛН	ТД
+        АЙО	Айон	 	ЧА	РФ
+        АХЛ	Айхал	 	СФ	РФ	 	UERA
+        AQJ	Акаба	Aqaba	 	JO	AQJ	OJAQ
+        ACA	Акапулько	Acapulko	 	MX	ACA	MMAA
+        АКЖ	Акжал	 	ЖЕ	КЗ
+        АЖР	Акжар	 	ВЗ	КЗ	 	UASV
+        АСЬ	Акись	 	КИ	РФ
+        AXT	Акита	Akita	 	JP	AXT	RJSK
+        АКЬ	Акколь	 	АФ	КЗ
+        ACC	Аккра	Accra	 	GH	ACC	DGAA
+        АСЗ	Аксарка	 	ТЮ	РФ
+        АКЭ	Аксеново	 	КЯ	РФ	 	UNHA
+        АКФ	Акстафа	 	 	АЗ
+        АКС	Аксуат	 	СЧ	КЗ	 	UAST
+        АСБ	Аксубаево	 	ТГ	РФ
+        АКШ	Актаныш	 	ТГ	РФ
+        АТС	Актас	 	ЖЕ	КЗ
+        ААУ	Актау	Aktau	МЯ	КЗ	SCO	UATE
+        АТШ	Акташ	 	АЙ	РФ
+        АКХ	Актюбинск	Aktyubinsk	АЮ	КЗ	AKX	UATT
+        АКЧ	Акчатау	 	ЖЕ	КЗ
+        АКЯ	Акъяр	 	БШ	РФ	 	UWOA
+        АПТ	Алапаевск	 	СД	РФ
+        АЛЫ	Алатырь	 	ЧУ	РФ
+        АЛД	Алдан	Aldan	СФ	РФ	ADH	UEEA
+        ALY	Александрия	Alexandria	 	EG	ALY	HEAX
+        АЛС	Александрия [УКР]	 	КШ	УА
+        АЛЙ	Александров Гай	 	СГ	РФ
+        АЛР	Александровка [ПРУ]	 	 	РФ
+        АЕД	Александровка [ЮРУ]	 	ВГ	РФ
+        АКЗ	Александровский Завод	 	ЧТ	РФ
+        АЛШ	Александровский Шлюз	 	КЯ	РФ	 	UNJA
+        АРН	Александровское	 	ТЯ	РФ	 	UNSA
+        АЛХ	Александровск-Сахалинский	 	СЯ	РФ	 	UHSA
+        AXD	Александруполис	Alexandroupolis	 	GR	AXD	LGAL
+        АЛЕ	Алексеевка [УГЦ]	 	БГ	РФ
+        АЛП	Алеппо	Aleppo	 	SY	ALP	OSAP
+        ALG	Алжир	Algiers	 	DZ	ALG	DAAG
+        АЛИ	Аликанте	Alicante	 	ES	ALC	LEAL
+        АИК	Алискерово	 	ЧА	РФ
+        АХЮ	Аллах-Юнь	 	СФ	РФ
+        EDFQ Аллендорф	Allendorf	 	ДЕ	 	EDFQ
+        АЛА	Алматы	Almaty	АИ	КЗ	ALA	UAAA
+        NIUE Алофи	Alofi	 	NZ	 	NIUE
+        ААЙ	Алтай	 	ТЮ	РФ
+        АТЛ	Алтат	 	КЯ	РФ
+        АЛТ	Алушта	 	РЫ	УА
+        АЛЖ	Алыгджер	 	ИР	РФ
+        AHO	Альгеро	Alghero	 	IT	AHO	LIEA
+        ALF	Альта	Alta	 	NO	ALF	ENAT
+        AOC	Альтенбург	Altenburg	 	ДЕ	AOC
+        ACH	Альтенрейн	Altenrhein	 	CH	ACH	LSZR
+        АГЫ	Амангельды	 	ТЙ	КЗ
+        АМБ	Амбролаури	 	 	ГР
+        АМГ	Амга	 	СФ	РФ
+        АМУ	Амгу	 	ПР	РФ
+        АМД	Амдерма	Amderma	АГ	РФ	AMV	ULDD
+        АДЕ	Амдерма-2	 	АГ	РФ	 	ULDA
+        АММ	Амман	Amman	 	JO	AMM	OJAI
+        ATQ	Амритсар	Amritsar	 	ИН	ATQ	VIAR
+        АМС	Амстердам	Amsterdam	 	NL	AMS	EHAM
+        АУР	Амурзет	 	ХБ	РФ
+        АНБ	Анабар	 	СФ	РФ
+        АНЫ	Анадырь	Anadyr	ЧА	РФ	DYR	UHMA
+        ОЖН	Анадырь-Окружной	 	ЧА	РФ
+        АНЬ	Ананьев	 	ОД	УА
+        АНО	Ананьево	 	ИК	КГ
+        АНА	Анапа	Anapa	КД	РФ	AAQ	URKA
+        АГС	Ангарск	 	ИР	РФ
+        АНГ	Ангарский	 	КЯ	РФ
+        AGH	Анджелхолм/Хелсингборг	Angelholm/Helsingborg	 	SE	 	ESDB
+        АНЖ	Андижан	Andizhan	АЖ	УЗ	AZN	UTKA
+        ENAN Андоя	Andoya	 	NO	 	ENAN
+        ASD	Андрос Таун	Andros Town	 	BS	ASD	MYAF
+        АДР	Андрюшино	 	СД	РФ
+        АДШ	Андрюшкино	 	СФ	РФ	 	UESA
+        ANE	Анже	Angers	 	FR	ANE	LFRA
+        АЖС	Анжеро-Судженск	 	КЗ	РФ
+        ANK	Анкара	Ankara	 	ТР	ANK	LTAD
+        AOI	Анкона	Ancona	 	IT	AOI	LIPY
+        АКР	Анкоридж	Anchorage	 	US	ANC	PANC
+        AAE	Аннаба	Annaba	 	DZ	AAE	DABB
+        АНФ	Аносово	 	ИР	РФ
+        АЯТ	Анталья	Antalya	 	ТР	AYT	LTAI
+        TNR	Антананариву	Antananarivo	 	MG	TNR	FMMI
+        ANR	Антверпен	Antwerp	 	BE	ANR	EBAW
+        АПЮ	Антипаюта	 	ТЮ	РФ	 	USDI
+        АПО	Антипино	 	ТЮ	РФ
+        АЮЙ	Анюйск	 	ЧА	РФ
+        AOJ	Аомори	Aomori	 	JP	AOJ	RJSA
+        AOT	Аоста	Aosta	 	IT	 	LIMW
+        АПХ	Апатиты	 	МУ	РФ	 	ULMK
+        APW	Апиа	Apia	 	WS	APW
+        АПС	Апостолово	 	ДН	УА
+        АПУ	Апука	 	КЧ	РФ
+        АПШ	Апшеронск	 	КД	РФ
+        ARW	Арад	Arad	 	RO	ARW	LRAR
+        АРЛ	Аральск	 	КЮ	КЗ	 	UAOA
+        LGRX Арахос	Araxos[Mil]	 	GR	 	LGRX
+        АРД	Ардатов	 	МД	РФ
+        АРМ	Арзамас	 	НЖ	РФ
+        ААД	Арка	 	ХБ	РФ
+        АДА	Аркадак	 	СГ	РФ
+        АРЫ	Аркалык	Arkalyk	ТЙ	КЗ	AYK	UAUR
+        АРВ	Армавир	 	КД	РФ	 	URKR
+        АМЗ	Армизонское	 	ТЮ	РФ
+        EHDL Арнем	Deelen	 	NL	 	EHDL
+        АРШ	Аромашево	 	ТЮ	РФ
+        АРС	Арсеньев	 	ПР	РФ	 	UHWA
+        АРО	Артемовск	 	ДО	УА
+        АРК	Артемовский	 	СД	РФ	 	USSA
+        АРТ	Арти	 	СД	РФ
+        АРЮ	Артюгино	 	КЯ	РФ
+        RUA	Аруа	Arua	 	UG	RUA	HUAR
+        АРХ	Архангельск	Arkhangelsk	АГ	РФ	ARH
+        АРР	Архара	 	АУ	РФ	 	UHBA
+        AAR	Архус	Aarhus	 	DK	AAR	EKAH
+        АРЦ	Арциз	 	ОД	УА
+        АЫС	Арысь	 	ЮК	КЗ
+        RJCA Асахигава [ВОЕН]	Asahikawa [Mil]	 	JP	 	RJCA
+        AKJ	Асахигава [ГРЖ]	Asahikawa [Civ]	 	JP	AKJ	RJEC
+        АСЯ	Аскания Нова	 	ХГ	УА
+        АСК	Аскино	 	БШ	РФ
+        ASM	Асмэра	Asmara	 	ER	ASM	HHAS
+        АКЛ	Астана	Astana	АЯ	КЗ	TSE	UACC
+        АСР	Астрахань	Astrakhan	АБ	РФ	ASF	URWA
+        OVD	Астуриас	Asturias	 	ES	OVD	LEAS
+        ASW	Асуан	Aswan	 	EG	ASW	HESN
+        АЛН	Аталанка	 	ИР	РФ
+        КРИ	Атамырат	 	ЛА	ТМ	 	UTAE
+        АТА	Атбасар	Atbasar	АЯ	КЗ	ATX	UACA
+        ATL	Атланта	Atlanta	 	US	ATL	KATL
+        АТЯ	Атняш	 	БШ	РФ
+        NJA	Атсуги	Atsugi	 	JP	NJA	RJTA
+        АТЫ	Атырау	Atyrau	АФ	КЗ	GUW	UATG
+        AGB	Аугсбург	Augsburg	 	ДЕ	AGB	EDMA
+        АФС	Афанасьево	 	КП	РФ	 	USPA
+        АТХ	Афины	Athens	 	GR	ATH	LGAT
+        AFY	Афьон	Afyon	 	ТР	AFY	LTAH
+        АХА	Ахалкалаки	 	 	ГР
+        AMD	Ахмадабад	Ahmedabad	 	ИН	AMD	VAAH
+        АХЯ	Ахманка	 	ТЮ	РФ
+        АЕГ	Ахмета	 	 	ГР
+        АХЫ	Ахты	 	ДГ	РФ
+        АХК	Ахтырка	 	СУ	УА
+        АЧВ	Ачайваям	 	КЧ	РФ	 	UHPJ
+        АЧН	Ачинск	Achinsk	КЯ	РФ	ACS	UNKS
+        АЧИ	Ачиры	 	ТЮ	РФ
+        АШХ	Ашгабат	Ashgabat	 	ТМ	ASB	UTAA
+        АЯГ	Аягуз	 	СЧ	КЗ	 	UASA
+        АЯН	Аян	 	ХБ	РФ	 	UHNA
+        АЯК	Аянка	 	КЧ	РФ	 	УХНЯ
+        AJA	Аяччо	Ajaccio	 	FR	AJA	LFKJ
+        БГН	Баган	 	НБ	РФ
+        BGW	Багдад	Baghdad	 	IQ	BGW
+        БГД	Багдарин	 	БР	РФ	 	UIUB
+        БАХ	Багланиха	 	КЯ	РФ
+        YBG	Баготвилла	Bagotville	 	CA	YBG	CYBG
+        ZCC	Баден-Баден	Baden-Baden	 	ДЕ	ZCC	EDTB
+        БМТ	Базарные Матаки	 	ТГ	РФ	 	UWKH
+        БЗР	Базарный Карабулак	 	СГ	РФ
+        EAP	Базель/Мюлуз	Basel/Mulhouse	 	CH	EAP
+        БАЖ	Байкалово	 	СД	РФ
+        БЙО	Байкалово [ТЮМ]	 	ТЮ	РФ	 	USTB
+        БЛС	Байкальск	 	ИР	РФ
+        БКТ	Байкит	 	КЯ	РФ	 	UNIB
+        БАЙ	Байково	 	СЯ	РФ
+        ЛНЙ	Байконур	 	КЮ	КЗ	 	UAOL
+        БАМ	Баймак	 	БШ	РФ
+        XBY	Байонн	Bayonne	 	FR	XBY	LFBZ
+        БАС	Байсун	 	СЦ	УЗ
+        БКЫ	Бакалы	 	БШ	РФ
+        БКН	Баканас	 	АИ	КЗ	 	UAAB
+        BCD	Баколод	Bacolod	 	PH	BCD	RPVB
+        БАК	Баку	Baku	 	АЗ	BAK
+        БАУ	Бакуры	 	СГ	РФ
+        БКЧ	Бакчар	 	ТЯ	РФ
+        БНН	Балаганное	 	МГ	РФ
+        БАЛ	Балаганск	 	ИР	РФ
+        БАО	Балаково	Balakovo	СГ	РФ	BWO	UWSB
+        БХТ	Балахта	 	КЯ	РФ
+        БЛШ	Балашов	 	СГ	РФ	 	UWSW
+        LFSB Бале	Bale	 	FR	 	LFSB
+        БАЕ	Балей	 	ЧТ	РФ
+        BAJ	Бали	Bali	 	PG	BAJ	WRRR
+        НДГ	Балканабат	 	БК	ТМ	 	UTAN
+        БЛК	Балкашино	 	АЯ	КЗ
+        БЛТ	Балта	 	ОД	УА
+        БЛХ	Балхаш	Balhash	ЖЕ	КЗ	BXH	UAAH
+        БАЫ	Балыкса	 	ХЯ	РФ
+        БЛЧ	Балыкча	 	АЙ	РФ
+        BLB	Бальбоа	Balboa	 	PA	BLB	MPHO
+        BKO	Бамако	Bamako	 	ML	BKO	GABS
+        ENNA Банак	Banak	 	NO	 	ENNA
+        FZCI Банга	Banga	 	CF	 	FZCI
+        BLR	Бангалоре	Bangalore	 	ИН	BLR	VOBG
+        БКК	Бангкок	Bangkok	 	TH	BKK	VTBD
+        BGR	Бангор	Bangor	 	US	BGR	KBGR
+        BGF	Бангуи	Bangui	 	CF	BGF	FEFF
+        BJL	Банджул	Banjul	 	GM	BJL	GBYD
+        БАР	Барабинск	 	НБ	РФ	 	UNRR
+        БРА	Бараниха	 	ЧА	РФ	 	UHMB
+        БРН	Барановичи	 	БС	БЛ
+        БРП	Барановка	 	ЖИ	УА
+        БВК	Барвенково	 	ХЬ	УА
+        БРГ	Баргузин	 	БР	РФ
+        BDU	Бардуфос	Bardufoss	 	NO	BDU	ENDU
+        BRI	Бари	Bari	 	IT	BRI	LIBD
+        БАН	Барнаул	Barnaul	АЛ	РФ	BAX	UNBB
+        BAQ	Барранкилья	Barranquilla	 	CO	BAQ
+        BRW	Барроу	Barrow	 	US	BRW	PABR
+        БЦН	Барселона	Barcelona	 	ES	BCN	LEBL
+        БЫШ	Барыш	 	УЛ	РФ
+        БСД	Баскудук	 	АЮ	КЗ
+        BSR	Басра	Basrah	 	IQ	BSR	ORMM
+        BIA	Бастия	Bastia	 	FR	BIA	LFKB
+        БТГ	Батагай	 	СФ	РФ	 	UEBB
+        БАТ	Баткен	 	ОШ	КГ	 	UAFB
+        БТВ	Батово	 	ТЮ	РФ
+        БУИ	Батуми	Batumi	АЧ	ГР	BUS	UGSB
+        БТР	Батурино	 	ТЯ	РФ
+        БХЧ	Бахмач	 	ЧГ	УА
+        БХЕ	Бахрейн	Bahrain	 	BH	BAH	OBBI
+        БХА	Бахта	 	КЯ	РФ	 	UNHB
+        BAY	Бая-Маре	Baia Mare	 	RO	BAY	LRBM
+        БЕБ	Бедоба	 	КЯ	РФ
+        BED	Бедфорд	Bedford	 	US	BED	KBED
+        БЕЖ	Бежаницы	 	ПС	РФ
+        БЖТ	Бежта	 	ДГ	РФ
+        БЕМ	Безымянка	 	КЯ	РФ
+        БЕН	Бейлаган	 	 	АЗ
+        БЕЙ	Бейнеу	 	МЯ	КЗ
+        BEW	Бейра	Beira	 	MZ	BEW	FQBR
+        БЕУ	Бейрут	Beirut	 	LB	BEY	OLBA
+        БКБ	Бекабад	 	ТШ	УЗ
+        БЕШ	Бекдаш	 	БК	ТМ	 	UTAD
+        БЕО	Беково	 	ПЗ	РФ
+        БАЯ	Белая	 	ИР	РФ	 	UIIB
+        БЯГ	Белая Гора	 	СФ	РФ	 	UESG
+        БКА	Белая Калитва	 	РД	РФ	 	URRA
+        БЕД	Белгород	Belgorod	БГ	РФ	EGO	UUOB
+        БЛД	Белгород-Днестровский	 	ОД	УА
+        БГА	Белград	Belgrade	 	YU	BEG	LYBE
+        BLI	Беллингем	Bellingham	 	US	BLI	KBLI
+        БВД	Беловодск	 	ЛУ	УА
+        БЛО	Белогорск	 	АУ	РФ
+        БРЬ	Белогорье	 	ХЦ	УА
+        БЕС	Белозерск	 	ВЯ	РФ	 	ULWB
+        БКИ	Белокуракино	 	ЛУ	УА
+        БИХ	Белокуриха	 	АЛ	РФ
+        БЕЦ	Белорецк	Beloreck	БШ	РФ	BCX	UWUB
+        БЛР	Белоярский	 	ТЮ	РФ	 	УСХЯ
+        БЛЕ	Белушье	 	АГ	РФ	 	ULEB
+        BFS	Белфаст	Belfast	 	ГБ	BFS	EGAA
+        БЛЫ	Белый	 	ТИ	РФ
+        БЕЛ	Белый Яр	 	ТЯ	РФ	 	УНЛЯ
+        БЕЧ	Белькачи	 	СФ	РФ
+        БЦЫ	Бельцы	Beltsy	 	МД	BZY	LUBT
+        БЛИ	Беляки	 	КЯ	РФ
+        BEN	Бенгази	Benghazi	 	LY	BEN	HLLB
+        BND	Бендер Аббас	Bandar Abbas	 	IR	BND	OIKB
+        BWN	Бендер-Сери-Бегаван	Bandar Seri Begawan	 	BN	BWN
+        BEX	Бенсон	Benson	 	ГБ	BEX	EGUB
+        LIME Бергамо	Bergamo	 	IT	 	LIME
+        BGO	Берген	Bergen	 	NO	BGO	ENBR
+        ББР	Берд	 	 	АМ	 	UGEB
+        БРД	Бердянск	Berdyansk	ЗП	УА	ERD	UKDB
+        БЕГ	Берегаево	 	ТЯ	РФ
+        БОЙ	Береговой	 	АУ	РФ
+        БЗГ	Березнеговатое	 	НИ	УА
+        БРЗ	Березник	 	АГ	РФ	 	ULAB
+        БЗК	Березники	 	ПМ	РФ	 	USPT
+        БЗА	Березовка	 	ТЯ	РФ	 	УНЯЕ
+        БЕР	Березово	 	ТЮ	РФ	 	USHB
+        БНГ	Беринговский	 	ЧА	РФ	 	UHMR
+        БРЛ	Берлин	Berlin	 	ДЕ	BER
+        BRN	Берн	Berne	 	CH	BRN	LSZB
+        БРИ	Беруни	 	РП	УЗ
+        БДЬ	Бершадь	 	ВИ	УА
+        БТЖ	Бестужево	 	АГ	РФ
+        BET	Бетел	Bethel	 	US	BET	PABE
+        БШО	Бешир	 	ЛА	ТМ
+        BQH	Биггин Хилл	Biggin Hill	 	ГБ	BQH	EGKB
+        БСК	Бийск	 	АЛ	РФ	 	UNBI
+        BFE	Билефельд	Bielefeld	 	ДЕ	BFE	EDLI
+        БИБ	Билибино	 	ЧА	РФ
+        БИЛ	Биллингс	 	ЧА	РФ
+        BLL	Биллунд	Billund	 	DK	BLL	EKBI
+        BIO	Бильбао	Bilbao	 	ES	BIO	LEBB
+        БЯР	Билярск	 	ТГ	РФ
+        BTU	Бинтулу	Bintulu	 	MY	BTU	WBGB
+        BHX	Бирмингем	Birmingham	 	ГБ	BHX	EGBB
+        БРЖ	Биробиджан	 	ЕИ	РФ	 	UHHB
+        БИК	Бирючья Коса	 	АБ	РФ
+        OXB	Бисау	Bissau	 	GW	OXB	GGOV
+        БТК	Битки	 	НБ	РФ
+        БЧР	Бичура	 	БР	РФ
+        БИШ	Бишкек	Bishkek	 	КГ	FRU	UAFM
+        БГЩ	Благовещенск	Blagoveschensk	АУ	РФ	BQS	UHBB
+        БЛЩ	Благовещенское	 	АГ	РФ
+        БЛН	Благодарный	 	СП	РФ
+        BLK	Блэкпул	Blackpool	 	ГБ	BLK	EGNH
+        BOY	Бобо Диуласо	Bobo Dioulasso	 	BF	BOY	DFOO
+        ББК	Бобруйск	 	МЖ	БЛ
+        БГЕ	Богдановское	 	ЧЛ	РФ
+        БОГ	Богородск	 	НЖ	РФ
+        БГР	Богородское	 	ХБ	РФ	 	UHNB
+        BOG	Богота	Bogota	 	CO	BOG	SKBO
+        БОЧ	Богучаны	 	КЯ	РФ	 	UNKB
+        БГЧ	Богучар	 	ВЖ	РФ
+        БДБ	Бодайбо	 	ИР	РФ	 	UIKB
+        BOO	Бодо	Bodo	 	NO	BOO	ENBO
+        BXN	Бодрум	Bodrum	 	ТР	BXN
+        БКЯ	Боковский	 	РД	РФ
+        БОЛ	Болгар	 	ТГ	РФ	 	UWKT
+        БЛГ	Болград	 	ОД	УА
+        BLQ	Болонья	Bologna	 	IT	BLQ	LIPE
+        БХО	Болхов	 	ОЛ	РФ
+        БЧЫ	Болчары	 	ТЮ	РФ
+        БШЫ	Большая Мартыновка	 	РД	РФ
+        БМР	Большая Мурта	 	КЯ	РФ	 	UNKA
+        БПЧ	Большая Пучкома	 	КИ	РФ
+        БРМ	Больше-Нарым	 	ВЗ	КЗ	 	UASO
+        БЛУ	Большеустьикинск	 	БШ	РФ
+        БШТ	Большие Тарханы	 	ТГ	РФ
+        БШУ	Большие Уки	 	ОЯ	РФ
+        БЛБ	Большое Болдино	 	НЖ	РФ	 	UWGB
+        БШХ	Большое Тархово	 	ТЮ	РФ
+        БОА	Большой Атлым	 	ТЮ	РФ
+        БОК	Большой Ларьяк	 	ТЮ	РФ
+        БМН	Бомнак	 	АУ	РФ
+        BNJ	Бонн	Bonn	 	ДЕ	BNJ	EDKB
+        BOD	Бордо	Bordeaux	 	FR	BOD	LFBD
+        БОЗ	Борзя	 	ЧТ	РФ	 	UIAB
+        БРК	Борисоглебск	 	ВЖ	РФ
+        RNN	Борнхольм	Bornholm	 	DK	RNN	EKRN
+        БОР	Боровичи	 	НГ	РФ	 	ULNB
+        БОЦ	Борогонцы	 	СФ	РФ
+        БРО	Борок	 	АГ	РФ
+        БРЩ	Борщев	 	ТП	УА
+        EGDM Боскомб Даун	Boskombe Down	 	ГБ	 	EGDM
+        KBAD Боссир Сити	Bossier City	 	US	 	KBAD
+        BOS	Бостон	Boston	 	US	BOS
+        БОТ	Ботлих	 	ДГ	РФ
+        BZV	Браззавиль	Brazzaville	 	CG	BZV	FCBB
+        BSB	Бразилиа	Brasilia	 	BR	BSB	SBBR
+        BZZ	Брайз Нортон	Brize Norton	 	ГБ	BZZ	EGVN
+        БСЛ	Браслав	 	ВБ	БЛ
+        БТИ	Братислава	Bratislava	 	SK	BTS
+        БРС	Братск	Bratsk	ИР	РФ	BTK	UIBB
+        БТЕ	Братское	 	НИ	УА
+        BWE	Брауншвейг	Braunschweig	 	ДЕ	BWE	EDVE
+        БДЫ	Бреды	 	ЧЛ	РФ
+        БРЙ	Брейтово	 	ЯР	РФ	 	UUMJ
+        BRE	Бремен	Bremen	 	ДЕ	BRE	EDDW
+        BES	Брест	Brest	 	FR	BES	LFRB
+        БРТ	Брест	Brest	БС	БЛ	BQT	UMBB
+        БРР	Бриакан	 	ХБ	РФ
+        BGI	Бриджтаун	Bridgetown	 	BB	BGI	TBPB
+        BDS	Бриндизи	Brindisi	 	IT	BDS	LIBR
+        BNE	Брисбан	Brisbane	 	AU	BNE	YBBN
+        BRS	Бристоль	Bristol	 	ГБ	BRS	EGGD
+        BRQ	Брно	Brno	 	ЦЗ	BRQ	LKTB
+        EGNB Бруг	Brough	 	ГБ	 	EGNB
+        WBSB Бруней	Brunei	 	BN	 	WBSB
+        БКЛ	Брыкаланск	 	КИ	РФ
+        БРЮ	Брюссель	Brussels	 	BE	BRU	EBBR
+        БРЯ	Брянск	Briansk	БН	РФ	BZK	UUBP
+        БУЕ	Бугаево	 	КИ	РФ
+        БУГ	Бугульма	Bugulma	ТГ	РФ	UUA	UWKB
+        БУУ	Бугуруслан	 	ОБ	РФ
+        БУД	Будапешт	Budapest	 	HU	BUD	LHBP
+        БДН	Буденовск	 	СП	РФ
+        BJM	Бужумбура	Bujumbura	 	BI	BJM	HBBA
+        БЗЧ	Бузачи	 	МЯ	КЗ
+        БУН	Буинск	 	ТГ	РФ
+        БУЬ	Бур	 	ИР	РФ
+        БГС	Бургас	Bourgas	 	BG	BOJ	LBBG
+        БРЧ	Бургахчан	 	ЧА	РФ
+        БУР	Буревестник	 	СЯ	РФ	 	UHSB
+        BLE	Бурленге	Borlange	 	SE	BLE	ESSD
+        БУЫ	Бурный	 	КЯ	РФ	 	UNJB
+        BTZ	Бурса	Bursa	 	ТР	BTZ	LTBE
+        БСН	Бустон	 	ЛН	ТД
+        БУА	Бухара	Bukhara	БА	УЗ	BHK	UTSB
+        БУХ	Бухарест	Bucharest	 	RO	BUH
+        ПРД	Бухта Провидения	Provideniya	ЧА	РФ	PVS	UHMD
+        BUE	Буэнос Айрес	Buenos Aires	 	AR	BUE
+        БЫЛ	Былино	 	ТЮ	РФ
+        БЫС	Быстрый	 	ЧА	РФ
+        БЫЧ	Бычье	 	АГ	РФ
+        EPBP Бяла-Подляска	Biala Podlaska	 	PL	 	EPBP
+        VAA	Вааса	Vaasa	 	FI	VAA	EFVA
+        ВАГ	Вагай	 	ТЮ	РФ
+        EKVG Вагар	Vagar	 	DK	 	EKVG
+        WTN	Ваддингтон	Waddington	 	ГБ	WTN	EGXW
+        VDS	Вадсе	Vadso	 	NO	VDS	ENVD
+        ВГИ	Ваеги	 	ЧА	РФ
+        EKVL Ваерлоз	Vaerlose	 	DK	 	EKVL
+        ВАЖ	Важгорт	 	КИ	РФ
+        WKJ	Вакканай	Wakkanai	 	JP	WKJ	RJCW
+        ВАЛ	Вал	 	СЯ	РФ
+        VAF	Валанс	Valence	 	FR	VAF	LFLU
+        VLC	Валенсия	Valencia	 	ES	VLC	LEVC
+        EHVB Валкенбург	Valkenburg	 	NL	 	EHVB
+        ВЛЙ	Валуйки	 	БГ	РФ	 	UUOW
+        ВМП	Вампугольск	 	ТЮ	РФ
+        VAN	Ван	Van	 	ТР	VAN	LTCI
+        ВРЯ	Ванавара	 	КЯ	РФ	 	UNIW
+        ВАД	Ванадзор	 	 	АМ	 	UGEI
+        ВЗТ	Ванзеват	 	ТЮ	РФ
+        ВЗУ	Ванзетур	 	ТЮ	РФ
+        ВРЧ	Ванкарем	 	ЧА	РФ
+        YVR	Ванкувер	Vancouver	 	CA	YVR	CYVR
+        ВНЧ	Ванч	 	ГА	ТД
+        ВРЙ	Варандей	 	АГ	РФ	 	ULDW
+        ВРВ	Варва	 	ЧГ	УА
+        ВРД	Варденис	 	 	АМ
+        VRK	Варкаус	Varkaus	 	FI	VRK	EFVR
+        ВАР	Варна	Varna	 	BG	VAR	LBWN
+        ВРИ	Варнавино	 	НЖ	РФ	 	UWGW
+        EGNO Вартон	Warton	 	ГБ	 	EGNO
+        ВАВ	Варшава	Warszawa	 	PL	WAW	EPWA
+        ВЬМ	Васильевский Мох	 	ТИ	РФ
+        ВИС	Васисс	 	ОЯ	РФ
+        VST	Вастерас	Vasteras	 	SE	VST	ESOW
+        ВМЙ	Ваховск	 	ТЮ	РФ
+        ВАЧ	Вачи	 	ДГ	РФ
+        ВАС	Вашингтон	Washington	 	US	WAS
+        ВЕЙ	Вейделевка	 	БГ	РФ
+        ВЕП	Великая Писаревка	 	СУ	УА
+        ВЕК	Великие Луки	Velikiye Luki	ПС	РФ	VLU	ULOL
+        ВБУ	Великий Бурлук	 	ХЬ	УА
+        НРД	Великий Новгород	Velikij Novgorod	НГ	РФ	NVR	ULNN
+        ВЕУ	Великий Устюг	Velikij Ustyug	ВЯ	РФ	VUS	ULWU
+        ВКЧ	Великовисочное	 	НЕ	РФ
+        WLG	Веллингтон	Wellington	 	NZ	WLG	NZWN
+        ВСК	Вельск	 	АГ	РФ	 	ULKW
+        ВЕН	Вена	Vienna	 	AT	VIE	LOWW
+        ВЕЦ	Венеция	Venezia	 	IT	VCE	LIPV
+        WOE	Венсдрехт	Woensdrecht	 	NL	WOE	EHWO
+        EVVA Вентспилс	Ventspils	 	LV	 	EVVA
+        ВЩГ	Верещагино	 	КЯ	РФ	 	UOTW
+        ВЕР	Верона	Verona	 	IT	VRN	LIPN
+        ВТИ	Вертикос	 	ТЯ	РФ
+        ВХВ	Верхневилюйск	 	СФ	РФ	 	UENI
+        ВХИ	Верхнеимбатское	 	КЯ	РФ	 	UNIL
+        ВМУ	Верхне-Марково	 	ИР	РФ
+        ВРХ	Верхнеуральск	 	ЧЛ	РФ
+        ВЛР	Верхний Ландех	 	ИВ	РФ
+        ВХП	Верхний Парень	 	МГ	РФ
+        ВХГ	Верхняя Гутара	 	ИР	РФ
+        ВЕЗ	Верхняя Золотица	 	АГ	РФ	 	ULBW
+        ВНЯ	Верхняя Кема	 	ВЯ	РФ
+        ВЯК	Верхняя Колва	 	ПМ	РФ
+        ВСД	Верхняя Салда	 	 	РФ
+        ВЕТ	Верхняя Тойма	 	АГ	РФ	 	ULKT
+        ВХЬ	Верховье	 	АГ	РФ
+        ВТР	Верхотурье	 	СД	РФ
+        ВХЯ	Верхоянск	 	СФ	РФ	 	UEBW
+        ВЕД	Вершино-Дарасунский	 	ЧТ	РФ
+        ВСЫ	Веселый	 	ВГ	РФ
+        ВНИ	Весенний	 	ЧА	РФ
+        VVK	Вестервик	Vastervik	 	SE	VVK	ESSW
+        GWT	Вестерланд	Westerland	 	ДЕ	GWT	EDXW
+        HPN	Вестчестер Каунти	White Plains	 	US	HPN
+        ВЕГ	Весьегонск	 	ТИ	РФ
+        ВЛГ	Ветлуга	 	НЖ	РФ
+        ВШН	Вешенская	 	РД	РФ	 	URRW
+        ВИА	Виахту	 	СЯ	РФ
+        VGO	Виго	Vigo	 	ES	VGO	LEVX
+        ESPE Видсел	Vidsel	 	SE	 	ESPE
+        ВИЖ	Вижас	 	АГ	РФ	 	ULJI
+        ВИЗ	Визирный	 	ИР	РФ
+        EFVI Виитасаари	Viitasaari	 	FI	 	EFVI
+        VCT	Виктория	Victoria Intl.	 	US	VCT	KVCT
+        ВКЛ	Викулово	 	ТЮ	РФ
+        LFPV Виллакублей	Villacoublay	 	FR	 	LFPV
+        ILM	Вилмингтон	Wilmington	 	US	ILM	KILM
+        ВИЛ	Вильнюс	Vilnius	 	LT	VNO	EYVI
+        ВИК	Вилюйск	 	СФ	РФ	 	UENW
+        BDL	Виндзор Локс	Windsor Locks	 	US	BDL	KBDL
+        WDH	Виндхук	Windhoek	 	NA	WDH	FYWH
+        YWG	Виннипег	Winnipeg Intl	 	CA	YWG	CYWG
+        ВИН	Винница	Vinnica	ВИ	УА	VIN	UKWW
+        VBY	Висбю	Visby	 	SE	VBY	ESSV
+        ВИТ	Витебск	Vitebsk	ВБ	БЛ	VTB	UMII
+        ВИМ	Витим	 	СФ	РФ	 	UERT
+        VIT	Витория	Vitoria	 	ES	VIT	LEVT
+        EGXT Виттеринг	Wittering	 	ГБ	 	EGXT
+        ВВО	Владивосток	Vladivostok	ПР	РФ	VVO	UHWW
+        ВЛА	Владикавказ	Vladikavkaz	СИ	РФ	OGZ	URMO
+        ВЛМ	Владимир	 	ВЛ	РФ	 	UUBL
+        ВДН	Владимир-Волынский	 	ВЫ	УА
+        ВДЦ	Владимирец	 	РБ	УА
+        ВЛЧ	Владычное	 	ЯР	РФ
+        ВОЖ	Вожгора	 	АГ	РФ	 	ULJW
+        ВОЗ	Вознесенское	 	НЖ	РФ
+        ВГГ	Волгоград	Volgograd	ВГ	РФ	VOG	URWW
+        ВЛД	Волгодонск	Volgodonsk	РД	РФ	VLK	УРРЯ
+        ВЛЖ	Волжский	 	ВГ	РФ
+        ВОВ	Волово	 	ТЛ	РФ
+        ВГД	Вологда	Vologda	ВЯ	РФ	VGD	ULWW
+        ВЛЯ	Волоковая	 	АГ	РФ	 	ULEW
+        ВОЛ	Волочанка	 	КЯ	РФ	 	UOON
+        ВЛХ	Волчиха	 	АЛ	РФ
+        ВЛС	Вольск	 	СГ	РФ
+        ВКТ	Воркута	Vorkuta	КИ	РФ	VKT	UUYW
+        ВРГ	Ворогово	 	КЯ	РФ	 	UNHW
+        ВРН	Воронеж	Voronezh	ВЖ	РФ	VOZ	UUOO
+        ВРФ	Ворфоломеевка	 	ПР	РФ
+        ВНУ	Воскресенское	 	МС	РФ
+        ВТЧ	Восточный	 	ЧА	РФ
+        ВТК	Воткинск	 	УД	РФ
+        ВОЯ	Воямполка	 	КЧ	РФ
+        WRO	Вроцлав	Wroclaw	 	PL	WRO	EPWR
+        ВТЛ	Вуктыл	 	КИ	РФ	 	UUYK
+        ВЫД	Выдрино	 	БР	РФ
+        ВЫН	Выкатное	 	ТЮ	РФ
+        ВЫК	Выкса	 	НЖ	РФ
+        ВЫП	Выползово	 	ТИ	РФ
+        ВМС	Высокий Мыс	 	ТЮ	РФ
+        ВТГ	Вытегра	 	ВЯ	РФ	 	ULWR
+        VTE	Вьентьян	Vientiane	 	LA	VTE	VLVT
+        ETNW Вюнсторф	Wunstorf [Mil]	 	ДЕ	 	ETNW
+        ВЯЗ	Вязьма	 	СЛ	РФ
+        ВТП	Вятские Поляны	 	КП	РФ
+        ХАВ	Гавана	Havana	 	CU	HAV	MUHA
+        GVX	Гавле	Gavle	 	SE	GVX	ESSK
+        LEH	Гавр	Le Havre	 	FR	LEH	LFOH
+        ГАГ	Гагино	 	НЖ	РФ	 	UWGA
+        ГДЧ	Гадяч	 	ПО	УА
+        ГЗА	Газа	Gaza City	 	PS	GZA
+        ГАЧ	Газачак	 	ЛА	ТМ
+        ГЗВ	Газимуровский Завод	 	ЧТ	РФ
+        ГЗЛ	Газли	 	БА	УЗ
+        ГАВ	Гайворон	 	КШ	УА
+        ГАН	Гайны	 	ПМ	РФ	 	USPG
+        GAL	Галена	Galena	 	US	GAL	PAGA
+        YHZ	Галифакс	Halifax	 	CA	YHZ	CYHZ
+        ГЛЧ	Галич	 	КФ	РФ
+        HAM	Гамбург	Hamburg	 	ДЕ	HAM	EDDH
+        YQX	Гандер	Gander	 	CA	YQX	CYQX
+        EDWQ Гандеркезе	 	 	ДЕ	 	EDWQ
+        ХАЙ	Ганновер	Hanover	 	ДЕ	HAJ	EDDV
+        ГНШ	Ганюшкино	 	АФ	КЗ
+        KHH	Гаосюн	Kaohsiung	 	TW	KHH	RCKH
+        ГАР	Гари	 	СД	РФ
+        ГРМ	Гарм	 	 	ТД
+        ГСК	Гасан-Кули	 	БК	ТМ
+        EDQT Гассфурт	Gassfurt	 	ДЕ	 	EDQT
+        GDL	Гвадалахара	Guadalajara	 	MX	GDL	MMGL
+        GUA	Гватемала	Guatemala City	 	GT	GUA
+        GDN	Гданьск	Gdansk	 	PL	GDN	EPGD
+        ГДО	Гдов	 	ПС	РФ
+        ГДЖ	Геленджик	Gelendzik	КД	РФ	GDZ	URKG
+        ГНЧ	Геническ	 	ХГ	УА
+        GOA	Генуя	Genoa	 	IT	GOA	LIMJ
+        ГЕО	Геокчай	 	 	АЗ
+        HEA	Герат	Herat	 	AF	HEA	OAHR
+        ГГБ	Гергебель	 	ДГ	РФ
+        GRO	Герона	Gerona	 	ES	GRO
+        GOT	Гетеборг	Gothenburg	 	SE	GOT	ESGG
+        ГЖГ	Гижига	 	МГ	РФ
+        GLA	Глазго	Glasgow	 	ГБ	GLA	EGPF
+        ГЛЗ	Глазов	 	УД	РФ
+        ГЛБ	Глобино	 	ПО	УА
+        GLO	Глостер	Gloucester	 	ГБ	GLO	EGBJ
+        ГХВ	Глухов	 	СУ	УА
+        ГОА	Гоа	Goa	 	ИН	GOI	VAGO
+        ГОВ	Говорково	 	КЯ	РФ	 	UNHG
+        ГОЦ	Голицыно	 	ПЗ	РФ
+        ГВК	Голованевск	 	КШ	УА
+        ГТЛ	Голотль	 	ДГ	РФ
+        ГМЛ	Гомель	Gomel	ГМ	БЛ	GME	UMGG
+        ХКГ	Гонконг	Hong Kong	 	ЦН	HKG	VHHH
+        HNL	Гонолулу	Honolulu	 	US	HNL
+        ГРС	Горис	 	 	АМ	 	UGEG
+        ГРА	Горка	 	АГ	РФ	 	ULKG
+        ГОК	Горки	 	ТЮ	РФ
+        GOZ	Горна-Оряховица	Gorna Orechovitca	 	BG	GOZ	LBGO
+        ГОР	Горно-Алтайск	 	АЙ	РФ	 	UNBG
+        ГРЗ	Горнозаводск	 	СЯ	РФ
+        ГРП	Горно-Правдинск	 	ТЮ	РФ	 	USHP
+        ГРР	Горнореченск	 	ТЮ	РФ
+        ГОЧ	Горно-Чуйский	 	ИР	РФ
+        ГНЫ	Горный	 	СГ	РФ
+        ГРЙ	Горный [ДВУ]	 	АУ	РФ
+        ГОН	Горный[ТЮМ]	 	ТЮ	РФ
+        ГРЦ	Городец	 	НЖ	РФ	 	UWGD
+        ГВВ	Городовиковск	 	КЦ	РФ
+        ГДК	Городок	 	ЛЬ	УА
+        ГШХ	Горошиха	 	КЯ	РФ	 	UOTG
+        ГЧИ	Горячинск	 	БР	РФ
+        ГСТ	Гостомель	 	 	УА	 	UKKM
+        ГЖС	Градижск	 	ПО	УА
+        GRZ	Грац	Graz	 	AT	GRZ	LOWG
+        LFEV Грей-Сан-Адрин	Gray-Saint-Adrien	 	FR	 	LFEV
+        ГРХ	Гремиха	 	МУ	РФ
+        ГРД	Гродно	Grodno	ГН	БЛ	GNA	UMMG
+        ГРН	Грозный	Groznyj	ЧИ	РФ	GRV	URMG
+        GRQ	Гронинген	Groningen	 	NL	GRQ	EHGG
+        GRS	Гроссето	Grosseto	 	IT	GRS	LIRS
+        LIBG Гротталье	Grottaglie[Mil]	 	IT	 	LIBG
+        GUM	Гуам	Guam	 	GU	GUM
+        CAN	Гуанчжоу	Guangzhou	 	ЦН	CAN	ZGGG
+        ГБК	Губкин	 	БГ	РФ
+        ГУД	Гудаута	 	АЦ	ГР	 	UGSG
+        ГДМ	Гудермес	 	ЧИ	РФ
+        ГЗР	Гузар	 	КЬ	УЗ
+        ESPD Гуннарн	Gunnarn	 	SE	 	ESPD
+        GCI	Гурнсей	Guernsey	 	ГБ	GCI	EGJB
+        YYR	Гус Бей	Goose Bay	 	CA	YYR	CYYR
+        ГУС	Гусь-Хрустальный	 	ВЛ	РФ
+        ГЫД	Гыда	 	ТЮ	РФ
+        ГЮМ	Гюмри	Gyoumri	 	АМ	LWN	UGEL
+        ГНЖ	Гянджа	Gyandzha	 	АЗ	KVD	UBBG
+        ДКР	Дакар	Dakar	 	SN	DKR	GOOY
+        ДАЦ	Дакка	Dhaka	 	BD	DAC	VGZR
+        ДАН	Даламан	Dalaman	 	ТР	DLM	LTBS
+        DFW	Даллас	Dallas	 	US	DFW	KDFW
+        ДНГ	Дальнегорск	 	ПР	РФ
+        ДЕЕ	Дальнее	 	ТЯ	РФ
+        ДЛЧ	Дальнереченск	 	ПР	РФ	 	UHHD
+        ДЛЛ	Дальний	 	ЧА	РФ
+        ДНЙ	Дальний	 	ИР	РФ
+        ДЛЦ	Далянь	Dalian	 	ЦН	DLC	ZYTL
+        ДАМ	Дамаск	Damascus	 	SY	DAM	OSDI
+        DAD	Дананг	Da Nang	 	VN	DAD	VVDN
+        ДВК	Даниловка	 	ВГ	РФ
+        ДНВ	Данков	 	ЛП	РФ
+        ДРС	Дарасун	 	ЧТ	РФ
+        DRW	Дарвин	Darwin	 	AU	DRW	YPDN
+        DAR	Дар-эс-Салам	Dar Es Salaam	 	TZ	DAR	HTDA
+        DGP	Даугавпилс	Daugavpils	 	LV	DGP	EVDA
+        DHA	Дахран	Dhahran	 	SA	DHA	OEDR
+        ТШЗ	Дашховуз	Dashoguz	ДС	ТМ	TAZ	UTAT
+        ДВЦ	Дворец	 	КЯ	РФ
+        ДВУ	Двуречная	 	ХЬ	УА
+        DEB	Дебрецен	Debrecen	 	HU	DEB
+        ДЕД	Дедовичи	 	ПС	РФ
+        ДКА	Де-Кастри	 	ХБ	РФ
+        ДЛИ	Дели	Delhi	 	ИН	DEL	VIDP
+        ДМЯ	Демянск	 	НГ	РФ
+        ДНУ	Денау	 	СЦ	УЗ
+        ДНС	Денисовка	 	КИ	РФ	 	USPD
+        DPS	Денпасар	Denpasar Bali	 	ID	DPS
+        ДЕП	Депутатский	 	СФ	РФ	 	UEBD
+        ДЕР	Дербент	 	ДГ	РФ	 	UBBK
+        ДРГ	Дергачи	 	СГ	РФ
+        DTT	Детройт	Detroit	 	US	DTT
+        ДЖР	Джазатор	 	АЙ	РФ
+        JKT	Джакарта	Jakarta	 	ID	JKT
+        ДЖБ	Джалал-Абад	 	ДК	КГ	 	UAFE
+        ДКЙ	Джанкой	 	РЫ	УА	 	UKFY
+        ДНБ	Джаныбек	 	ЗА	КЗ
+        ДЖХ	Джебарики-Хая	 	СФ	РФ	 	УЕЯД
+        OMAJ Джебел Дхана	Jebel Dhana	 	АЕ	 	OMAJ
+        ДЖЛ	Джебраил	 	 	АЗ
+        DJE	Джерба	Djerba	 	TN	DJE	DTTJ
+        ДЖЕ	Джермук	 	 	АМ	 	UGED
+        ДЖТ	Джетыгара	 	ЙК	КЗ
+        JIB	Джибути	Djibouti	 	DJ	JIB	HDAM
+        JED	Джидда	Jeddah	 	SA	JED	OEJN
+        ДЖИ	Джизак	 	ДА	УЗ
+        ДРТ	Джиргиталь	 	 	ТД
+        ДЖО	Джонки	 	ХБ	РФ
+        GEO	Джорджтаун	Georgetown	 	GY	GEO
+        ДБГ	Джубга	 	КД	РФ
+        JNU	Джуно	Juneau	 	US	JNU	PAJN
+        ДСЛ	Джусалы	 	КЮ	КЗ
+        ДЗЕ	Дзель	 	КИ	РФ
+        ДЗЖ	Дзержинское	 	КЯ	РФ	 	УНЯД
+        DIJ	Дижон	Dijon	 	FR	DIJ
+        ДИК	Диксон	Dikson	КЯ	РФ	DKS	UODD
+        DLG	Диллингхем	Dillingham	 	US	DLG	PADL
+        ДМГ	Димитровград	 	УЛ	РФ
+        DNR	Динард	Dinard	 	FR	DNR	LFRD
+        DIY	Диярбакыр	Diyarbakir	 	ТР	DIY	LTCC
+        ДМИ	Дмитриевка	 	ТБ	РФ
+        ДПК	Днепропетровск	Dnepropetrovsk	ДН	УА	DNK	UKDD
+        DOV	Довер-Чесуолд	Dover-Cheswold	 	US	DOV	KDOV
+        DOL	Довилль	Deauville	 	FR	DOL	LFRG
+        ДВН	Довольное	 	НБ	РФ
+        ДГЩ	Долгощелье	 	АГ	РФ	 	ULBD
+        DLE	Доле	Dole	 	FR	DLE	LFGJ
+        ДОН	Донецк	 	РД	РФ
+        ДНЦ	Донецк [УКР]	Donetsk	ДО	УА	DOK	UKCC
+        ДГЖ	Дорогобуж	 	СЛ	РФ
+        DTM	Дортмунд	Dortmund	 	ДЕ	DTM	EDLW
+        DOH	Доха	Doha	 	QA	DOH	OTBD
+        ДБВ	Драбов	 	ЧЕ	УА
+        DRS	Дрезден	Dresden	 	ДЕ	DRS	EDDC
+        ДБЧ	Дрогобыч	 	ЛЬ	УА
+        ДЖЖ	Дрожжаное	 	ТГ	РФ
+        ДРО	Дрокия	 	 	МД
+        ДУЖ	Дружный	 	ТЯ	РФ
+        ТЮК	Друса	 	ОЯ	РФ
+        DLA	Дуала	Douala	 	CM	DLA	FKKD
+        ДБЙ	Дубай	Dubai	 	АЕ	DXB	OMDB
+        ДБН	Дублин	Dublin	 	IE	DUB	EIDW
+        ДУБ	Дубно	 	РБ	УА
+        ДРК	Дубровка	 	НБ	РФ
+        ДУО	Дубровка [СЗУ]	 	ЛЕ	РФ
+        ДБР	Дубровка [УГЦ]	 	БН	РФ
+        ДБИ	Дубровник	Dubrovnik	 	HR	DBV	LDDU
+        ДУВ	Дуван	 	БШ	РФ
+        ДНК	Дудинка	 	КЯ	РФ	 	UOOD
+        ДДС	Дудоровский	 	КЖ	РФ
+        ДСТ	Дусти	 	ХЛ	ТД
+        ДУХ	Духовницкое	 	СГ	РФ
+        ДШБ	Душанбе	Dushanbe	 	ТД	DYU	UTDD
+        ДЮР	Дюрбельджин	 	НЫ	КГ
+        ДУС	Дюссельдорф	Dusseldorf	 	ДЕ	DUS	EDDL
+        ЕЛХ	Евлах	 	 	АЗ	 	UBEE
+        ЕВП	Евпатория	 	РЫ	УА	 	UKFE
+        ETME Еггебек	Eggebek Mil	 	ДЕ	 	ETME
+        ЕДИ	Единка	 	ПР	РФ	 	UHWE
+        ЕЗЕ	Езевец	 	АГ	РФ
+        ЕСК	Ейск	 	КД	РФ	 	URKE
+        ЕКБ	Екатеринбург	Ekaterinburg	СД	РФ	SVX
+        ЕКЛ	Екатеринославка	 	ОЯ	РФ
+        ЕЛА	Елабуга	 	ТГ	РФ	 	UWKL
+        ЕНЬ	Елань	 	ВГ	РФ
+        ЕЛЫ	Еласы	 	МИ	РФ
+        ЕТМ	Елатьма	 	РЯ	РФ
+        EVEA Елгава	 	 	LV	 	EVEA
+        EPJG Еленя Гура	Jelenia Gora	 	PL	 	EPJG
+        LGEL Елефсис	Elefsis[Mil]	 	GR	 	LGEL
+        ЕЛЦ	Елец	 	ЛП	РФ
+        ЕЛЗ	Елизарово	 	ТЮ	РФ
+        ЕЦВ	Ельцовка	 	АЛ	РФ
+        ЕЛЮ	Елюга	 	АГ	РФ
+        ЕМЬ	Емва	 	КИ	РФ	 	UUYM
+        ЕМЧ	Емильчино	 	ЖИ	УА
+        ESMA Еммабода	Emmaboda	 	SE	 	ESMA
+        EML	Еммен	Emmen	 	CH	EML	LSME
+        ЕНС	Енисейск	Eniseysk	КЯ	РФ	EIE	UNII
+        ЕРЛ	Ералиево	 	МЯ	КЗ
+        ЕРУ	Ерахтур	 	РЯ	РФ
+        ЕГЧ	Ербогачен	 	ИР	РФ	 	UIKE
+        ЕВН	Ереван	Yerevan	 	АМ	EVN
+        ЕРН	Еремино	 	СД	РФ
+        ЕРЦ	Ермица	 	КИ	РФ
+        ЕРМ	Ермишь	 	РЯ	РФ
+        ЕЛО	Ермолино	 	КЖ	РФ	 	UUWE
+        ЕРШ	Ершов	 	СГ	РФ
+        ЕСЛ	Есиль	 	ТЙ	КЗ
+        ЕСИ	Ессей	 	КЯ	РФ	 	UNIE
+        ESS	Ессен	Essen	 	ДЕ	ESS	EDLE
+        ЕСН	Ессентуки	 	СП	РФ	 	URME
+        ЕХР	Ехегнадзор	 	 	АМ
+        ДЖК	Жабасак	 	АЮ	КЗ
+        ЖАЙ	Жайрем	Zhairem	ЖЕ	КЗ	HRC	UAKV
+        ДКС	Жаксы	 	ТЙ	КЗ
+        ЖРК	Жаркамыс	 	АЮ	КЗ
+        ЖАШ	Жашков	 	ЧЕ	УА
+        ДЗН	Жезказган	Zhezhazgan	ЖЕ	КЗ	DZN	UAKD
+        ЖЗЛ	Железинка	 	ПЛ	КЗ
+        ЖЛН	Железноводск	 	СП	РФ
+        ЖЕЗ	Железногорск	 	ИР	РФ	 	UIBV
+        ЖЛГ	Железногорск [УГЦ]	 	КУ	РФ
+        ГЖА	Женева	Geneva	 	CH	GVA	LSGG
+        ЖВК	Жердевка	 	ТБ	РФ
+        ЖТБ	Жетыбай	 	МЯ	КЗ
+        ЖШР	Жешарт	 	КИ	РФ
+        RZE	Жешув	Rzeszow	 	PL	RZE	EPRZ
+        ЖЛВ	Жигалово	 	ИР	РФ	 	UIIV
+        ЖИГ	Жиганск	 	СФ	РФ	 	UEVV
+        ЖГЛ	Жигулевск	 	СБ	РФ
+        ЖИЛ	Жилинда	 	СФ	РФ
+        ЖИР	Жирновск	 	ВГ	РФ
+        ЖМР	Житомир	Zhitomir	ЖИ	УА	ZTR	UKKV
+        ЖЛЫ	Жолымбет	 	АЯ	КЗ
+        ЗАВ	Заветное	 	РД	РФ	 	URRY
+        ЗВТ	Завитинск	 	АУ	РФ
+        ЗАГ	Загреб	Zagreb	 	HR	ZAG	LDZA
+        ЗДН	Задонск	 	ЛП	РФ
+        ЗСК	Заинск	 	ТГ	РФ
+        ЗСН	Зайсан	Zaisan	ВЗ	КЗ	SZI	UASZ
+        ЗРЕ	Зайцева Речка	 	ТЮ	РФ
+        ЗКМ	Закаменск	 	БР	РФ	 	UIIG
+        ЗТЛ	Закаталы	 	 	АЗ	 	UBBY
+        ZTH	Закинтос	Zakinthos	 	GR	ZTH	LGZA
+        ЗЛА	Залив Лаврентия	 	ЧА	РФ	 	UHML
+        ЗЦГ	Зальцбург	Zalzburg	 	AT	SZG	LOWS
+        ЗМЖ	Замежный	 	КИ	РФ
+        ЗМС	Заморский	 	ИР	РФ
+        ЗЗР	Заозерный	 	КЯ	РФ	 	УНЯЫ
+        ЗПЖ	Запорожье	Zaporozhye	ЗП	УА	OZH	UKDE
+        ЗФШ	Зарафшан	 	НЙ	УЗ	 	UTSN
+        ЗАР	Заречное	 	РБ	УА
+        DAUZ Зарзаитин	Zarzaitine	 	DZ	 	DAUZ
+        ЗХВ	Захар-Вань	 	КИ	РФ
+        ZAN	Захедан	Zahedan	 	IR	ZAN	OIZH
+        ЗВГ	Звенигородка	 	ЧЕ	УА
+        ЗДВ	Здвинск	 	НБ	РФ
+        ЗЛВ	Зеледеево	 	КЯ	РФ
+        IEG	Зелена Гура	Zielona Gora	 	PL	IEG	EPZG
+        ЗЕН	Зенково	 	ТЮ	РФ
+        ЗНВ	Зеньков	 	ПО	УА
+        ЗЕЯ	Зея	 	АУ	РФ	 	UHBE
+        ЗИЛ	Зилаир	 	БШ	РФ
+        ЗИМ	Зима	 	ИР	РФ
+        ЗМН	Зимний	 	СД	РФ
+        ЗМВ	Зимовники	 	РД	РФ
+        ЗМТ	Зимстан	 	КИ	РФ
+        ЗВС	Златоустовск	 	АУ	РФ
+        GTW	Злин	Zlin	 	ЦЗ	GTW	LKHO
+        ЗМГ	Змеиногорск	 	АЛ	РФ
+        ЗНС	Знаменское	 	ОЯ	РФ
+        ЗОН	Зональное	 	СЯ	РФ	 	UHSO
+        ЗОТ	Зотино	 	КЯ	РФ	 	UNHZ
+        ЗУГ	Зугдиди	 	 	ГР	 	UGKG
+        ЗНК	Зырянка	 	СФ	РФ	 	UESU
+        ЗРЯ	Зыряновск	 	ВЗ	КЗ	 	UASY
+        IBZ	Ибиза	Ibiza	 	ES	IBZ	LEIB
+        RJOI Ивакуни	Iwakuni	 	JP	 	RJOI
+        IVL	Ивало	Ivalo	 	FI	IVL	EFIV
+        ИВВ	Иваново	Ivanovo	ИВ	РФ	IWA	UUBI
+        ИФР	Ивано-Франковск	Ivano-Frankovsk	ИФ	УА	IFO	UKLI
+        ИВТ	Ивантеевка	 	МС	РФ
+        ИВШ	Ивашка	 	КЧ	РФ
+        ИВД	Ивдель	 	СД	РФ	 	USSI
+        ИВЦ	Ивенец	 	МБ	БЛ
+        ИГР	Игарка	Igarka	КЯ	РФ	IAA	UOII
+        ИРМ	Игрим	 	ТЮ	РФ	 	USHI
+        ИДР	Идринское	 	КЯ	РФ
+        JRS	Иерусалим	Jerusalem	 	IL	JRS	OJJR
+        ИЖВ	Ижевск	Izhevsk	УД	РФ	IJK	USII
+        ИЖМ	Ижма	 	КИ	РФ	 	UUYV
+        ИЗМ	Измаил	 	ОД	УА	 	UKOI
+        IZM	Измир	Izmir	 	ТР	IZM
+        IZO	Изумо	Izumo	 	JP	IZO	RJOC
+        ИЗС	Изяслав	 	ХЦ	УА
+        ИКЯ	Ика	 	ИР	РФ
+        YEB	Иквалуит	Iqaluit	 	CA	YEB	CYFB
+        YLI	Иливиеске	Ylivieska	 	FI	YLI	EFYL
+        ИЛИ	Илирней	 	ЧА	РФ
+        ИЛЧ	Ильич	 	ЮК	КЗ	 	UAIL
+        ИПР	Ильпырский	 	КЧ	РФ
+        ИПА	Им 22 Партсъезда	 	АЮ	КЗ
+        ИМИ	Имишли	 	 	АЗ
+        INV	Инвернесс	Inverness	 	ГБ	INV	EGPE
+        ZNQ	Ингольштадт	Ingolstadt	 	ДЕ	ZNQ	ETSI
+        ИНД	Индер	 	АФ	КЗ
+        IND	Индианаполис	Indianapolis	 	US	IND	KIND
+        ИНГ	Индига	 	АГ	РФ	 	ULEI
+        ИНХ	Иннах	 	ЧА	РФ
+        ИНЛ	Иннялы	 	СФ	РФ
+        ИНС	Инсар	 	МД	РФ
+        ИНН	Инсбрук	Innsbruck	 	AT	INN	LOWI
+        ИНТ	Инта	Inta	КИ	РФ	INA	UUYI
+        YEV	Инувик	Inuvik	 	CA	YEV	CYEV
+        ИНЧ	Инчоун	 	ЧА	РФ
+        ИНЯ	Иня	 	ХБ	РФ
+        YOK	Иокогама	Yokohama	 	JP	YOK
+        JKG	Ионкопинг	Jonkoping	 	SE	JKG	ESGJ
+        HER	Ираклион	Heraklion	 	GR	HER	LGIR
+        ИБА	Ирба	 	КЯ	РФ
+        ИБК	Ирбейское	 	КЯ	РФ
+        ИРБ	Ирбит	 	СД	РФ
+        ИРГ	Иргиз	 	АЮ	КЗ
+        ИКТ	Иркутск	Irkutsk	ИР	РФ	IKT	UIII
+        ИКА	Иркутск [агентство 01ИКА]	 	 	РФ
+        ИКБ	Иркутск [агентство 01ИКБ]	 	 	РФ
+        LTAK Искендерон	Iskenderun	 	ТР	 	LTAK
+        ISB	Исламабад	Islamabad	 	ПК	ISB	OPRN
+        ISE	Испарта	Isparta	 	ТР	ISE
+        ИКУ	Иссык-Куль	 	 	КГ	 	UAFR
+        QIE	Истрис	Istres	 	FR	QIE	LFMI
+        ИФА	Исфана	 	ОШ	КГ
+        ИСФ	Исфара	 	ЛН	ТД
+        IFN	Исфахан	Isfahan	 	IR	IFN	OIFM
+        ИТА	Итака	 	ЧТ	РФ
+        ИЛТ	Иультин	 	ЧА	РФ
+        ИЧА	Ича	 	КЧ	РФ
+        ИЧН	Ичня	 	ЧГ	УА
+        ИШМ	Ишим	 	ТЮ	РФ	 	USTM
+        YZF	Йеллоунайф	Yellowknife	 	CA	YZF	CYZF
+        JNB	Йоханнесбург	Johannesburg	 	ZA	JNB	FAJS
+        ИШО	Йошкар-Ола	Joshkar-Ola	МИ	РФ	JOK	UWKJ
+        JOE	Йоэнсу	Joensuu	 	FI	JOE	EFJO
+        KBL	Кабул	Kabul	 	AF	KBL	OAKB
+        KVA	Кавала	Kavala	 	GR	KVA	LGKM
+        КАВ	Кавалерово	 	ПР	РФ	 	UHWK
+        KOJ	Кагосима	Kagoshima	 	JP	KOJ	RJFK
+        КГЛ	Кагул	Cahul	 	МД	 	LUCH
+        КАД	Кадом	 	РЯ	РФ
+        КДИ	Кадый	 	КФ	РФ
+        ADQ	Кадьяк	Kodiak	 	US	ADQ	PADQ
+        CFR	Каен	Caen	 	FR	CFR	LFRK
+        КИН	Казалинск	 	КЮ	КЗ
+        КЗН	Казань	Kazan	ТГ	РФ	KZN
+        КЗМ	Казарман	 	ДК	КГ
+        КЗЧ	Казачинск	 	ИР	РФ
+        КЧС	Казачинское	 	КЯ	РФ
+        КТЛ	Казталовка	 	ЗА	КЗ
+        КЗЫ	Казым	 	ТЮ	РФ
+        ЦАИ	Каир	Cairo	 	EG	CAI	HECA
+        КХБ	Калаи-Хумб	 	ГА	ТД
+        КЛЧ	Калач	 	ВЖ	РФ
+        КАГ	Калга	 	ЧТ	РФ	 	UIAG
+        YYC	Калгари	Calgary	 	CA	YYC	CYYC
+        КАЛ	Калевала	 	КЛ	РФ	 	ULPK
+        CLO	Кали	Cali	 	CO	CLO
+        КАЭ	Каликино	 	ОБ	РФ	 	UWOK
+        КЛД	Калининград	Kaliningrad	КГ	РФ	KGD	UMKK
+        КИИ	Калинино	 	НЖ	РФ
+        КЛИ	Калиновка	 	ТП	УА
+        FCA	Калиспелл	Kalispell	 	US	FCA	KFCA
+        KLR	Калмар	Kalmar	 	SE	KLR	ESMQ
+        КЛГ	Калуга	Kaluga	КЖ	РФ	KLF	UUBC
+        КЛУ	Калуш	 	ИФ	УА
+        CCU	Калькутта	Kolkata	 	ИН	CCU	VECC
+        CAG	Кальяри	Cagliari	 	IT	CAG	LIEE
+        КМЯ	Кама	 	ТЮ	РФ
+        CMW	Камагуэй	Camaguey	 	CU	CMW
+        КМБ	Камбала	 	ЖА	КЗ
+        КЦП	Каменец-Подольский	Kamenets-Podolskiy	ХЦ	УА	KCP	UKLK
+        ККЯ	Каменка [АРХ]	 	АГ	РФ	 	ULBK
+        КАК	Каменка [МЛД]	Camenca	 	МД
+        КМН	Каменка-Днепровская	 	ЗП	УА
+        КЕЫ	Каменный	 	ТЮ	РФ
+        КДУ	Каменское	 	КЧ	РФ	 	UHPZ
+        КМУ	Каменск-Уральский	 	СД	РФ
+        КАШ	Камень-Каширский	 	ВЫ	УА
+        КНО	Камень-на-Оби	 	АЛ	РФ	 	UNBK
+        КМЗ	Камзас	 	КЗ	РФ
+        КАО	Камо	 	 	АМ	 	UGEK
+        KLA	Кампала	Kampala	 	UG	KLA
+        КУТ	Камское Устье	 	ТГ	РФ
+        КМШ	Камышин	 	ВГ	РФ	 	URWK
+        КНЫ	Канава	 	КИ	РФ
+        QKW	Канадзава	Kanazawa	 	JP	QKW	RJNK
+        CBR	Канберра	Canberra	 	AU	CBR	YSCB
+        КГР	Канготово	 	КЯ	РФ	 	UOTK
+        КНВ	Канев	 	ЧЕ	УА
+        MKC	Канзас Сити	Kansas City	 	US	MKC
+        КАХ	Канимех	 	НЙ	УЗ
+        CUN	Канкун	Cancun	 	MX	CUN	MMUN
+        КЙЯ	Канкунский	 	СФ	РФ
+        CEQ	Канн	Cannes	 	FR	CEQ	LFMD
+        KAN	Кано	Kano	 	NG	KAN	DNKN
+        КСК	Канск	 	КЯ	РФ	 	UNKN
+        КНЧ	Канчалан	 	ЧА	РФ
+        КПП	Капан	 	 	АМ	 	UGEF
+        КРФ	Караван	 	ДК	КГ
+        КГД	Караганда	Karaganda	КЩ	КЗ	KGF	UAKK
+        КГЖ	Карагужиха	 	ВЗ	КЗ
+        КЖА	Каражал	 	ЖЕ	КЗ
+        КДЕ	Караидель	 	БШ	РФ
+        CCS	Каракас	Caracas	 	VE	CCS	SVMI
+        КПЖ	Каракол	 	ИК	КГ	 	UAFP
+        КАР	Каракульское	 	ЧЛ	РФ
+        КРЭ	Карам	 	ИР	РФ
+        КАЯ	Карамет-Нияз	 	БК	ТМ
+        CSB	Карансебес	Caransebes	 	RO	CSB	LRCS
+        КАУ	Карасук	 	НБ	РФ
+        КТЗ	Карата	 	ДГ	РФ
+        КТЙ	Каратайка	 	АГ	РФ	 	ULDT
+        КТУ	Каратау	 	ЖА	КЗ
+        КБН	Каратон	 	АФ	КЗ
+        КЗС	Каратузское	 	КЯ	РФ	 	UNAK
+        КАЮ	Караул	 	КЯ	РФ
+        КХИ	Кара-Хаак	 	ТУ	РФ
+        КХЬ	Кара-Холь	 	ТУ	РФ
+        КХУ	Карахун	 	ИР	РФ
+        КЧК	Карачаевск	 	КЫ	РФ
+        КХЧ	Карачи	Karachi	 	ПК	KHI	OPKC
+        КЯЯ	Караяр	 	БШ	РФ
+        КАС	Каргасок	 	ТЯ	РФ	 	UNLK
+        КГП	Каргополь	 	АГ	РФ	 	ULAR
+        CWL	Кардифф	Cardiff	 	ГБ	CWL	EGFF
+        КНС	Каркаралинск	 	КЩ	КЗ
+        KLV	Карлови-Вари	Karlovy Vary	 	ЦЗ	KLV	LKKV
+        LIDU Карпи Будрионе	Carpi Budrione	 	IT	 	LIDU
+        КПС	Карпинск	 	СД	РФ
+        КПГ	Карпогоры	 	АГ	РФ	 	ULAP
+        КЛТ	Картаель	 	КИ	РФ
+        КРТ	Карталы	 	ЧЛ	РФ
+        KRP	Каруп	Karup	 	DK	KRP	EKKA
+        КРШ	Карши	Karshi	КЬ	УЗ	KSQ	UTSL
+        КЫЮ	Карым-Кары	 	ТЮ	РФ
+        КЬЕ	Карьеполье	 	АГ	РФ	 	ULBP
+        ЦАС	Касабланка	Casablanca	 	MA	CAS	GMMC
+        КСС	Касан	 	КЬ	УЗ
+        EIME Касемент	Casement	 	IE	 	EIME
+        КСМ	Касимов	 	РЯ	РФ
+        КАП	Каспийский	 	КЦ	РФ
+        LFDQ Кастельнау-Магноак	Castelnau-Magnoac	 	FR	 	LFDQ
+        ККГ	Катайга	 	ТЯ	РФ
+        CTA	Катания	Catania	 	IT	CTA	LICC
+        КТМ	Катманду	Kathmandu	 	NP	KTM	VNKT
+        KTW	Катовице	Katowice	 	PL	KTW	EPKT
+        КТТ	Каттакурган	 	СЖ	УЗ
+        КТЫ	Катырык	 	КЯ	РФ	 	UOHT
+        KUN	Каунас	Kaunas	 	LT	KUN	EYKA
+        КХВ	Каховка	 	ХГ	УА
+        ZAO	Кахор	Cahors	 	FR	ZAO	LFCC
+        КАЧ	Качуг	 	ИР	РФ
+        КЭТ	Каэттын	 	ЧА	РФ
+        КЯН	Каяни	Kajaani	 	FI	KAJ	EFKI
+        КВЗ	Квазеньга	 	АГ	РФ
+        КЕЛ	Кварели	 	 	ГР
+        YQB	Квебек	Quebec	 	CA	YQB	CYQB
+        UET	Кветта	Quetta	 	ПК	UET	OPQT
+        КЕД	Кедва	 	КИ	РФ
+        КДД	Кедровый	 	ТЯ	РФ	 	UNCK
+        КЖМ	Кежма	 	КЯ	РФ	 	UNKE
+        YCB	Кеймбридж Бей	Cambridge Bay	 	CA	YCB	CYCB
+        CPT	Кейптаун	Cape Town	 	ZA	CPT
+        КЗГ	Келлог	 	КЯ	РФ	 	UOTE
+        КМЦ	Кельменцы	 	ЧЦ	УА
+        ЦГН	Кельн	Cologne	 	ДЕ	CGN	EDDK
+        CBG	Кембридж	Cambridge	 	ГБ	CBG	EGSC
+        КРВ	Кемерово	Kemerovo	КЗ	РФ	KEJ	UNEE
+        KEM	Кеми	Kemi [Tornio]	 	FI	KEM
+        ADW	Кемп Спрингс	Camp Springs	 	US	ADW	KADW
+        ENA	Кенай	Kenai	 	US	ENA	PAEN
+        КЕГ	Кенга	 	ТЯ	РФ
+        КЕУ	Кентау	 	ЮК	КЗ
+        КПМ	Кепервеем	 	ЧА	РФ	 	UHMK
+        CFU	Керкира	Kerkira	 	GR	CFU	LGKR
+        KER	Керман	Kerman	 	IR	KER	OIKK
+        KSH	Керманшах	Kermanshah	 	IR	KSH	OICC
+        КЭР	Керос	 	ПМ	РФ
+        КЧФ	Керчевский	 	ПМ	РФ
+        КРЧ	Керчь	Kerch	РЫ	УА	KHC	UKFK
+        КГЯ	Кесова Гора	 	ТИ	РФ	 	UUMK
+        KTN	Кетчикан	Ketchikan Intl	 	US	KTN	PAKT
+        EFL	Кефалиния	Kefallinia	 	GR	EFL	LGKF
+        КЗУ	Кзылту	 	ЙО	КЗ
+        KGL	Кигали	Kigali	 	RW	KGL	HRYR
+        ИЕВ	Киев	Kiev	 	УА	IEV
+        КИК	Киевка	 	КЩ	КЗ
+        КВЙ	Киевский	 	ТЯ	РФ
+        КЙВ	Киевский [УГЦ]	 	МС	РФ
+        КЗЕ	Кизильское	 	ЧЛ	РФ
+        КЮЗ	Кизилюрт	 	ДГ	РФ
+        КЛР	Кизляр	 	ДГ	РФ	 	URMF
+        КЫЗ	Кизыл-Атрек	 	БК	ТМ
+        КЕИ	Кикерино	 	ЛЕ	РФ
+        КНП	Кикнур	 	КП	РФ
+        КЛЫ	Килемары	 	МИ	РФ
+        JRO	Килиманджаро	Kilimanjaro	 	TZ	JRO	HTKJ
+        КЛЯ	Килия	 	ОД	УА
+        KEL	Киль	Kiel	 	ДЕ	KEL	EDHK
+        КЕЗ	Кильмезь	 	КП	РФ
+        КИМ	Кимовск	 	ТЛ	РФ
+        КИЫ	Кимры	 	ТИ	РФ
+        AKN	Кинг Салмон	King Salmon	 	US	AKN	PAKN
+        OEKK Кинг Халид	King Khalid Military City	 	SA	 	OEKK
+        TAO	Кингдао	Qingdao	 	ЦН	TAO	ZSQD
+        KIN	Кингстон	Kingston	 	JM	KIN	MKJP
+        КШМ	Кинешма	 	ИВ	РФ
+        FIH	Киншаса	Kinshasa	 	ZR	FIH	FZAA
+        КИП	Кипиево	 	КИ	РФ
+        КРН	Киренск	 	ИР	РФ	 	UIKK
+        КЯП	Кирзя	 	БШ	РФ
+        КЛЛ	Кириллов	 	ВЯ	РФ
+        KKN	Киркенес	Kirkenes	 	NO	KKN	ENKR
+        КИО	Киров	Kirov	КП	РФ	KVX	USKK
+        КИЧ	Киров [УГЦ]	 	КЖ	РФ
+        КРГ	Кировоград	Kirovograd	КШ	УА	KGO	UKKG
+        КРК	Кировск	Kirovsk	МУ	РФ	KVK
+        КИЬ	Кирс	 	КП	РФ	 	USPI
+        КИА	Кирсантьево	 	КЯ	РФ	 	UNJW
+        KRN	Кируна	Kiruna	 	SE	KRN	ESNQ
+        КСВ	Кисловодск	 	СП	РФ	 	URMK
+        КСЮ	Кислокан	 	КЯ	РФ	 	UNHK
+        КТБ	Китаб	 	КЬ	УЗ
+        KTQ	Китее	Kitee	 	FI	KTQ	EFIT
+        UIO	Кито	Quito	 	EC	UIO
+        KTT	Киттила	Kittila	 	FI	KTT
+        КЧГ	Кичменгский Городок	 	ВЯ	РФ	 	ULWK
+        KIH	Киш	Kish I.	 	IR	KIH	OIBK
+        КШН	Кишинев	Chisinau	 	МД	KIV	LUKK
+        КФТ	Клагенфурт	Klagenfurt	 	AT	KLU	LOWK
+        KLJ	Клайпеда	Klaipeda	 	LT	KLJ	EYKL
+        CFE	Клермон-Ферран	Clermont-Ferrand	 	FR	CFE	LFLC
+        КНЦ	Клинцы	 	БН	РФ
+        CLJ	Клуж	Cluj	 	RO	CLJ	LRCL
+        КЛЮ	Клюквинка	 	ТЯ	РФ
+        КЮИ	Ключи [ВСУ]	 	ИР	РФ
+        КЧИ	Ключи [КМЧ]	 	КЧ	РФ	 	UHPW
+        КБЛ	Кобулети	 	АЧ	ГР	 	UGSK
+        КЯЙ	Кобяй	 	СФ	РФ
+        КВД	Ковдор	 	МУ	РФ	 	ULMD
+        КЛЬ	Ковель	 	ВЫ	УА
+        CVT	Ковентри	Coventry	 	ГБ	CVT	EGBE
+        КРО	Ковров	 	ВЛ	РФ
+        КОГ	Когалым	Kogalym	ТЮ	РФ	KGP	USRK
+        КЗИ	Кодинск	 	КЯ	РФ	 	UNKI
+        КДО	Кодыма	 	ОД	УА
+        КОЖ	Кожевниково	 	КЗ	РФ
+        КЛЩ	Козельщина	 	ПО	УА
+        КЗЛ	Козловка	 	ЧУ	РФ
+        КОЗ	Козыревск	 	КЧ	РФ	 	UHPO
+        КЗЯ	Козьмодемьянск	 	МИ	РФ
+        КГИ	Койгородок	 	КИ	РФ
+        КОД	Койда	 	АГ	РФ	 	ULBJ
+        КЙС	Койнас	 	АГ	РФ	 	ULJK
+        КНД	Коканд	 	ФА	УЗ	 	UTKK
+        CCK	Кокосовые острова	Cocos Islands	 	CC	CCK	YPCC
+        ККТ	Коктал	 	ЖА	КЗ
+        КЧТ	Кокчетав	Kokshetau	ЙО	КЗ	KOV	UACK
+        CDB	Колд Бай	Cold Bay	 	US	CDB	PACD
+        YOD	Колд Лайк	Cold Lake	 	CA	YOD	CYOD
+        EKVD Колдинг	Kolding	 	DK	 	EKVD
+        КМГ	Колмогорово	 	КЯ	РФ	 	UNJG
+        КЛВ	Кологрив	 	КФ	РФ
+        КОБ	Коломбо	Colombo	 	LK	CMB	VCBI
+        КЫЯ	Коломыя	 	ИФ	УА
+        КОА	Колосовка	 	ОЯ	РФ
+        КЛШ	Колпашево	 	ТЯ	РФ	 	UNLL
+        КХА	Колхозабад	 	ХЛ	ТД
+        КОЛ	Колывань	 	НБ	РФ
+        КВН	Колывань [АЛТАЙСКАЯ]	 	АЛ	РФ
+        КЫМ	Колымское	 	СФ	РФ
+        LFGA Кольмар	Colmar	 	FR	 	LFGA
+        КЧН	Кольчугино	 	ВЛ	РФ
+        КМЛ	Комсомольск	 	КИ	РФ
+        КМЙ	Комсомольский	 	МГ	РФ
+        КСЬ	Комсомольский [КЗХ]	 	АЮ	КЗ
+        КМЩ	Комсомольский [ПРУ]	 	МД	РФ
+        КСЛ	Комсомольск-на-Амуре	Komsomolsk Na Amure	ХБ	РФ	KXK	UHKK
+        КЮУ	Комсомольск-на-Устюрте	 	РП	УЗ
+        KOA	Кона	Kona	 	US	KOA	PHKO
+        КИР	Конакри	Conakry	 	GN	CKY	GUCY
+        КДН	Кондинское	 	ТЮ	РФ	 	USHK
+        КОИ	Конергино	 	ЧА	РФ
+        КТО	Конотоп	 	СУ	УА
+        КША	Коноша	 	АГ	РФ
+        КШП	Коношаново	 	ИР	РФ
+        CZL	Константина	Constantine	 	DZ	CZL	DABC
+        КСТ	Константиновск	 	РД	РФ
+        CND	Констанца	Constanta	 	RO	CND	LRCK
+        KYA	Конья	Konya[Mil]	 	ТР	KYA	LTAN
+        ЦПХ	Копенгаген	Copenhagen	 	DK	CPH	EKCH
+        КПЬ	Копьево	 	ХЯ	РФ
+        CDV	Кордова	Cordova	 	US	CDV	PACV
+        ORK	Корк	Cork	 	IE	ORK	EICK
+        КИЮ	Корлики	 	ТЮ	РФ
+        КРП	Короп	 	ЧГ	УА
+        КОЧ	Коротчаево	 	ТЮ	РФ
+        КШЧ	Корсунь-Шевченковский	 	ЧЕ	УА
+        КШЛ	Коршуново	 	ИР	РФ
+        КРЖ	Коряжма	 	АГ	РФ
+        KGS	Кос	Kos	 	GR	KGS	LGKO
+        КСЭ	Коса	 	ПМ	РФ
+        КОС	Кослан	 	КИ	РФ	 	UUYL
+        КОО	Косов	 	ИФ	УА
+        КТН	Костанай	Kostanay	ЙК	КЗ	KSN	UAUU
+        КЦО	Костино [ВСУ]	 	ИР	РФ
+        КИТ	Костино [КРС]	 	КЯ	РФ	 	UOTO
+        КСШ	Костомукша	 	КЛ	РФ	 	ULPM
+        КОР	Кострома	Kostroma	КФ	РФ	KMW	UUBA
+        КЮВ	Косью-Вом	 	КИ	РФ
+        CBO	Котабато	Cotabato	 	PH	CBO	RPWC
+        КЬЛ	Котельнич	 	КП	РФ	 	USKO
+        КТП	Коткино	 	АГ	РФ	 	ULEK
+        КТС	Котлас	Kotlas	АГ	РФ	KSZ	ULKK
+        КОФ	Котово	 	ВГ	РФ
+        COO	Котону	Cotonou	 	BJ	COO	DBBB
+        КУЭ	Котуй	 	КЯ	РФ
+        OTZ	Коцебу	Kotzebue	 	US	OTZ	PAOT
+        КЧЧ	Кочево	 	ПМ	РФ
+        КОШ	Кош-Агач	 	АЙ	РФ	 	UNBA
+        OSZ	Кошалин	Koszalin	 	PL	OSZ	EPKO
+        KSC	Кошице	Kosice	 	SK	KSC	LZKZ
+        КШО	Кошки	 	СБ	РФ
+        CHC	Крайстчерч	Christchurch	 	NZ	CHC	NZCH
+        KRK	Краков	Krakow	 	PL	KRK	EPKK
+        КРМ	Краматорск	Kramatorsk	ДО	УА	KRQ	UKCK
+        EGYD Кранвелл	Cranwell	 	ГБ	 	EGYD
+        КПВ	Крапивино	 	 	РФ
+        КСЖ	Краскино	 	ПР	РФ
+        КПН	Красная Поляна	 	 	РФ
+        КОЙ	Краснено	 	ЧА	РФ
+        КЙО	Красноармейское	 	СБ	РФ	 	UWWO
+        КНБ	Красноборск	 	АГ	РФ	 	ULKB
+        КИШ	Красновишерск	 	ПМ	РФ
+        КГЕ	Красногвардейское	 	БГ	РФ
+        КРС	Красноград	 	ХЬ	УА
+        КРР	Краснодар	Krasnodar	КД	РФ	KRR
+        КЕФ	Красное [КОТ]	 	АГ	РФ
+        КЕЭ	Красное [НРМ]	 	НЕ	РФ
+        КНК	Краснокаменск	 	ЧТ	РФ	 	UIAE
+        ККМ	Краснокамск	 	ПМ	РФ
+        КСО	Красноозерск	 	НБ	РФ
+        КПЕ	Красноперекопск	 	РЫ	УА
+        ККЬ	Красноселькуп	 	ТЮ	РФ	 	USDP
+        КСБ	Краснослободск	 	МД	РФ
+        КРУ	Красноуральск	 	СД	РФ
+        КУФ	Красноуфимск	 	СД	РФ	 	USSF
+        ККВ	Краснощеково	 	АЛ	РФ
+        КЯА	Красноярск	Krasnojarsk	КЯ	РФ	KJA
+        КОК	Красные Окны	 	ОД	УА
+        КЫГ	Красный Берег	 	ПМ	РФ
+        КСЫ	Красный Кут	 	СГ	РФ	 	UWSK
+        КЛМ	Красный Лиман	 	ДО	УА
+        КЧЛ	Красный Луч	 	ЛУ	УА
+        КОЬ	Красный Октябрь	 	СГ	РФ
+        КХЛ	Красный Холм	 	ТИ	РФ
+        КСЧ	Красный Чикой	 	ЧТ	РФ	 	UIAD
+        КСЯ	Красный Яр [ВСУ]	 	ЧТ	РФ
+        КРЯ	Красный Яр [ЗСУ]	 	ТЯ	РФ
+        CSF	Крейл	Creil	 	FR	CSF	LFPC
+        КЕЦ	Кременец	 	ТП	УА
+        КРЕ	Кременная	 	ЛУ	УА
+        КМЧ	Кременчуг	Kremenchug	ПО	УА	KHU	UKHK
+        КЕС	Крестовая	 	СФ	РФ
+        КФК	Крестовка	 	КИ	РФ
+        КРЦ	Крестцы	 	НГ	РФ
+        КЫЭ	Кресты	 	КЯ	РФ
+        КЧЦ	Кречевицы	 	НГ	РФ	 	ULLK
+        КЯЛ	Кривляк	 	КЯ	РФ	 	UNJD
+        КЕО	Кривое Озеро	 	НИ	УА
+        КИГ	Кривой Рог	Krivoy Rog	ДН	УА	KWG	UKDR
+        КШР	Кривошеино	 	ТЯ	РФ
+        KID	Кристианстад	Kristianstad	 	SE	KID	ESMK
+        КОЦ	Кролевец	 	СУ	УА
+        EKPB Круза-Падборг	Krusa-Padborg	 	DK	 	EKPB
+        КТГ	Крутогорово	 	КЧ	РФ
+        КТЧ	Круторечка	 	СД	РФ
+        EFKK Круунупыы	Kruuyupyy	 	FI	 	EFKK
+        КЫЖ	Крыжополь	 	ВИ	УА
+        КВЮ	Крыловка	 	ОБ	РФ
+        КУЛ	Куала-Лумпур	Kuala Lumpur	 	MY	KUL	WMKK
+        KUA	Куантан	Kuantan	 	MY	KUA	WMKD
+        КБА	Куба	 	 	АЗ
+        KWI	Кувейт	Kuwait	 	KW	KWI	OKBK
+        КУР	Кудымкар	 	ПМ	РФ	 	USPK
+        КУЕ	Куеда	 	ПМ	РФ
+        КЦК	Кузнецк	 	ПЗ	РФ
+        КЗЦ	Кузнецовск	 	РБ	УА
+        КЧХ	Кузнечиха	 	ТГ	РФ
+        КНЬ	Кузомень [АРХ]	 	АГ	РФ
+        КМЬ	Кузомень [СЗУ]	 	МУ	РФ
+        КЗВ	Кузьмовка	 	КЯ	РФ	 	UNJE
+        КЙТ	Куйтун	 	ИР	РФ
+        КУА	Кукан	 	ХБ	РФ
+        КЛА	Кулар	 	СФ	РФ	 	UEBK
+        ККИ	Кулебаки	 	НЖ	РФ	 	UWGK
+        КЛО	Куликово	 	АГ	РФ
+        КРЫ	Кульсары	 	АФ	КЗ
+        КЛБ	Куляб	 	ХЛ	ТД	 	UTDK
+        KMJ	Кумамото	Kumamoto	 	JP	KMJ	RJFT
+        КЯУ	Кумертау	 	БШ	РФ
+        КУХ	Кумух	 	ДГ	РФ
+        КНГ	Кунград	 	РП	УЗ
+        КГУ	Кунгуртук	 	КЯ	РФ	 	UNYK
+        LKKU Куновице	Kunovice	 	ЦЗ	 	LKKU
+        KMG	Куньмин	Kunming	 	ЦН	KMG
+        KUO	Куопио	Kuopio	 	FI	KUO	EFKU
+        КПО	Купино	 	НБ	РФ
+        КЯК	Купянск	 	ХЬ	УА
+        КУО	Курагино	 	КЯ	РФ	 	UNAR
+        КГН	Курган	Kurgan	КЭ	РФ	KRO	USUU
+        КГС	Курганинск	 	КД	РФ
+        КГТ	Курган-Тюбе	 	ХЛ	ТД	 	UTDT
+        КЕЙ	Курейка	 	КЯ	РФ	 	UOIK
+        КУЖ	Куржино	 	ТЯ	РФ
+        КИЖ	Куркино	 	ТЛ	РФ
+        ККШ	Курокша	 	ВЯ	РФ
+        КУЮ	Куролино	 	ТЯ	РФ
+        ПМЕ	Курортное	 	РЫ	УА
+        КУС	Курск	Kursk	КУ	РФ	URS	UUOK
+        КТШ	Куртамыш	 	КЭ	РФ
+        КМК	Курумкан	 	БР	РФ
+        КЧУ	Курчум	 	ВЗ	КЗ	 	UASR
+        КУЯ	Курья [КОМ]	 	КИ	РФ
+        KAO	Кусамо	Kuusamo	 	FI	KAO	EFKS
+        KUH	Кусиро	Kushiro	 	JP	KUH
+        КГЬ	Кускургуль	 	ТЮ	РФ
+        КИС	Кутаиси	Kutaisi	 	ГР	KUT
+        КУЫ	Кутана	 	СФ	РФ
+        КУУ	Кутлу-Букаш	 	ТГ	РФ
+        КПЮ	Кутопъеган	 	ТЮ	РФ
+        AKF	Куфра	Kufra	 	LY	AKF	HLKF
+        КХЙ	Кухтеринский	 	АУ	РФ
+        КУШ	Кушва	 	СД	РФ
+        КЮМ	Куюмба	 	КЯ	РФ
+        КЫЫ	Кызыл	Kyzyl	ТУ	РФ	KYZ	UNKY
+        КЫЧ	Кызыл-Агач	 	 	АЗ
+        КЫК	Кызыл-Кия	 	ОШ	КГ	 	УАФЯ
+        КЗЖ	Кызыл-Мажалык	 	КЯ	РФ
+        КЗО	Кызылорда	Kzyl-Orda	КЮ	КЗ	KZO	UAOO
+        КЫЕ	Кыкер	 	ЧТ	РФ
+        КЫР	Кыра	 	ЧТ	РФ	 	UIAK
+        КЫН	Кырен	 	БР	РФ
+        КЫС	Кысыл-Сыр	 	СФ	РФ	 	UENK
+        КЫТ	Кытманово	 	АЛ	РФ
+        КШИ	Кышик	 	ТЮ	РФ
+        КЫВ	Кыштовка	 	НБ	РФ	 	UNOA
+        КЮР	Кюрдамир	 	 	АЗ
+        КЯХ	Кяхта	 	БР	РФ
+        ЛАБ	Лабинск	 	КД	РФ
+        ЛБЖ	Лабожское	 	АГ	РФ
+        ЛАТ	Лабытнанги	 	ТЮ	РФ	 	USDL
+        ЛАГ	Лагодехи	 	 	ГР
+        LOS	Лагос	Lagos	 	NG	LOS	DNMM
+        ЛЗР	Лазарев	 	ХБ	РФ
+        ЛАЗ	Лазаревское	 	КД	РФ
+        ЛАО	Лазо	 	ПР	РФ
+        ЛУН	Лазурное	 	ХГ	УА
+        LYE	Лайнехам	Lyneham	 	ГБ	LYE	EGDL
+        ЛАЙ	Лайтамак	 	ТЮ	РФ
+        LKO	Лакхнау	Lucknow	 	ИН	LKO	VILK
+        ЛАЛ	Лальск	 	КП	РФ
+        ЛБР	Ламбас	 	АГ	РФ
+        SUF	Ламеция	Lamezia	 	IT	SUF	LICA
+        ЛМТ	Ламутское	 	ЧА	РФ
+        ACE	Ланзароте	Lanzarote	 	ES	ACE
+        ZGC	Ланьчжоу	Lanzhou	 	ЦН	ZGC	ZLLL
+        LPB	Ла-Пас	La Paz	 	BO	LPB
+        LPP	Лаппенранта	Lappeenranta	 	FI	LPP	EFLP
+        OISL Лар	Lar	 	IR	 	OISL
+        ЛРК	Ларнака	Larnaca	 	CY	LCA	LCLK
+        ЛРЯ	Ларьяк	 	ТЮ	РФ
+        LAS	Лас-Вегас	Las Vegas	 	US	LAS	KLAS
+        LPA	Лас-Пальмас	Las-Palmas	 	ES	LPA	GCLP
+        ЛСЧ	Ласточка	 	ПР	РФ
+        ЛТК	Латакия	Latakia	 	SY	LTK
+        ЛХМ	Лахома	 	АГ	РФ
+        LHE	Лахор	Lahore	 	ПК	LHE	OPLA
+        ЛЕБ	Лебедянь	 	ЛП	РФ
+        ЛЖЕ	Лебяжье	 	 	РФ
+        ЛТО	Лев Толстой	 	ЛП	РФ
+        ЛВК	Левково	 	АГ	РФ
+        LEJ	Лейпциг	Leipzig	 	ДЕ	LEJ	EDDP
+        LEY	Лелейстад	Lelystad	 	NL	LEY	EHLE
+        XLW	Лемвердер	Lemwerder	 	ДЕ	XLW	EDWD
+        ЛНВ	Ленево	 	КЯ	РФ	 	UNJV
+        ЛГР	Ленинградский	 	ЧА	РФ
+        ЛНИ	Ленино	 	РЫ	УА
+        ЛЕГ	Лениногорск	 	ТГ	РФ
+        ЛКУ	Ленинск-Кузнецкий	 	КЗ	РФ
+        ЛНР	Ленкорань	 	 	АЗ	 	UBBL
+        ЛСК	Ленск	 	СФ	РФ	 	UERL
+        ЛОВ	Леово	 	КЯ	РФ
+        ЛПС	Лепсы	 	ТД	КЗ
+        ЛЕС	Лесная	 	ПР	РФ
+        ЛСГ	Лесогорск	 	СЯ	РФ
+        ЛЕЗ	Летняя Золотица	 	АГ	РФ	 	ULBZ
+        LIBN Лечче Лепоре	Lecce Lepore	 	IT	 	LIBN
+        ЛЕШ	Лешуконское	 	АГ	РФ	 	ULAL
+        LKLB Либерец	Liberec	 	ЦЗ	 	LKLB
+        LBV	Либревиль	Libreville	 	GA	LBV	FOOL
+        LPL	Ливерпуль	Liverpool	 	ГБ	LPL	EGGP
+        EGTI Ливесден	Leavesden	 	ГБ	 	EGTI
+        ЛВН	Ливны	 	ОЛ	РФ
+        ЛДА	Лида	 	ГН	БЛ
+        LDK	Лидкопинг	Lidkoping	 	SE	LDK	ESGL
+        LBA	Лидс	Leeds and Bradford	 	ГБ	LBA	EGNM
+        ЛИЕ	Лиепая	Liepaya	 	LV	LPX	EVLA
+        ЛКН	Ликино	 	СД	РФ
+        LIL	Лилль	Lille	 	FR	LIL	LFQQ
+        LLW	Лилонгве	Lilongwe	 	MW	LLW	FWLI
+        LIM	Лима	Lima	 	PE	LIM	SPLI
+        ЛИМ	Лиман	 	ХЬ	УА
+        QLI	Лимассол	Limassol	 	CY	QLI
+        LMR	Лиме Акрес	Lime Acres	 	ZA	LMR	FALC
+        LIG	Лимож	Limoges	 	FR	LIG	LFBL
+        LPI	Линкопинг	Linkoping	 	SE	LPI	ESCF
+        LNZ	Линц	Linz	 	AT	LNZ	LOWL
+        ЛНС	Лион	Lyon	 	FR	LYS	LFLL
+        ЛИП	Липецк	Lipetsk	ЛП	РФ	LPK	UUOL
+        ЛПК	Липканы	 	 	МД
+        ЛДО	Липовая Долина	 	СУ	УА
+        ЛИС	Лиссабон	Lisbon	 	PT	LIS	LPPT
+        ENLI Листа	Lista	 	NO	 	ENLI
+        ЛСВ	Листвяги	 	ОЯ	РФ
+        PHLI Лихуэ	Lihue	 	US	 	PHLI
+        ЛВЗ	Ловозеро	 	МУ	РФ	 	ULML
+        ЛПО	Лодейное Поле	 	ЛЕ	РФ	 	ULSL
+        QLZ	Лодзь	Lodz	 	PL	QLZ	EPLL
+        QLS	Лозанна	Lausanne	 	CH	QLS
+        EDNL Лойткирх-Унтерзил	Leutkirch-Unterzeil	 	ДЕ	 	EDNL
+        ЛОК	Локосово	 	ТЮ	РФ
+        LFW	Ломе	Lome	 	TG	LFW	DXXX
+        LGB	Лонг Бич	Long Beach	 	US	LGB	KLGB
+        LYR	Лонгйир	Longyearbyen	 	NO	LYR
+        ЛЮГ	Лонг-Юган	 	ТЮ	РФ	 	USML
+        ЛОД	Лондон	London	 	ГБ	LON	EGLC
+        ЛПТ	Лопатково	 	СД	РФ
+        ЛПХ	Лопхари	 	ТЮ	РФ
+        ЛШГ	Лопшеньга	 	АГ	РФ	 	ULBL
+        ЛОР	Лорино	 	МГ	РФ
+        LRT	Лорьян	Lorient	 	FR	LRT	LFRH
+        ЛАН	Лос-Анджелес	Los Angeles	 	US	LAX	KLAX
+        ЛБС	Лосиноборск	 	КЯ	РФ	 	UNJZ
+        ЛХВ	Лохвица	 	ПО	УА
+        LPQ	Луанг Прабанг	Luang Prabang	 	LA	LPQ	VLLB
+        ЛУА	Луанда	Luanda	 	AO	LAD	FNLU
+        ЛБН	Лубны	 	ПО	УА
+        LUG	Лугано	Lugano	 	CH	LUG	LSZA
+        ЛГС	Луганск	Lugansk	ЛУ	УА	VSG	UKCW
+        ЛГТ	Луговатка	 	КЯ	РФ	 	UNJL
+        ЛГВ	Луговой	 	ТЮ	РФ	 	USHL
+        ЛУГ	Луговой [КЗХ]	 	ЖА	КЗ
+        ESSG Лудвика	Ludvika	 	SE	 	ESSG
+        ЛУМ	Лукмос	 	РЯ	РФ
+        LXR	Луксор	Luxor	 	EG	LXR	HELX
+        ЛЛА	Лулео	Lulea	 	SE	LLA	ESPA
+        LUN	Лусака	Lusaka	 	ZM	LUN	FLLS
+        ЛУХ	Лух	 	ИВ	РФ	 	UUBH
+        ЛХТ	Луховицы	 	МС	РФ	 	UUMT
+        ЛУЦ	Луцк	Lutsk	ВЫ	УА	UCK	UKLC
+        ЛЧГ	Лучегорск	 	ПР	РФ
+        ЛЫС	Лысьва	 	ПМ	РФ	 	USPL
+        ЛВО	Львов	Lvov	ЛЬ	УА	LWO	UKLL
+        ЛКА	Львовка	 	ТЯ	РФ
+        ЛОГ	Льгов	 	КУ	РФ
+        LGG	Льеж	Liege	 	BE	LGG	EBLG
+        ЛЮБ	Любань [БЕЛ]	 	МБ	БЛ
+        ЛЮН	Любань [СЗУ]	 	ЛЕ	РФ
+        ЛЮР	Любар	 	ЖИ	УА
+        ЛБШ	Любашевка	 	ОД	УА
+        EDHL Любек-Бланкенси	Lubek-Blankensee	 	ДЕ	 	EDHL
+        ЛШВ	Любешов	 	ВЫ	УА
+        ЛБМ	Любим	 	ЯР	РФ
+        ЛБА	Любляна	Ljubljana	 	SI	LJU	LJLJ
+        ЛБЛ	Любомль	 	ВЫ	УА
+        ЛТИ	Любытино	 	НГ	РФ
+        ЛЮД	Людиново	 	КЖ	РФ
+        ЛЮП	Люк-Пай	 	ТЮ	РФ
+        LUX	Люксембург	Luxembourg	 	LU	LUX	ELLX
+        ЛЯМ	Лямино	 	ТЮ	РФ
+        MST	Маастрихт	Maastrichht	 	NL	MST	EHBK
+        MRU	Маврикий	Mauritius	 	MU	MRU	FIMP
+        МДН	Магадан	Magadan	МГ	РФ	GDX
+        МГН	Маган	 	СФ	РФ	 	UEMM
+        МДЧ	Магдагачи	Magdagachi	АУ	РФ	GDG	UHBI
+        МГК	Магдалиновка	 	ДН	УА
+        МГС	Магнитогорск	Magnitogorsk	ЧЛ	РФ	MQF	USCM
+        МОД	Мадаево	 	НЖ	РФ
+        MDJ	Мадрас	Madras	 	ИН	MDJ	VOMM
+        МАД	Мадрид	Madrid	 	ES	MAD	LEMD
+        MZR	Мазар-И-Шариф	Mazar-I-Sharif	 	AF	MZR	OAMS
+        MIA	Майами	Miami	 	US	MIA	KMIA
+        МАЙ	Майкаин	 	ПЛ	КЗ
+        МКП	Майкоп	 	АЫ	РФ	 	URKM
+        МЙС	Майск	 	ТЯ	РФ
+        МКЙ	Майский	 	АЙ	РФ
+        МЙК	Майский [ДВУ]	 	АУ	РФ	 	UHBM
+        МЙЙ	Майский [СВУ]	 	ЧА	РФ
+        МЙЕ	Майское	 	КЯ	РФ	 	UNJJ
+        МАК	Макарьев	 	КФ	РФ
+        QMP	Макау	Macau	 	MO	QMP	VMMC
+        МКЗ	Макзыр	 	ТЯ	РФ
+        МАВ	Маковское	 	КЯ	РФ	 	UNJI
+        МКИ	Максимовка	 	ПР	РФ
+        SSG	Малабо	Malabo	 	GQ	SSG	FGSL
+        МАГ	Малага	Malaga	 	ES	AGP	LEMG
+        МБЧ	Малая Бича	 	ОЯ	РФ
+        МВИ	Малая Виска	 	КШ	УА
+        МЛМ	Малая Кема	 	ПР	РФ
+        МЛЬ	Мале	Male	 	MV	MLE	VRMM
+        МЛЭ	Малин	 	ЖИ	УА
+        МЛН	Малиновка	 	ТЯ	РФ
+        МЛБ	Малка	 	КЧ	РФ	 	UHPR
+        МАЛ	Малмыж	 	КП	РФ
+        МЛЛ	Малый Атлым	 	ТЮ	РФ
+        MMA	Мальме	Malmo	 	SE	MMA
+        МАТ	Мальта	Malta	 	MT	MLA	LMML
+        МАМ	Мама	 	ИР	РФ	 	UIKM
+        МАШ	Мамадыш	 	ТГ	РФ
+        ММУ	Мамакан	 	ИР	РФ
+        MGA	Манагуа	Managua	 	NI	MGA	MNMG
+        MHG	Мангейм	Mannheim-Neuostheim	 	ДЕ	MHG	EDFM
+        МГТ	Мангит	 	РП	УЗ
+        MTS	Манзини	Manzini	 	SZ	MTS
+        МНЗ	Манзя	 	КЯ	РФ	 	UNJK
+        MNL	Манила	Manila	 	PH	MNL	RPLL
+        МИЛ	Манилы	 	КЧ	РФ
+        MSE	Манстон	Manston	 	ГБ	NSE	EGMH
+        МАН	Мантурово	 	КФ	РФ
+        MAN	Манчестер	Manchester	 	ГБ	MAN	EGCC
+        MPM	Мапуту	Maputo	 	MZ	MPM	FQMA
+        МРЛ	Марево	 	НГ	РФ	 	ULNM
+        MRW	Марибо	Lolland Falster	 	DK	MRW	EKMB
+        MBX	Марибор	Maribor	 	SI	MBX	LJMB
+        МРЦ	Мариец	 	МИ	РФ
+        МИИ	Мариинск	 	КЗ	РФ
+        МРН	Мариинское	 	ХБ	РФ	 	UHNM
+        МИТ	Мари-Турек	 	МИ	РФ
+        МИУ	Мариуполь	Mariupol	ДО	УА	MPW	UKCV
+        МОА	Марковка	 	ЛУ	УА
+        МКО	Марково	 	ЧА	РФ	 	UHMO
+        МРК	Марково [УГЦ]	 	ИВ	РФ
+        МРП	Маркс	 	СГ	РФ
+        МКЛ	Мар-Кюель	 	СФ	РФ	 	UHNK
+        QRQ	Мармарис	Marmaris	 	ТР	QRQ
+        RAK	Марракеш	Marrakech	 	MA	RAK	GMMX
+        MRS	Марсель	Marselle	 	FR	MRS	LFML
+        МРТ	Мартуни	 	 	АМ
+        МТЫ	Мартыново	 	ИР	РФ
+        MUR	Маруди	Marudi	 	MY	MUR
+        МХЯ	Марха	 	СФ	РФ
+        МРЫ	Мары	Mary	МЙ	ТМ	MYP	UTAM
+        МЬН	Марьино	 	МИ	РФ
+        MSU	Масеру	Maseru	 	LS	MSU	FXMM
+        МКТ	Маскат	Muscat	 	OM	MCT	OOMS
+        МЛЯ	Маслянино	 	НБ	РФ
+        МВК	Матвеевка	 	ОБ	РФ
+        МХЛ	Махачкала	Makhachkala	ДГ	РФ	MCX	URML
+        MYJ	Мацуяма	Matsuyama	 	JP	MYJ	RJOM
+        МАЧ	Мача	 	СФ	РФ
+        МШВ	Машаковка	 	КЯ	РФ	 	UNJM
+        SEZ	Маэ	Mahe Island	 	SC	SEZ	FSIA
+        МГИ	Мглин	 	БН	РФ
+        МЕГ	Мегион	 	ТЮ	РФ
+        МГР	Мегри	 	 	АМ	 	UGEM
+        MES	Медан	Medan	 	ID	MES	WIMM
+        МВЖ	Медвежка	 	КИ	РФ
+        МДЖ	Медвежье	 	ТЮ	РФ	 	USMD
+        MDE	Медельин	Medellin	 	CO	MDE
+        МЕД	Медногорск	 	ОБ	РФ
+        МБШ	Меербуш	Meerbusch	 	ДЕ	ZOK
+        МВД	Межводное	 	РЫ	УА
+        МЖД	Междуреченск	 	КЗ	РФ
+        МДК	Междуречье	 	ТЮ	РФ	 	USHM
+        МЖЯ	Межевая	 	ДН	УА
+        МЖВ	Межовка	 	НБ	РФ
+        МЗН	Мезень	 	АГ	РФ	 	ULAE
+        МЕЙ	Мейныпильгыно	 	ЧА	РФ
+        МЛХ	Мелехово	 	ВЛ	РФ
+        EPML Мелец	Mielec	 	PL	 	EPML
+        МЛТ	Мелитополь	 	ЗП	УА	 	UKDM
+        МЛВ	Меловое	 	ЛУ	УА
+        MEL	Мельбурн	Melbourne	 	AU	MEL	YMML
+        МЛП	Мельница-Подольская	 	ТП	УА
+        МЛЧ	Мельничное	 	ПР	РФ
+        EBMB Мельсбрук	Melsbroek	 	BE	 	EBMB
+        MMB	Меманбецу	Memanbetsu	 	JP	MMB	RJCM
+        ETSM Меммингем	Memmingen Mil	 	ДЕ	 	ETSM
+        МЗА	Менза	 	ЧТ	РФ
+        МЕК	Мензелинск	 	ТГ	РФ	 	UWKP
+        МЕТ	Местиа	 	 	ГР
+        МЕХ	Мехико	Mexico	 	MX	MEX	MMMX
+        MZM	Мец	Metz	 	FR	MZM
+        ETZ	Мец-Нанси-Лорран	Metz-Nancy-Lorraine	 	FR	ETZ	LFJL
+        MHD	Мешхед	Mashhad	 	IR	MHD	OIMM
+        МЕШ	Мещура	 	КИ	РФ
+        MAF	Мидланд	Midland	 	US	MAF	KMAF
+        MIK	Миккели	Mikkeli	 	FI	MIK	EFMI
+        МИЬ	Микунь	 	КИ	РФ	 	UURM
+        МИА	Милан	Milan	 	IT	MIL
+        MHZ	Милденхолл	Mildenhall	 	ГБ	MHZ	EGUN
+        МЛР	Миллерово	 	РД	РФ	 	URRI
+        МЛК	Мильково	 	КЧ	РФ	 	UHPM
+        МРВ	Минеральные Воды	Mineralnye Vody	СП	РФ	MRV	URMM
+        MSP	Миннеаполис	Minneapolis-St Paul	 	US	MSP	KMSP
+        МСК	Минск	Minsk	 	БЛ	MSQ
+        МНУ	Минусинск	 	КЯ	РФ	 	UNAM
+        МИГ	Миргород	Mirgorod	ПО	УА	MXR
+        МИР	Мирный	Mirnyj	СФ	РФ	MJZ	UERR
+        МИО	Мироново	 	ИР	РФ
+        МГА	Мирюга	 	КЯ	РФ
+        MSJ	Мисава	Misawa	 	JP	MSJ	RJSM
+        LGMT Митилини	Mitilini	 	GR	 	LGMT
+        МТФ	Митрофаново	 	КИ	РФ
+        МХЙ	Михайловка	 	АЛ	РФ
+        KMI	Миядзаки	Miyazaki	 	JP	KMI	RJFM
+        MGQ	Могадишо	Mogadishu	 	SO	MGQ	HCMM
+        МГЛ	Могилев	Mogilev	МЖ	БЛ	MVQ	UMOO
+        МГП	Могилев-Подольский	 	ВИ	УА
+        МГЧ	Могоча	 	ЧТ	РФ	 	UIAM
+        МЗР	Мозырь	 	ГМ	БЛ
+        MOL	Молде	Molde	 	NO	MOL	ENML
+        МЖН	Молодежный	 	ТЯ	РФ
+        МОЛ	Молодечно	 	МБ	БЛ
+        МЛО	Молоково	 	ТИ	РФ
+        МОЧ	Молчаново	 	ТЯ	РФ	 	UNLO
+        МОМ	Мома	 	СФ	РФ	 	UEMA
+        MBA	Момбаса	Mombasa	 	KE	MBA	HKMO
+        XMM	Монако Монте Карло	Monaco	 	FR	XMM	LNMC
+        МОН	Монастир	Monastir	 	TN	MIR
+        МНШ	Монастырище	 	ЧЕ	УА
+        МРЩ	Монастырщина	 	СЛ	РФ
+        MPL	Монпелье	Montpeller	 	FR	MPL	LFMT
+        MPV	Монпилир	Montpeller	 	US	MPV
+        МНЛ	Монреаль	Montreal	 	CA	YMQ
+        MLW	Монровия	Monrovia	 	LR	MLW	GLRB
+        MVD	Монтевидео	Montevideo	 	UY	MVD	SUMU
+        МОЗ	Морозовск	 	РД	РФ	 	URRM
+        MMU	Морристаун	Morristown	 	US	MMU	KMMU
+        МРШ	Моршин	 	ЛЬ	УА
+        МВЛ	Мосеево	 	АГ	РФ
+        МОВ	Москва	Moscow	МВ	РФ	MOW
+        МСЙ	Мостовской	 	КД	РФ
+        МТГ	Мотыгино	 	КЯ	РФ	 	UNIM
+        МОЮ	МОЮ - код для пультов Сирены-2	 	 	РФ
+        МСУ	Мрас-Су	 	КЗ	РФ
+        МСЫ	Мугур-Аксы	 	ТУ	РФ
+        MDG	Муданьцзян	Mudanjiang	 	ЦН	MDG
+        МУЖ	Мужи	 	ТЮ	РФ
+        МНК	Муйнак	 	РП	УЗ
+        МКЧ	Мукачево	 	ЗК	УА	 	UKLM
+        MUX	Мултан	Multan	 	ПК	MUX	OPMT
+        БОМ	Мумбаи	Mumbai	 	ИН	BOM	VABB
+        МДУ	Мундуйское	 	 	РФ	 	UOTM
+        МУН	Мурманск	Murmansk	МУ	РФ	MMK	ULMM
+        МУР	Муром	 	ВЛ	РФ
+        МЦЕ	Муромцево	 	ОЯ	РФ
+        МУС	Муслюмово	 	ТГ	РФ	 	UWKO
+        МЙМ	Мутный Материк	 	КИ	РФ
+        МРЙ	Муторай	 	КЯ	РФ	 	UNHM
+        МУХ	Мухен	 	ХБ	РФ
+        МУЧ	Мухрани	 	 	ГР	 	UGMM
+        МУЯ	Муя	 	ИР	РФ
+        МЫЛ	Мыльджино	 	ТЯ	РФ
+        МКМ	Мыс Каменный	 	ТЮ	РФ	 	USDK
+        МКЫ	Мыс Косистый	 	КЯ	РФ	 	UOHK
+        ПИЦ	Мыс Пицунда	 	КД	РФ
+        ЧЛЮ	Мыс Челюскин	 	КЯ	РФ	 	UODL
+        МШД	Мыс Шмидта	 	ЧА	РФ	 	UHMI
+        МЫШ	Мышкин	 	ЯР	РФ	 	UUMN
+        MLH	Мюлуз	Mulhouse	 	FR	MLH	LFGB
+        FMO	Мюнстер	Muenster	 	ДЕ	FMO	EDDG
+        МЮН	Мюнхен	Munich	 	ДЕ	MUC	EDDM
+        МЧК	Мячково	 	МС	РФ	 	UUBM
+        НЖЧ	Набережные Челны	Nabereznye Chelny	ТГ	РФ	NBC
+        WNS	Навабшах	Nawabshah	 	ПК	WNS	OPNH
+        НВИ	Навои	 	НЙ	УЗ	 	UTSA
+        НГС	Нагорск	 	КП	РФ	 	USPN
+        NGO	Нагоя	Nagoya	 	JP	NGO	RJNN
+        NAG	Нагпур	Nagpur	 	ИН	NAG	VANP
+        NAN	Нади	Nadi	 	FJ	NAN	NFFN
+        НДМ	Надым	Nadym	ТЮ	РФ	NYM	USMM
+        НАЗ	Назарово	 	КЯ	РФ	 	УНЯН
+        НЗВ	Назимово	 	КЯ	РФ	 	UNJN
+        ИНШ	Назрань	 	ИН	РФ	 	URMS
+        НБА	Найба	 	СФ	РФ
+        NBO	Найроби	Nairobi	 	KE	NBO	HKNA
+        НКЫ	Наканно	 	ИР	РФ
+        НЧК	Нальчик	Nalchik	КБ	РФ	NAL	URMN
+        НМГ	Наманган	Namangan	НД	УЗ	NMA	UTKN
+        НАМ	Намск	 	КИ	РФ
+        НМЫ	Намы	 	СФ	РФ
+        NKG	Нанкин	Nanjing	 	ЦН	NKG	ZSNJ
+        ENC	Нанси	Nancy	 	FR	ENC	LFSN
+        NTE	Нант	Nantes	 	FR	NTE	LFRS
+        NNG	Наньинг	Nanning	 	ЦН	NNG
+        НПО	Напалково	 	ТЮ	РФ	 	USDN
+        НПС	Напас	 	ТЯ	РФ
+        НЙВ	Наратай	 	ИР	РФ	 	UIBN
+        NVK	Нарвик	Narvik	 	NO	NVK
+        НДЧ	Народичи	 	ЖИ	УА
+        EVE	Нарстад-Нарвик	Narstad-Narvik	 	NO	EVE	ENEV
+        НУК	Наруксово	 	НЖ	РФ
+        НЫЫ	Нарыкары	 	ТЮ	РФ
+        НЫН	Нарын	 	НЫ	КГ
+        ННР	Нарьян-Мар	Naryan-Mar	АГ	РФ	NNM	ULAM
+        NAS	Нассау	Nassau	 	BS	NAS	MYNN
+        INU	Науру	Nauru I.	 	NR	INU	ANAU
+        НФТ	Нафталан	 	 	АЗ
+        NAH	Наха	Naha	 	JP	NAH	ROAH
+        НХЧ	Нахичевань	Nakhichevan	НЧ	АЗ	NAJ	UBBN
+        НХД	Находка	 	ПР	РФ
+        NDJ	Нджамена	Ndjamena	 	TD	NDJ	FTTJ
+        NLA	Ндола	Ndola	 	ZM	NLA	FLND
+        NAP	Неаполь	Naples	 	IT	NAP	LIRN
+        НГТ	Неготка	 	ТЯ	РФ
+        НЕД	Недокура	 	КЯ	РФ	 	UNHN
+        НЖН	Нежин	 	ЧГ	УА	 	UKRN
+        НВШ	Нейво-Шайтанский	 	СД	РФ
+        QGW	Нейштадт-Глеве	Neustadt-Glewe	 	ДЕ	QGW	EDAN
+        НЛН	Нелькан	 	ХБ	РФ	 	UHNX
+        НЛА	Нелькан [ЯКТ]	 	СФ	РФ
+        НЕП	Непа	 	ИР	РФ	 	UIKN
+        НИЦ	Нерица	 	КИ	РФ
+        НЗР	Нерха	 	ИР	РФ
+        НЕЧ	Нерчинск	 	ЧТ	РФ	 	UIAN
+        НЗА	Нерчинский Завод	 	ЧТ	РФ
+        НРГ	Нерюнгри	Neryungri	СФ	РФ	NER	UELL
+        НЕС	Несь	 	АГ	РФ	 	ULJN
+        НФК	Нефтекамск	Neftekamsk	БШ	РФ	NEF	UWUF
+        НФУ	Нефтекумск	 	СП	РФ
+        НЮГ	Нефтеюганск	Nefteyugansk	ТЮ	РФ	NFG	USRN
+        НФМ	Нефтяные Камни	 	 	АЗ
+        НХВ	Нехаевский	 	ВГ	РФ
+        НЕШ	Нешкан	 	ЧА	РФ
+        NIM	Ниамей	Niamey	 	NE	NIM	DRRN
+        EDEN Нидерштеттен	Niederstetten	 	ДЕ	 	ETHN
+        НЖГ	Нижнеангарск	 	БР	РФ	 	UIUN
+        НЖВ	Нижневартовск	Nizhnevartovsk	ТЮ	РФ	NJC	USNN
+        НЖЕ	Нижнегорский	 	РЫ	УА
+        НЖК	Нижнекамск	 	ТГ	РФ	 	UWKE
+        НЖБ	Нижнетамбовское	 	ХБ	РФ
+        НЖД	Нижнеудинск	 	ИР	РФ	 	UINN
+        НЖШ	Нижнешадрино	 	КЯ	РФ
+        НЖЯ	Нижнеянск	 	СФ	РФ	 	UEBN
+        НЖП	Нижние Промги	 	ХБ	РФ
+        НЛО	Нижний Ломов	 	ПЗ	РФ
+        НЖС	Нижний Новгород	Nizhniy Novgorod	НЖ	РФ	GOJ	UWGG
+        НЖТ	Нижний Тагил	 	СД	РФ
+        НЧИ	Нижний Чир	 	ВГ	РФ
+        НЯВ	Нижняя Вочь	 	КИ	РФ
+        НПШ	Нижняя Пеша	 	АГ	РФ	 	ULAV
+        НИТ	Нижняя Тавда	 	ТЮ	РФ	 	USTN
+        KIJ	Ниигата	Niiagata	 	JP	KIJ	RJSN
+        НКЬ	Никель	 	МУ	РФ	 	ULMI
+        НКЗ	Никозия	Nicozia	 	CY	NIC	LCNC
+        НЛВ	Николаев	Nikolaev	НИ	УА	NLV	UKON
+        НИА	Николаевка	 	 	РФ
+        НЛК	Николаевск-На-Амуре	 	ХБ	РФ	 	UHNN
+        НЛЬ	Никольск [ПРУ]	 	СБ	РФ
+        НКО	Никольск [СЗУ]	 	ВЯ	РФ	 	ULWN
+        НИК	Никольское	 	КЧ	РФ	 	UHPX
+        НКП	Никополь	 	ДН	УА
+        FNI	Ним	Numes	 	FR	FNI
+        INI	Нис	Nis	 	YU	INI	LYNI
+        НЦЕ	Ницца	Nice	 	FR	NCE	LFMN
+        НАЯ	Новая	 	КЯ	РФ	 	UOHN
+        НИГ	Новая Игирма	 	ИР	РФ
+        НУШ	Новая Ушица	 	ХЦ	УА
+        НСО	Новгород-Северский	 	ЧГ	УА
+        НГК	Новоаганск	 	ТЮ	РФ
+        НВЗ	Новоазовск	 	ДО	УА
+        НАГ	Ново-Ангарск	 	КЯ	РФ	 	UNIN
+        НХС	Новоархангельск	 	КШ	УА
+        НБЛ	Новобелокатай	 	БШ	РФ
+        НБИ	Новобирилюссы	 	КЯ	РФ	 	УНЯЛ
+        НБУ	Новобурейский	 	АУ	РФ
+        НОВ	Нововолынск	 	ВЫ	УА
+        НВВ	Новоград Волынский	 	ЖИ	УА
+        НВГ	Новогрудок	 	ГН	БЛ
+        НЗЛ	Новоказалинск	 	ЮК	КЗ
+        НВК	Новокузнецк	Novokuznetsk	КЗ	РФ	NOZ	UNWW
+        НКУ	Ново-Кулаково	 	КЯ	РФ	 	UNJO
+        НУВ	Новокуровка	 	ХБ	РФ
+        НМД	Новомиргород	 	КШ	УА
+        НВМ	Новомосковск	 	ТЛ	РФ
+        НКЛ	Новониколаевка	 	ЗП	УА
+        НПР	Новопокровка	 	ПР	РФ
+        НПК	Новопсков	 	ЛУ	УА
+        НВР	Новороссийск	Novorossijsk	КД	РФ	NOI	URKN
+        НРЫ	Новорыбное	 	КЯ	РФ	 	UOHR
+        НСЛ	Новоселово [КРС]	 	КЯ	РФ
+        НВС	Новоселово [УРЛ]	 	СД	РФ
+        ОВБ	Новосибирск	Novosibirsk	НБ	РФ
+        НСИ	Новосиль	 	ОЛ	РФ
+        НСП	Новоспасское	 	УЛ	РФ
+        НРЦ	Новотроицкое	 	НЖ	РФ
+        НУЗ	Новоузенск	 	СГ	РФ
+        НЧП	Ново-Чаплино	 	ЧА	РФ
+        НШШ	Новошешминск	 	ТГ	РФ
+        НЯР	Ново-Ярцево	 	КЯ	РФ
+        НБЫ	Новые Бурасы	 	СГ	РФ
+        НЛГ	Новые Лангры	 	СЯ	РФ
+        НАШ	Новый Анаш	 	 	РФ
+        НОР	Новый Бор	 	КИ	РФ	 	UUYN
+        НЫВ	Новый Васюган	 	ТЯ	РФ	 	UNLW
+        НГД	Новый Городок	 	КЯ	РФ	 	UNJR
+        MSY	Новый Орлеан	New Orleans	 	US	MSY	KMSY
+        НПТ	Новый Порт	 	ТЮ	РФ	 	USDW
+        НТЗ	Новый Тевриз	 	ТЯ	РФ
+        НОЗ	Новый Узень	 	МЯ	КЗ	 	UATW
+        НУР	Новый Уренгой	Novy Urengoy	ТЮ	РФ	NUX	USMU
+        НОГ	Ногинск	 	КЯ	РФ	 	UOTN
+        НГЛ	Ноглики	 	СЯ	РФ	 	UHSN
+        OME	Ном	Nome	 	US	OME	PAOM
+        НБР	Нонбург	 	КИ	РФ
+        NDZ	Нордхольз-Спиека	Nordholz-Spieka	 	ДЕ	NDZ	ETMN
+        НРЯ	Нори	 	ТЮ	РФ
+        НРС	Норильск	Norilsk	КЯ	РФ	NSK
+        NRK	Норкопинг	Norrkoping	 	SE	NRK	ESSP
+        NHT	Нортхолт	Northolt	 	ГБ	NHT	EGWU
+        НСФ	Носок	 	КЯ	РФ	 	UOOS
+        NQT	Ноттингем	Nottingham	 	ГБ	NQT
+        НОЯ	Ноябрьск	Nojabrxsk	ТЮ	РФ	NOJ	USRO
+        NDB	Нуадибу	Nouadhibou	 	MR	NDB	GQPP
+        NKC	Нуакшот	Nouakchott	 	MR	NKC	GQNN
+        НУС	Нукус	Nukus	РП	УЗ	NCU	UTNN
+        НУМ	Нумто	 	ТЮ	РФ
+        НУГ	Нунлигран	 	ЧА	РФ
+        НУУ	Нурата	 	НЙ	УЗ
+        НРТ	Нурлат	 	ТГ	РФ	 	UWWL
+        НУТ	Нутепельмен	 	ЧА	РФ
+        НЫД	Ныда	 	ТЮ	РФ	 	USMA
+        НРБ	Ныроб	 	ПМ	РФ	 	USPO
+        НРК	Нью Йорк	New York	 	US	NYC
+        EWR	Ньюарк	Newark	 	US	EWR	KEWR
+        SWF	Ньюборг	Newburgh	 	US	SWF	KSWF
+        NCL	Ньюкастл	Newcastle	 	ГБ	NCL	EGNT
+        НЮК	Нюксеница	 	ВЯ	РФ	 	ULWS
+        НЮМ	Нюмыд	 	КИ	РФ
+        НЮР	Нюрба	 	СФ	РФ	 	UENN
+        NUE	Нюрнберг	Nuremberg	 	ДЕ	NUE	EDDN
+        НЮХ	Нюхча	 	АГ	РФ
+        НЯГ	Нягань	 	ТЮ	РФ	 	USHN
+        НЯК	Няксимволь	 	ТЮ	РФ
+        НЯЛ	Нялино	 	ТЮ	РФ
+        НЯШ	Няшабож	 	КИ	РФ
+        ОАЭ	О Артем	 	 	АЗ
+        ОВЛ	О Врангеля	 	МГ	РФ
+        OBF	Оберпфафенхофен	Oberpfaffenhofen	 	ДЕ	OBF	EDMO
+        ОБЧ	Обьячево	 	КИ	РФ
+        ОВГ	Овгорт	 	ТЮ	РФ
+        ВДА	Овда	Ovda	 	IL	VDA	LLOV
+        ОГО	Огоджа	 	АУ	РФ
+        ODE	Оденсе	Odense	 	DK	ODE	EKOD
+        ОДС	Одесса	Odessa Central	ОД	УА	ODS	UKOO
+        ОЕЙ	Оз. Ессей	 	КЯ	РФ
+        ОЗР	Озерная	 	КЧ	РФ	 	УХПЮ
+        ОЗН	Озерное	 	ЖИ	УА	 	UKKO
+        ОКЛ	Озерные Ключи	 	ПР	РФ
+        ОЗЙ	Озерный	 	ИР	РФ
+        ОЗЧ	Озинки	 	СГ	РФ
+        ОЗТ	Озургети	 	 	ГР	 	UGSM
+        OIT	Оита	Oita	 	JP	OIT	RJFO
+        ОМК	Оймякон	 	СФ	РФ	 	UEMJ
+        ОКА	Ока	 	БР	РФ
+        OKJ	Окаяма	Okayama	 	JP	OKJ	RJOB
+        OKI	Оки	Oki	 	JP	OKI	RJNO
+        OKA	Окинава	Okinawa	 	JP	OKA
+        ОЛД	Оклан	 	КЧ	РФ
+        OKC	Оклахома	Oklahoma	 	US	OKC
+        AKL	Окленд	Auckland	 	NZ	AKL	NZAA
+        OAK	Окленд	Oakland	 	US	OAK	KOAK
+        ОКИ	Оксино	 	АГ	РФ	 	ULEO
+        OXF	Оксфорд	Oxford	 	ГБ	OXF	EGTK
+        ОЯБ	Октябрьск	 	ИР	РФ
+        ОБР	Октябрьский [АРХ]	 	АГ	РФ
+        ОКТ	Октябрьский [БАЛ]	Oktiabrskij	БШ	РФ	OKT	UWUK
+        ОБК	Октябрьский [ДВУ]	 	АУ	РФ	 	UHBO
+        ОТЯ	Октябрьское	 	ТЮ	РФ	 	USHO
+        ОКУ	Окуловка	 	НГ	РФ
+        ОУН	Окунево	 	КИ	РФ
+        ALB	Олбани	Albany Country	 	US	ALB	KALB
+        ОЛВ	Олевск	 	ЖИ	УА
+        ОЛК	Олекминск	 	СФ	РФ	 	UEMO
+        ОЛМ	Олема	 	АГ	РФ	 	ULJO
+        ОЛН	Оленек	 	СФ	РФ	 	UERO
+        AES	Олесунн	Alesund	 	NO	AES	ENAL
+        OLB	Ольбия	Olbia	 	IT	OLB	LIEO
+        EKYT Ольборг	Alborg	 	DK	 	EKYT
+        ОЛЬ	Ольга	 	ПР	РФ
+        ОЬХ	Ольховка	 	ПМ	РФ
+        ОЛШ	Ольшанка	 	КШ	УА
+        ОМА	Ома	 	АГ	РФ	 	ULJM
+        ОМЛ	Омало	 	 	ГР
+        ООЛ	Омолон	 	ЧА	РФ	 	UHMN
+        ОМС	Омск	Omsk	ОЯ	РФ	OMS	UNOO
+        ОСУ	Омсукчан	 	МГ	РФ	 	UHMF
+        ОНА	Онега	 	АГ	РФ	 	ULAO
+        ONT	Онтарио	Ontario	 	US	ONT
+        OMR	Орадя	Oradea	 	RO	OMR	LROD
+        ORN	Оран	Oran	 	DZ	ORN	DAOO
+        XOG	Оранж	Orange	 	FR	XOG	LFMO
+        ОЖК	Орджоникидзе	 	КЯ	РФ
+        ORB	Оребро	Orebro	 	SE	ORB	ESOE
+        ОЕЛ	Орел	Orel	ОЛ	РФ	OEL	UUOR
+        ОЧЛ	Орель Чля	 	ХБ	РФ
+        ОНГ	Оренбург	Orenburg	ОБ	РФ	REN	UWOO
+        ОЖИ	Оржица	 	ПО	УА
+        ORL	Орландо	Orlando	 	US	ORL
+        ORE	Орлеан	Orleans	 	FR	ORE	LFOJ
+        ОРЛ	Орлик	 	БР	РФ
+        ОЛГ	Орлинга	 	ИР	РФ
+        OER	Орнскольдсвик	Ornskoldsvik	 	SE	OER	ESNO
+        ОСК	Орск	Orsk	ОБ	РФ	OSW	UWOR
+        ОРТ	Орто-Нахара	 	СФ	РФ
+        ОСА	Оса	 	ИР	РФ
+        OSA	Осака	Osaka	 	JP	OSA
+        OSN	Осан	Osan	 	KR	OSN	RKSO
+        OSI	Осиек	Osijek	 	HR	OSI	LDOS
+        ОМЫ	Осиновый Мыс	 	КЯ	РФ	 	UNJS
+        ОСИ	Осипово	 	ТЯ	РФ
+        ОКБ	Оскоба	 	КЯ	РФ
+        ОСЛ	Осло	Oslo	 	NO	OSL
+        ZPE	Оснабрюк	Osnabruck-Atterheide	 	ДЕ	ZPE	EDWO
+        ОСО	Оссора	 	КЧ	РФ	 	UHPD
+        OST	Остенд	Ostend	 	BE	OST	EBOS
+        ОСД	Остерзунд	Ostersund	 	SE	OSD	ESPC
+        OSR	Острава	Ostrava	 	ЦЗ	OSR	LKMT
+        ADK	Остров Адак	Adak Island	 	US	ADK	PADK
+        MDY	Остров Мидуэй	Midway NAF	 	US	MDY	PMDY
+        TER	Остров Теркира	Lajes	 	PT	TER	LPLA
+        ЧЧН	Остров Чечень	 	ДГ	РФ
+        ОСГ	Островное	 	ЧА	РФ
+        ОЦЫ	Островцы	 	ПС	РФ
+        ОСЬ	Оськино	 	ИР	РФ
+        ОСЯ	Осяткино	 	АГ	РФ
+        ОТД	Отрадная	 	КД	РФ
+        ОТЖ	Отрожное	 	ЧА	РФ
+        YOW	Оттава	Ottawa	 	CA	YOW	CYOW
+        OUL	Оулу	Oulu	 	FI	OUL	EFOU
+        ОФХ	Оффенбах	Offenbach	 	ДЕ	ZOZ
+        ОХА	Оха	 	СЯ	РФ	 	UHSH
+        ОХТ	Охотск	Okhotsk	ХБ	РФ	OHO	UHOO
+        OHD	Охрид	Ohrid	 	MK	OHD	LWOH
+        ОХЬ	Охтеурье	 	ТЮ	РФ
+        ОШШ	Ош	Osh	ОШ	КГ	OSS	UAFO
+        ОША	Ошарово	 	КЯ	РФ
+        ПВВ	Павловск	 	ВЖ	РФ
+        ПВЛ	Павлодар	Pavlodar	ПЛ	КЗ	PWQ	UASP
+        PAD	Падерборн	Paderborn	 	ДЕ	PAD	EDLR
+        QPA	Падуя	Padova	 	IT	QPA	LIPU
+        ПАН	Палана	 	КЧ	РФ	 	UHPL
+        ПЛГ	Паланга	Palanga	 	LT	PLQ	EYPA
+        PMO	Палермо	Palermo	 	IT	PMO	LICJ
+        ПЛС	Палласовка	 	ВГ	РФ
+        ПМИ	Пальма Мальорка	Palma Mallorca	 	ES	PMI	LEPA
+        ПАЛ	Пальяново	 	ТЮ	РФ
+        ПНЕ	Панаевск	 	ТЮ	РФ
+        PTY	Панама	Panama	 	PA	PTY	MPTO
+        PNV	Паневежис	Panevezys	 	LT	PNV	EYPN
+        ПШХ	Панкрушиха	 	АЛ	РФ
+        ПАП	Пап	 	НД	УЗ
+        ПРБ	Парабель	 	ТЯ	РФ	 	UNLP
+        ПАГ	Параньга	 	МИ	РФ
+        ПБГ	Парбиг	 	ТЯ	РФ
+        LKPD Пардубице	Pardubice [Mil]	 	ЦЗ	 	LKPD
+        ПАЕ	Парень	 	КЧ	РФ
+        ПАЖ	Париж	Paris	 	FR	PAR
+        PMF	Парма	Parma	 	IT	PMF	LIMP
+        ПРР	Пархар	 	ХЛ	ТД
+        ПФО	Пафос	Paphos	 	CY	PFO	LCPH
+        ПАЧ	Пахачи	 	КЧ	РФ	 	UHPA
+        ПЕВ	Певек	Pevek	ЧА	РФ	PWE	UHMP
+        ПЕК	Пекин	Pekin	 	ЦН	PEK	ZBAA
+        ПЛД	Пеледуй	 	СФ	РФ
+        ПНЖ	Пенджикент	 	ЛН	ТД
+        ПНА	Пенза	Penza	ПЗ	РФ	PEZ	UWPP
+        ПВР	Первомайка	 	ТЮ	РФ
+        ПРС	Первомайск [ВСУ]	 	ЧТ	РФ
+        ПВС	Первомайск [КРС]	 	КЯ	РФ	 	UNIG
+        ПЕР	Первомайск [УКР]	 	НИ	УА
+        ПКЙ	Первомайский	 	ОБ	РФ
+        ПВН	Перевесинка	 	 	РФ	 	UWSR
+        ПВЗ	Перевоз	 	ИР	РФ
+        ПГЕ	Перегребное	 	ТЮ	РФ
+        ПЕЛ	Перелюб	 	СГ	РФ	 	UWWA
+        ПРМ	Пермь	Perm	ПМ	РФ	PEE
+        PGF	Перпиньян	Perpignan	 	FR	PGF	LFMP
+        ПТК	Пертоминск	 	АГ	РФ
+        PER	Пертс	Perth	 	AU	PER	YPPH
+        PSR	Пескара	Pescara	 	IT	PSR
+        ПТВ	Пестово	 	НГ	РФ
+        ПЧА	Песчанка	 	ВИ	УА
+        ПЕТ	Петровск	 	СГ	РФ
+        ПКЕ	Петровское	 	ХЬ	УА	 	UKHE
+        ПТЗ	Петрозаводск	Petrozavodsk	КЛ	РФ	PES
+        ПРП	Петропавловка [ВСУ]	 	БР	РФ
+        ПРА	Петропавловск [КЗХ]	Petropavlovsk	СЗ	КЗ	PPK	UACP
+        ПРЛ	Петропавловск-Камчатский	Petropavlovsk-Kamchatsky	КЧ	РФ	PKC	UHPP
+        ППВ	Петропавловское	 	АЛ	РФ
+        ПРУ	Петрунь	 	КИ	РФ
+        ПЧР	Печора	Pechora	КИ	РФ	PEX	UUYP
+        PEW	Пешавар	Peshawar	 	ПК	PEW	OPPS
+        ПИЖ	Пижанка	 	КП	РФ
+        PSA	Пиза	Piza	 	IT	PSA	LIRP
+        ПИЛ	Пильва	 	ПМ	РФ
+        PEN	Пинанг	Penang	 	MY	PEN	WMKP
+        ПНГ	Пинега	 	АГ	РФ	 	ULAI
+        ПНК	Пинск	 	БС	БЛ
+        ПИН	Пионерный	 	ТЯ	РФ	 	UNSP
+        ПНС	Пионерский	 	ТЮ	РФ
+        ПРЙ	Пиринемь	 	АГ	РФ
+        ПИР	Пировское	 	КЯ	РФ	 	UNIO
+        ПГО	Пит-Городок	 	КЯ	РФ	 	UNID
+        ПТЕ	Пителино	 	РЯ	РФ
+        ПИЕ	Питерка	 	СГ	РФ
+        ПТЛ	Питляр	 	ТЮ	РФ
+        PIT	Питтсбург	Pittsburch	 	US	PIT
+        ПХВ	Пихтовка	 	НБ	РФ
+        ПАС	Пласт	 	ЧЛ	РФ
+        ПЛА	Пластун	 	ПР	РФ	 	UHWP
+        ПДВ	Пловдив	Plovdiv	 	BG	PDV	LBPD
+        PNH	Пномпень	Phnom-Penh	 	KH	PNH	VDPP
+        PUP	По	Po	 	BF	PUP
+        ПБЕ	Победа	 	ХБ	РФ	 	UHHJ
+        ПГР	Погар	 	БН	РФ
+        ПНЧ	Пограничный	 	ПР	РФ
+        ПГБ	Погребище	 	ВИ	УА
+        ПГЫ	Погындино	 	ЧА	РФ
+        ПДЛ	Подволошино	 	ИР	РФ
+        TGD	Подгорица	Podgorica	 	YU	TGD	LYPG
+        ПОД	Подгорное	 	ТЯ	РФ
+        ПТС	Подкаменная Тунгуска	 	КЯ	РФ	 	UNIP
+        ПДС	Подтесово	 	КЯ	РФ
+        ПОЖ	Пожва	 	ПМ	РФ
+        POZ	Познань	Poznan	 	PL	POZ	EPPO
+        ПОЙ	Пойковский	 	ТЮ	РФ
+        ПКВ	Покровск	 	СФ	РФ
+        ПУР	Покур	 	ТЮ	РФ
+        ПСС	Полесское	 	КЙ	УА
+        ПГУ	Полигус	 	КЯ	РФ	 	UNJP
+        ПОС	Полины Осипенко	 	ХБ	РФ	 	UHHP
+        ПЛН	Полноват	 	ТЮ	РФ
+        ПОГ	Пологи	 	ЗП	УА
+        ПНН	Полонное	 	ХЦ	УА
+        ПОЛ	Полоцк	 	 	БЛ
+        ПЛВ	Полтава	Poltava	ПО	УА	PLV	UKHP
+        ПЛР	Полярный [СВУ]	 	ЧА	РФ
+        ПЛЯ	Полярный [ЯКТ]	Polyarnyj	СФ	РФ	PYJ	UERP
+        ПНЛ	Понил	 	СД	РФ
+        ПНР	Пономаревка [ЗСУ]	 	НБ	РФ
+        ПМР	Пономаревка [ПРУ]	 	ОБ	РФ
+        PTK	Понтиак	Pontiak-Oakland	 	US	PTK	KPTK
+        ПОП	Попасная	 	ЛУ	УА
+        POR	Пори	Pori	 	FI	POR	EFPO
+        ПАЙ	Поронайск	 	СЯ	РФ
+        IXZ	Порт Блаир	Port Blair	 	ИН	IXZ	VOPB
+        POM	Порт Моресби	Port Moresby	 	PG	POM	AYPY
+        PSD	Порт Саид	Port Said	 	EG	PSD	HEPS
+        PHC	Порт Харкорт	Port Harcourt	 	NG	PHC	DNPO
+        PDX	Портленд	Portland	 	US	PDX	KPDX
+        POS	Порт-Оф-Спейн	Port Of Spain	 	TT	POS
+        OPO	Порту	Porto	 	PT	OPO	LPPR
+        ПВЫ	Поставы	 	 	БЛ
+        ПОА	Потапово	 	КЯ	РФ	 	UOOB
+        ПОИ	Поти	 	 	ГР	 	UGSP
+        ПРХ	Прага	Prague	 	ЦЗ	PRG	LKPR
+        LIRE Пратица Ди Маре	Pratica Di Mare [Mil]	 	IT	 	LIRE
+        RAI	Прая	Praja	 	CV	RAI
+        PVK	Превеза	Preveza	 	GR	PVK	LGPZ
+        ПРЕ	Предивинск	 	КЯ	РФ
+        ПЖЕ	Преображение	 	ПР	РФ
+        ПКА	Преображенка [КИРЕНСК]	 	ИР	РФ	 	UIKP
+        ПБЖ	Преображенка [ЧИТА]	 	ЧТ	РФ
+        ПОЯ	Претория	 	ОБ	РФ
+        PRY	Претория [ЮАР]	Pretoria	 	ZA	PRY
+        ПРГ	Приаргунск	 	ЧТ	РФ	 	UIAP
+        ПБЙ	Прибойный	 	ИР	РФ
+        ПРК	Прилуки	 	ЧГ	УА
+        ПРИ	Приморск	 	ЗП	УА
+        ПАХ	Приморско-Ахтарск	 	КД	РФ
+        ПМО	Приморское	 	ДО	УА
+        ППО	Приполярный	 	ТЮ	РФ
+        ПРТ	Приуральский	 	КИ	РФ
+        ПУЛ	Приуральское	 	КИ	РФ
+        ПШБ	Пришиб	 	 	АЗ
+        PVD	Провиденс	Providence	 	US	PVD	KPVD
+        ПРО	Прокопьевск	 	КЗ	РФ
+        ПРН	Проспихино	 	КЯ	РФ
+        POV	Пршеров	Presov	 	ЦЗ	POV
+        ПСБ	Псебай	 	КД	РФ
+        ПСК	Псков	Pskov	ПС	РФ	PKV	ULOO
+        ПХУ	Псху	 	 	ГР
+        PIS	Пуатье	Poitiers	 	FR	PIS	LFBI
+        ПГЧ	Пугачев	 	СГ	РФ	 	UWSP
+        ПУГ	Пуг-Юг	 	ТЮ	РФ
+        ПДН	Пудино	 	ТЯ	РФ
+        ПДЖ	Пудож	 	КЛ	РФ	 	ULPA
+        ПУИ	Пуир	 	ХБ	РФ
+        ПКС	Пуксинка	 	СД	РФ
+        ПУА	Пула	Pula	 	HR	PUY	LDPL
+        ПУМ	Пурнема	 	АГ	РФ
+        ПУО	Пуровск	 	ТЮ	РФ
+        PUS	Пусан	Pusan	 	KR	PUS	RKPK
+        ПУТ	Путивль	 	СУ	УА
+        ПЧЖ	Пучеж	 	ИВ	РФ
+        ПЧГ	Пучуга	 	АГ	РФ
+        ПУШ	Пушкино	 	 	АЗ
+        ПШК	Пушкино [ПРУ]	 	 	РФ
+        ПШГ	Пушкинские Горы	 	ПС	РФ
+        PNR	Пуэнт-Нуар	Pointe-Noire	 	CG	PNR	FCPP
+        ETSP Пфердсфельд	Pferdsfeld [Mil]	 	ДЕ	 	ETSP
+        FNJ	Пхеньян	Pyongyang	 	KP	FNJ	ZKPY
+        HKT	Пхукет	Phuket	 	TH	HKT	VTSP
+        ПЫР	Пырьях	 	ТЮ	РФ
+        ПЫС	Пысса	 	КИ	РФ
+        PZY	Пьештяни	Piestany	 	SK	PZY	LZPP
+        ПЯМ	Пяльма	 	КЛ	РФ
+        ПЯН	Пяндж	 	 	ТД
+        EEPU Пярну	Parnu	 	EE	 	EEPU
+        ПТГ	Пятигорск	 	СП	РФ	 	URMP
+        RBA	Рабат	Rabat	 	MA	RBA	GMME
+        РЩВ	Радищево	 	УЛ	РФ
+        РАД	Радужный	Raduzhnyi	ТЮ	РФ	RAT	USNR
+        РЗД	Раздольное	 	 	РФ
+        РЧХ	Райчихинск	 	АУ	РФ
+        РНЦ	Раменское	 	МС	РФ	 	UUBW
+        RMS	Рамштейн	Ramstein [US-Mil]	 	ДЕ	RMS	ETAR
+        RKT	Рас Эль Хайма	Ras Al Khaimah	 	АЕ	RKT	OMRK
+        РКД	Раскильдино	 	ЧУ	РФ
+        РСУ	Рассвет	 	 	РФ
+        РСЯ	Рассоха	 	МГ	РФ
+        РХИ	Рассохи	 	АГ	РФ
+        РКЛ	Рахмановские Ключи	 	ВЗ	КЗ
+        REK	Рейкьявик	Reykjavik	 	IS	REK	BIRK
+        RHE	Реймс	Reims	 	FR	RHE	LFSR
+        EDXE Рейне	Rhein-Eschendore	 	ДЕ	 	EDXE
+        EDAF Рейне-Майн	Rhein-Main	 	ДЕ	 	EDAF
+        РМД	Ремда	 	ПС	РФ
+        РЕМ	Ремонтное	 	РД	РФ	 	URRE
+        РЕИ	Рени	 	ОД	УА
+        RNS	Реннес	Rennes	 	FR	RNS	LFRN
+        EGNE Рептон	Repton	 	ГБ	 	EGNE
+        REC	Ресифи	Recife	 	BR	REC
+        УЧН	Реткучи	 	ЧА	РФ
+        REU	Реус	Reus	 	ES	REU	LERS
+        РЕЧ	Речки	 	 	БЛ
+        RAS	Решт	Rasht	 	IR	RAS	OIGG
+        РИХ	Рига	Riga	 	LV	RIX	EVRA
+        RJK	Риека	Rijeka	 	HR	RJK	LDRI
+        РЗГ	Риза-Гохлис	Riesa-Gohlis	 	ДЕ	ZRX	EDAU
+        РОМ	Рим	Rome	 	IT	ROM
+        РМИ	Римини	Rimini	 	IT	RMI	LIPR
+        RIO	Рио-Де-Жанейро	Rio De Janeiro	 	BR	RIO	SBGL
+        RID	Ричмонд	Richmond	 	US	RID
+        RUH	Рияд	Riyadh	 	SA	RUH	OERK
+        РЖН	Рованиеми	Rovaniemi	 	FI	RVN	EFRO
+        РНЬ	Ровеньки	 	БГ	РФ
+        РВН	Ровеньки [УКР]	 	ЛУ	УА
+        РВО	Ровно	Rovno	РБ	УА	RWN	UKLR
+        РОД	Родина	 	 	РФ
+        РДН	Родино	 	АЛ	РФ
+        RHO	Родос	Rhodes	 	GR	RHO	LGRP
+        РОЖ	Рожково	 	КЯ	РФ
+        РЛЮ	Роза Люксембург	 	 	РФ
+        РМЯ	Роман	 	 	РФ
+        РМУ	Романовка [ВСУ]	 	БР	РФ
+        РМФ	Романовка [КРС]	 	КЯ	РФ
+        РМН	Романовка [ПРУ]	 	СГ	РФ
+        РМЗ	Романово	 	АЛ	РФ
+        РМЮ	Романовская	 	РД	РФ
+        РМЫ	Ромны	 	АУ	РФ
+        РНЫ	Ромны [УКР]	 	СУ	УА
+        RNB	Роннебю	Ronneby	 	SE	RNB	ESDF
+        РОТ	Рослятино	 	ВЯ	РФ
+        РСШ	Россошь	 	ВЖ	РФ
+        РОВ	Ростов-на-Дону	Rostov	РД	РФ	ROV	URRR
+        РТЛ	Ротислово	 	 	РФ
+        РТИ	Ротмистровка	 	ЧЕ	УА
+        RTM	Роттердам	Rotterdam	 	NL	RTM	EHRD
+        РОЧ	Рочегда	 	АГ	РФ
+        РОЩ	Рощино	 	ПР	РФ
+        URO	Руан	Rouen	 	FR	URO
+        РУБ	Рубино	 	КЯ	РФ
+        РБЦ	Рубцовск	 	АЛ	РФ	 	UNBR
+        РДГ	Рудногорск	 	ИР	РФ
+        РУД	Рудня	 	ВГ	РФ
+        РУЖ	Ружин	 	ЖИ	УА
+        ROU	Русе	Rousse	 	BG	ROU	LBRS
+        РУС	Русиново	 	ПМ	РФ
+        РШО	Русские Шои	 	МИ	РФ
+        РУК	Русскинские	 	ТЮ	РФ
+        РУЧ	Ручьи	 	ПС	РФ	 	ULBR
+        РЧИ	Ручьи [АРХ]	 	АГ	РФ
+        РУШ	Рушан	 	 	ТД
+        РБН	Рыбинск	Rybinsk	ЯР	РФ	RYB	UUBK
+        РЫБ	Рыбница	 	 	МД
+        РЫК	Рыбновск	 	СЯ	РФ
+        РЫН	Рыбное	 	КЯ	РФ
+        РЗН	Рязань	Ryazan	РЯ	РФ	RZN
+        LSGK Саанен	Saanen	 	CH	 	LSGK
+        SCN	Саарбрюккен	Saarbrucken	 	ДЕ	SCN	EDDR
+        EDCS Саармунд	Saarmund	 	ДЕ	 	EDCS
+        СБТ	Сабетта	 	ТЮ	РФ	 	USDA
+        SVL	Савонлинна	Savonlinna	 	FI	SVL	EFSA
+        САВ	Саврань	 	ОД	УА
+        СЖН	Сажино	 	СД	РФ
+        SDT	Сайду Шариф	Saidu Sharif	 	ПК	SDT	OPSS
+        СЙХ	Сайхин	 	ЗА	КЗ
+        СКЫ	Саккырыр	 	СФ	РФ	 	UEBS
+        SAC	Сакраменто	Sacramento	 	US	SAC
+        SID	Сал	Sal	 	CV	SID	GVAC
+        SLL	Салала	Salalah	 	OM	SLL	OOSA
+        СЛЛ	Салемал	 	ТЮ	РФ
+        СХД	Салехард	Salehard	ТЮ	РФ	SLY	USDD
+        СКГ	Салоники	Thessaloniki	 	GR	SKG	LGTS
+        СЛЭ	Салта	 	ДГ	РФ
+        СЫК	Салтымаково	 	КЗ	РФ
+        SSA	Сальвадор	Salvador	 	BR	SSA	SBSV
+        СЛК	Сальск	 	РД	РФ	 	URRS
+        СНЫ	Сальяны	 	 	АЗ
+        СМШ	Самара	Samara	СБ	РФ	KUF
+        СМГ	Самарга	 	ПР	РФ
+        СКД	Самарканд	Samarkand	СЖ	УЗ	SKD	UTSS
+        LSZS Самедан	Samedan	 	CH	 	LSZS
+        СЛА	Самолва	 	ПС	РФ
+        SMI	Самос	Samos	 	GR	SMI	LGSM
+        EKSS Самсе	Samso	 	DK	 	EKSS
+        SSX	Самсун	Samsun	 	ТР	SSX	LTAQ
+        SBT	Сан Бернандино	San Bernandino	 	US	SBT
+        GRU	Сан Паулу	Sao Paulo	 	BR	GRU	SBGR
+        SOM	Сан Томе	San Tome	 	VE	SOM	SVST
+        SJC	Сан Хосе	San Jose	 	US	SJC	KSJC
+        SAH	Сана	Sanna	 	YE	SAH	OYSN
+        САГ	Сангар	 	СФ	РФ	 	UEMS
+        СДА	Сандакчес	 	 	РФ	 	UNHS
+        SAN	Сан-Диего	San Diego	 	US	SAN
+        СНД	Сандово	 	ТИ	РФ
+        СПТ	Санкт-Петербург	St.Petersburg	СТ	РФ	LED
+        SAL	Сан-Сальвадор	San Salvador	 	SV	SAL
+        SPC	Санта Крус	La Palma	 	ES	SPC	GCLA
+        RIA	Санта-Мария	Santa Maria	 	BR	RIA
+        SDR	Сантандер	Santander	 	ES	SDR	LEXJ
+        SDQ	Санто-Доминго	Santo Domingo	 	DO	SDQ	MDSD
+        LGSR Санторини	Santorini	 	GR	 	LGSR
+        SCL	Сантьяго	Santiago	 	CL	SCL	SCEL
+        SCQ	Сантьяго Де Компостела	Santiago	 	ES	SCQ	LEST
+        СФЦ	Сан-Франциско	San Francisco	 	US	SFO	KSFO
+        SJO	Сан-Хосе	San Jose	 	CR	SJO
+        СЧК	Санчурск	 	КП	РФ
+        СЯХ	Саныяхтах	 	СФ	РФ
+        TMS	Сао Томе	Sao Tome Is	 	ST	TMS	FPST
+        СОЖ	Сапожок	 	РЯ	РФ
+        SPK	Саппоро	Sapporo	 	JP	SPK	RJCG
+        ZAZ	Сарагоса	Zaragoza	 	ES	ZAZ
+        SJJ	Сараево	Sarajevo	 	BA	SJJ	LQSA
+        САИ	Сараи	 	РЯ	РФ
+        СНП	Саранпауль	 	ТЮ	РФ	 	USHA
+        СРН	Саранск	Saransk	МД	РФ	SKX	UWPS
+        САП	Сарапул	 	УД	РФ
+        СРО	Саратов	Saratov	СГ	РФ	RTW	UWSS
+        ССЯ	Сариассия	 	СЦ	УЗ
+        СДК	Сарканд	 	ТД	КЗ
+        САЫ	Сарманово	 	ТГ	РФ	 	UWKR
+        LIQW Сарцана	Sarzana	 	IT	 	LIQW
+        СГП	Сарыг-Сеп	 	ТУ	РФ	 	UNYE
+        СГС	Сарыкамыс	 	АФ	КЗ
+        СЫХ	Саскылах	 	СФ	РФ	 	UERS
+        СОУ	Сасово	 	РЯ	РФ	 	UUBG
+        САС	Сасыр	 	СФ	РФ
+        ESIB Сатенас	Satenas	 	SE	 	ESIB
+        SUJ	Сату-Маре	Satu Mare	 	RO	SUJ	LRSM
+        SOU	Саутхемптон	Southampton	 	ГБ	SOU	EGHI
+        СФА	Сафакулево	 	КЭ	РФ
+        СФН	Сафоново	 	АГ	РФ
+        СФО	Сафоново [УГЦ]	 	СЛ	РФ
+        СХЩ	Сахновщина	 	ХЬ	УА
+        САЯ	Саяк	 	ЖЕ	КЗ
+        СГР	Саяногорск	 	ХЯ	РФ	 	UNAS
+        ENSB Свалбард	Svalbard	 	NO	 	ENSB
+        ENSS Свартнес [о.Варде]	Svartnes	 	NO	 	ENSS
+        СВВ	Сватово	 	ЛУ	УА
+        СЕЯ	Светлая	 	ПР	РФ
+        СВЦ	Светлица	 	ПМ	РФ
+        СТЛ	Светловодск	 	КШ	УА
+        СЕГ	Светлогорск	 	КЯ	РФ	 	UOIG
+        СЛЙ	Светлый [ПРУ]	 	ОБ	РФ
+        СВЙ	Светлый [ТЮМ]	 	ТЮ	РФ
+        EPSW Свидник	Swidnik	 	PL	 	EPSW
+        СВБ	Свободный	 	АУ	РФ	 	UHBS
+        СЫД	Свх Им 22 Партсъезда	 	АЯ	КЗ
+        SEB	Себха	Sebha	 	LY	SEB	HLLS
+        СВС	Севастополь	 	РЫ	УА	 	UKFB
+        СРЗ	Северное	 	НБ	РФ	 	UNNS
+        СВН	Северный	 	АГ	РФ
+        СНЙ	Северный [КЗХ]	 	АЮ	КЗ
+        СРЖ	Северный Аржан	 	КЯ	РФ	 	UNYS
+        СВД	Северодвинск	 	АГ	РФ	 	ULAD
+        СЕД	Северодонецк	Severodoneck	ЛУ	УА	SEV	UKCS
+        СЕН	Северо-Енисейск	 	КЯ	РФ	 	UNIS
+        СВМ	Северомуйск	 	БР	РФ
+        СВУ	Североуральск	 	СД	РФ	 	USSE
+        СВЕ	Северо-Эвенск	 	МГ	РФ	 	UHMW
+        СЕИ	Северск	 	ТЯ	РФ
+        SVQ	Севилья	Seville	 	ES	SVQ	LEZL
+        СГЖ	Сегежа	 	КЛ	РФ	 	ULPS
+        СДВ	Седельниково	 	ОЯ	РФ
+        СЙВ	Сейва	 	ПМ	РФ
+        СМЧ	Сеймчан	 	МГ	РФ	 	UHMS
+        СЯР	Селиярово	 	ТЮ	РФ
+        СЕЧ	Семеновка	 	ЧГ	УА	 	UKKS
+        СЕЗ	Семиозерное	 	ЙК	КЗ
+        СПЛ	Семипалатинск	Semipalatinsk	СЧ	КЗ	PLX	UASS
+        СКИ	Сенаки	 	 	ГР	 	UGKS
+        SDJ	Сендай	Sendai	 	JP	SDJ	RJSS
+        SGD	Сеннерборг	Sonderborg	 	DK	SGD	EKSB
+        BGSF Сенре Стремфьорд	Sondre Stromfjord	 	DK	 	BGSF
+        FMEE Сент-Дени	Saint-Denis	 	FR	 	FMEE
+        EBU	Сент-Этьен	Saint-Etienne	 	FR	EBU	LFMH
+        СЕФ	Серафимович	 	ВГ	РФ
+        СХЗ	Серахс	 	АД	ТМ
+        СРГ	Сергеевка	 	 	РФ	 	UHWS
+        СГВ	Сергеево	 	КЯ	РФ
+        СГН	Сергино	 	ТЮ	РФ
+        КЗА	Сердар	 	БК	ТМ
+        СБН	Серебрянка	 	ПМ	РФ
+        СБУ	Середина-Буда	 	СУ	УА
+        СРВ	Серов	 	СД	РФ
+        ККА	Серхетабат	 	МЙ	ТМ
+        СЕЛ	Сеул	Seoul	 	KR	SEL	RKSS
+        СЯА	Сеяха	 	ТЮ	РФ	 	USDE
+        XIY	Сиань	Xi An	 	ЦН	XIY	ZLXY
+        СИБ	Сибай	 	БШ	РФ	 	UWUA
+        СБИ	Сибирский	 	ТЮ	РФ
+        SBZ	Сибиу	Sibiu	 	RO	SBZ	LRSB
+        SBW	Сибу	Sibu	 	MY	SBW	WBGS
+        СИЙ	Сиверский	 	ЛЕ	РФ	 	ULLS
+        NSY	Сигонелла	Sigonella[Mil]	 	IT	NSY	LICZ
+        SYD	Сидней	Sydney	 	AU	SYD	YSSY
+        СИЗ	Сизим	 	ТУ	РФ
+        СИХ	Сиктях	 	СФ	РФ
+        SLS	Силистра	Silistra	 	BG	SLS
+        WMKF Симпанг	Simpang	 	MY	 	WMKF
+        СИП	Симферополь	Simferopol	РЫ	УА	SIP	UKFF
+        СПУ	Сингапур	Singapore	 	SG	SIN	WSSS
+        CNL	Синдал	Sindal	 	DK	CNL	EKSN
+        СНГ	Синегорье	 	МГ	РФ	 	УХМЯ
+        СИЕ	Синегорье [КОМ]	 	КИ	РФ
+        СНЦ	Синицкая	 	АГ	РФ
+        СИК	Сиреники	 	ЧА	РФ
+        СИР	Сиротинская	 	ВГ	РФ
+        СИС	Сисиан	 	 	АМ	 	UGEN
+        SIT	Ситка	Sitka	 	US	SIT	PASI
+        СЕА	Сиэтл	Seattle	 	US	SEA	KSEA
+        СКК	Скадовск	 	ХГ	УА
+        SFT	Скеллефти	Skelleftea	 	SE	SFT	ESNS
+        SQZ	Скемптон	Scampton	 	ГБ	SQZ	EGXP
+        SQW	Скиве	Skive	 	DK	SQW	EKSV
+        SKE	Скиен	Skien	 	NO	SKE	ENSN
+        JSI	Скитхос	Skiathos	 	GR	JSI	LGSK
+        KVB	Сковде	Skovde	 	SE	KVB	ESGR
+        СКП	Скопин	 	РЯ	РФ
+        СКО	Скопье	Skopje	 	MK	SKP	LWSK
+        СЛГ	Славгород	 	МЖ	БЛ
+        СЯК	Славянск	 	ДО	УА
+        САЦ	Сланцы	 	ЛЕ	РФ
+        СЛУ	Слаутное	 	КЧ	РФ	 	UHPQ
+        SLD	Сляц	Sliac	 	SK	SLD	LZSL
+        СМЛ	Смоленск	Smolensk	СЛ	РФ	LNX	UUBS
+        СНЖ	Снежногорск	 	КЯ	РФ	 	UOIS
+        СЖЕ	Снежное	 	ЧА	РФ
+        СОП	Снопа	 	АГ	РФ	 	ULJS
+        СНЯ	Снятын	 	ИФ	УА
+        СБО	Соболево	 	КЧ	РФ	 	UHPS
+        СВТ	Советск	 	КП	РФ	 	USKS
+        СВЬ	Советская	 	 	РФ
+        СОГ	Советская Гавань	 	ХБ	РФ	 	UHKM
+        СРЧ	Советская Речка	 	КЯ	РФ	 	UOTR
+        СОЙ	Советский	 	ТЮ	РФ	 	USHS
+        СПЕ	Совполье	 	АГ	РФ	 	ULBS
+        СГО	Согом	 	ТЮ	РФ
+        EHSB Соестерберг	Soesterberg	 	NL	 	EHSB
+        СЙГ	Сойга	 	АГ	РФ
+        СЙИ	Сойгино	 	ЧУ	РФ
+        СИЫ	Сокиряны	 	ЧЦ	УА
+        СЛВ	Соколово	 	КИ	РФ
+        СЬЕ	Сокольское	 	ИВ	РФ
+        СГЧ	Солигалич	 	КФ	РФ
+        СЛС	Солигорск	 	МБ	БЛ
+        СОМ	Соликамск	 	ПМ	РФ
+        СОН	Солнечный	 	СФ	РФ	 	UEML
+        СЛЦ	Солнцево	 	КУ	РФ	 	UUWS
+        СОИ	Соловки	 	АГ	РФ
+        СЛШ	Солонешное	 	АЛ	РФ
+        СЛЬ	Сольвычегодск	 	АГ	РФ
+        СМО	Сомово	 	ВЖ	РФ
+        SGZ	Сонгхла	Songkhla	 	TH	SGZ	VTSS
+        СПЧ	Сопочное	 	КЯ	РФ	 	UOHP
+        СОК	Сороки	Soroca	 	МД
+        СРЛ	Сортавала	 	КЛ	РФ	 	ULPW
+        СРУ	Сорум	 	ТЮ	РФ
+        СНЛ	Сосновка	 	МУ	РФ
+        СВЗ	Сосново-Озерское	 	БР	РФ
+        СБР	Сосновый Бор	 	ТЮ	РФ
+        СЬВ	Сосьва [ТЮМ]	 	ТЮ	РФ
+        ССВ	Сосьва [УРЛ]	 	СД	РФ	 	USSX
+        СФК	Софийск	 	ХБ	РФ
+        СОФ	София	Sofia	 	BG	SOF	LBSF
+        СОЧ	Сочи	Sochi	КД	РФ	AER	URSS
+        СОЯ	Сояна	 	АГ	РФ
+        СПД	Спасск-Дальний	 	ПР	РФ
+        СПИ	Сплит	Split	 	HR	SPU	LDSP
+        СРБ	Сребное	 	ЧГ	УА
+        СРМ	Среднеколымск	 	СФ	РФ	 	UESK
+        СПХ	Средние Пахачи	 	КЧ	РФ
+        СДЙ	Средний	 	КЯ	РФ	 	UODS
+        СВЮ	Средний Васюган	 	ТЯ	РФ	 	UNLM
+        СРК	Средний Калар	 	ЧТ	РФ
+        СРТ	Сретенск	 	ЧТ	РФ
+        SVG	Ставангер	Stavanger	 	NO	SVG	ENZV
+        СТВ	Ставрополь	Stavropol	СП	РФ	STW	URMT
+        СДУ	Стадухино	 	ЧА	РФ
+        ИСТ	Стамбул	Istambul	 	ТР	IST	LTBA
+        SZR	Стара Загора	Stara Zagora	 	BG	SZR	LBSZ
+        СКЛ	Старая Кулатка	 	УЛ	РФ
+        РСИ	Старая Русса	 	НГ	РФ	 	ULNR
+        СТЦ	Старица	 	ТЯ	РФ
+        СБК	Старобельск	 	ЛУ	УА
+        ССБ	Старосубхангулово	 	БШ	РФ
+        САУ	Старотуруханск	 	 	РФ	 	UOTS
+        САБ	Старые Айбеси	 	ЧУ	РФ
+        СТН	Старый Надым	 	ТЮ	РФ
+        СОЛ	Старый Оскол	 	БГ	РФ	 	UUOS
+        СПВ	Степанаван	 	 	АМ	 	UGES
+        СПН	Степановка	 	ТЯ	РФ
+        СПЬ	Степань	 	РБ	УА
+        СПГ	Степногорск	 	АЯ	КЗ	 	UACS
+        СТМ	Стерлитамак	 	БШ	РФ	 	UWUS
+        СТЙ	Стойба	 	АУ	РФ
+        СТО	Стокгольм	Stockholm	 	SE	STO
+        СТБ	Страсбур	Strasbourg	 	FR	SXB	LFST
+        СТЖ	Стрежевой	Strezhewoi	ТЯ	РФ	SWT	UNSS
+        СЛЯ	Стрелка	 	КЯ	РФ	 	UNIX
+        СЧУ	Стрелка-Чуня	 	 	РФ	 	UNJT
+        SUV	Сува	Suva	 	FJ	SUV
+        СУТ	Судак	 	РЫ	УА	 	UKFD
+        СУЖ	Суджа	 	 	УА
+        СУЗ	Сузун	 	НБ	РФ
+        СУГ	Суйга	 	ТЯ	РФ
+        САЙ	Суломай	 	КЯ	РФ	 	UNJU
+        СЦА	Сульца	 	АГ	РФ
+        СУФ	Сумароково	 	 	РФ	 	UNJF
+        СУМ	Сумы	Sumy	СУ	УА	UMY	UKHS
+        SDL	Сундвел	Sundsvall-Harnosand	 	SE	SDL	ESNN
+        СУН	Сунтар	 	СФ	РФ	 	UENS
+        СУА	Сура	 	АГ	РФ
+        SUB	Сурабая	Surabaya	 	ID	SUB	WRSJ
+        СУР	Сургут	Surgut	ТЮ	РФ	SGC	USRR
+        СГХ	Сургутиха	 	КЯ	РФ	 	UOTH
+        СУХ	Суриково	 	КЯ	РФ	 	UNKH
+        СДР	Суринда	 	КЯ	РФ
+        СУС	Сусанино	 	ХБ	РФ
+        ССМ	Сусуман	 	МГ	РФ	 	UHMH
+        СХФ	Суханово	 	КЯ	РФ	 	UNJH
+        СХП	Суходол	 	СБ	РФ
+        СХЛ	Сухой Лог	 	СД	РФ
+        СУИ	Сухуми	Sukhumi Babusheri	АЦ	ГР	SUI	UGSS
+        СЧТ	Счастливое	 	КШ	УА
+        СЫВ	Сыктывкар	Syktyvkar	КИ	РФ	SCW	UUYY
+        СЫМ	Сым	 	КЯ	РФ	 	UNJY
+        СДН	Сындасско	 	КЯ	РФ	 	UOHS
+        СЫН	Сынзас	 	КЗ	РФ
+        СРД	Сырдарья	 	СЬ	УЗ
+        СЫТ	Сытомино	 	ТЮ	РФ
+        СЮД	Сюльдюкар	 	СФ	РФ
+        СЯВ	Сява	 	НЖ	РФ
+        SYX	Сяньян	Sanya	 	ЦН	SYX	ZGSY
+        ТБР	Таборы	 	СД	РФ	 	USTW
+        ТВД	Тавда	 	СД	РФ	 	USSW
+        ТАГ	Таганрог	 	РД	РФ	 	URRT
+        ТАЖ	Таежный [ДВУ]	 	ПР	РФ
+        ТЖН	Таежный [КРС]	 	КЯ	РФ	 	UNHV
+        ТЗВ	Тазовский	 	ТЮ	РФ	 	USDT
+        TIF	Таиф	Taif	 	SA	TIF	OETF
+        ТМЛ	Таймылыр	 	СФ	РФ	 	UETT
+        TPE	Тайпей	Taipei	 	TW	TPE	RCTP
+        TPG	Тайпинг	Taiping	 	MY	TPG	WMBI
+        ТШТ	Тайшет	 	ИР	РФ
+        TYN	Тайюань	Taiyun	 	ЦН	TYN	ZBYN
+        TAK	Такамацу	Takamatsu	 	JP	TAK	RJOT
+        ТИО	Таксимо	 	БР	РФ	 	UIIL
+        ТЛА	Талалаевка	 	ЧГ	УА
+        ТЛС	Талас	 	ТЩ	КГ	 	UAFT
+        ТЫГ	Талдыкорган	Taldy-Kurgan	ТД	КЗ	TDK	UAAT
+        TLL	Таллинн	Tallinn	 	EE	TLL	EETN
+        ТАЯ	Таловая	 	ВЖ	РФ
+        ТЛО	Таловка	 	КЧ	РФ	 	УХПЯ
+        ТОЛ	Талон	 	КЗ	РФ
+        ТЛН	Тальное	 	ЧЕ	УА
+        ТАМ	Тамала	 	ПЗ	РФ
+        TMR	Таманрассет	Tamanrasset	 	DZ	TMR	DAAT
+        ТМБ	Тамбов	Tambov	ТБ	РФ	TBW	UUOT
+        ТМГ	Тамга	 	 	КГ	 	UAFA
+        ТМД	Тамдыбулак	 	НЙ	УЗ	 	UTSM
+        TPA	Тампа	Tampa	 	US	TPA	KTPA
+        TMP	Тампере	Tampere	 	FI	TMP	EFTP
+        YQT	Тандер-Бей	Thunder Bay	 	CA	YQT
+        TNG	Танжер	Tangier	 	MA	TNG	GMTT
+        ТАР	Тара	 	ОЯ	РФ	 	UNOT
+        ДМБ	Тараз	 	ЖА	КЗ	DMB	UADD
+        ТКС	Тарко-Сале	 	ТЮ	РФ	 	USDS
+        ТГУ	Тарнога	 	ВЯ	РФ	 	ULWG
+        TAY	Тарту	Tartu	 	EE	TAY	EETU
+        ТРУ	Тарутино	 	ОД	УА
+        ТРЭ	Тархово	 	КЯ	РФ
+        ТЦЕ	Тасеево	 	КЯ	РФ	 	УНЯТ
+        ТЮР	Таскюрях	 	СФ	РФ
+        ТТБ	Татарбунары	 	ОД	УА
+        TAT	Татры	Tatry	 	SK	TAT	LZTT
+        ТХД	Тахта	 	ХБ	РФ
+        ТХБ	Тахта-Базар	 	МЙ	ТМ
+        ТХП	Тахтакупыр	 	РП	УЗ
+        ТАХ	Тахтамыгда	 	АУ	РФ
+        ТХЯ	Тахтоямск	 	МГ	РФ
+        ТАС	Ташкент	Tashkent	ТШ	УЗ	TAS	UTTT
+        ТШЛ	Ташла	 	 	РФ
+        ТШГ	Таштагол	 	КЗ	РФ
+        ТЫП	Таштып	 	КЯ	РФ
+        ТБС	Тбилиси	Tbilisi	 	ГР	TBS	UGGG
+        ТРЬ	Тверь	 	ТИ	РФ	 	UUBN
+        TBZ	Тебриз	Tebriz	 	IR	TBZ	OITT
+        ТВЗ	Тевриз	 	ОЯ	РФ	 	UNOW
+        ТХР	Тегеран	Tehran	 	IR	THR	OIII
+        ТЛД	Тегульдет	 	ТЯ	РФ
+        ТДЖ	Теджен	 	АД	ТМ
+        ТЛВ	Телави	 	 	ГР	 	UGGT
+        ТЛЯ	Тель-Авив	Tel Aviv	 	IL	TLV	LLBG
+        ТИР	Темир	 	АЮ	КЗ
+        ТЕМ	Темников	 	МД	РФ
+        ТМП	Темп	 	СФ	РФ
+        ТМР	Темрюк	 	АЫ	РФ
+        ТЦИ	Тенерифе	Tenerife	 	ES	TCI
+        ТЕК	Тенкели	 	СФ	РФ	 	UEBE
+        ТЕН	Теньгушево	 	МД	РФ
+        ТФГ	Теофиполь	 	ХЦ	УА
+        ТЕП	Теплик	 	ВИ	УА
+        ТРБ	Тербуны	 	ЛП	РФ
+        ТМЗ	Термез	Termez	СЦ	УЗ	TMJ	UTST
+        ТЕЙ	Терней	 	ПР	РФ	 	UHWT
+        ТНП	Тернополь	Ternopol	ТП	УА	TNL	UKLT
+        TEB	Тетерборо	Teterboro	 	US	TEB	KTEB
+        ТТВ	Тетиев	 	КЙ	УА
+        ТТШ	Тетюши	 	ТГ	РФ
+        ТИВ	Тиват	Tivat	 	YU	TIV	LYTV
+        ТИГ	Тигиль	 	КЧ	РФ	 	UHPG
+        ТСИ	Тикси	Tiksi	СФ	РФ	IKS	UEST
+        ТИЛ	Тиличики	 	КЧ	РФ	 	UHPT
+        ТИН	Тиман	 	КИ	РФ	 	UURT
+        TSR	Тимишоара	Timisoara	 	RO	TSR	LRTR
+        TIA	Тирана	Tirana	 	AL	TIA	LATI
+        ТРП	Тирасполь	Tiraspol	 	МД	 	LUTR
+        TGM	Тиргу Муреш	Tirgu Mures	 	RO	TGM	LRTM
+        ТИС	Тисуль	 	КЗ	РФ
+        ТИТ	Тит-Ары	 	СФ	РФ
+        ТИХ	Тихвин	 	ЛЕ	РФ	 	ULST
+        ТХЦ	Тихорецк	 	КД	РФ	 	URKT
+        ТКП	ТКП [пульты Сирена-2 ТКП]	 	 	РФ
+        ТЯР	Тлярата	 	ДГ	РФ
+        ТБЛ	Тобольск	Tobolsk	ТЮ	РФ	TOX	USTO
+        ТБД	Тобседа	 	АГ	РФ
+        ТОД	Тоджа	 	ТУ	РФ	 	UNYT
+        RJCT Токачи	Tokachi	 	JP	 	RJCT
+        ТОК	Токио	Tokyo	 	JP	TYO
+        ТМЭ	Токма	 	ИР	РФ	 	UIKT
+        ТКМ	Токмак	 	ЗП	УА
+        ТГЛ	Токтогул	 	ДК	КГ	 	UAFX
+        НОЦ	Толе Би	 	ЖА	КЗ	 	UADO
+        ТНЯ	Толон	 	СФ	РФ
+        ТЬК	Толька	 	ТЮ	РФ	 	USDO
+        ТТТ	Тольятти	 	СБ	РФ	 	UWWT
+        ТМШ	Томашполь	 	ВИ	УА
+        ТМЯ	Томмот	 	СФ	РФ
+        ТСК	Томск	Tomsk	ТЯ	РФ	TOF	UNTT
+        ТОН	Тонкино	 	НЖ	РФ
+        ТГР	Торго	 	СФ	РФ
+        ТОР	Торонто	Toronto	 	CA	YYZ	CYYZ
+        ENTO Торп	Torp	 	NO	 	ENTO
+        TRC	Торреон	Torreon Intl	 	MX	TRC	MMTC
+        TTJ	Тоттори	Tottori	 	JP	TTJ	RJOR
+        ТОТ	Тотьма	 	ВЯ	РФ
+        ТШВ	Тошвиска	 	АГ	РФ
+        TOY	Тояма	Toyama	 	JP	TOY	RJNT
+        TZX	Трабзон	Trabzon	 	ТР	TZX	LTCG
+        TVC	Траверс Сити	Treverse City	 	US	TVC	KTVC
+        TPS	Трапани	Trapani	 	IT	TPS
+        LIPH Тревизо	Treviso	 	IT	 	LIPH
+        TTN	Трентон	Trenton	 	US	TTN	KTTN
+        YTR	Трентон	Trenton	 	CA	YTR	CYTR
+        TRV	Тривандрум	Trivandrum	 	ИН	TRV	VOTV
+        TRS	Триест	Trieste	 	IT	TRS	LIPQ
+        TIP	Триполи	Tripoli	 	LY	TIP	HLLM
+        ТРЦ	Троицкое	 	ХБ	РФ	 	UHHO
+        ТЦП	Троицко-Печорск	 	КИ	РФ	 	UUYR
+        THN	Тролльхеттан	Trollhattan	 	SE	THN	ESGT
+        ТОС	Тромсе	Tromso	 	NO	TOS	ENTC
+        TRD	Тронхейм	Trondheim	 	NO	TRD	ENVA
+        ТЯЦ	Тростянец	 	СУ	УА
+        ТЧВ	Трубчевск	 	БН	РФ
+        ТРС	Трускавец	 	ЛЬ	УА
+        ТУВ	Трусово	 	КИ	РФ
+        ТРФ	Труфаногоры	 	АГ	РФ
+        ТУП	Туапсе	 	КД	РФ
+        ТГМ	Тугулым	 	СД	РФ
+        ТУУ	Тугур	 	ХБ	РФ	 	UHNT
+        LQTZ Тузла	Tuzla	 	BA	 	LQTZ
+        ТУЛ	Тула	Tula	ТЛ	РФ	TYA	UUBT
+        TLN	Тулон	Toulon	 	FR	TLN	LFTS
+        TLS	Тулуза	Toulouse	 	FR	TLS	LFBO
+        ТЛУ	Тулун	 	ИР	РФ
+        TCE	Тулча	Tulcea	 	RO	TCE	LRTC
+        ТГЧ	Тунгокочен	 	ЧТ	РФ
+        ТНГ	Тунгуска	 	ИР	РФ
+        ТУН	Тунис	Tunis	 	TN	TUN	DTTA
+        ТПК	Тупик	 	ЧТ	РФ
+        TUF	Тур	Tours	 	FR	TUF	LFOT
+        ТАУ	Тура	 	КЯ	РФ	 	UNIT
+        ТУА	Туран	 	КЯ	РФ
+        ТУГ	Тургай	 	ТЙ	КЗ
+        TRN	Турин	Turin	 	IT	TRN	LIMF
+        ТУР	Туринск	 	СД	РФ	 	USST
+        ТУС	Туринская Слобода	 	СД	РФ
+        ТРК	Туркестан	 	ЮК	КЗ	 	UAIT
+        ТРИ	Турки	 	СГ	РФ
+        ЧДЖ	Туркменабат	Turkmenabad	ЛА	ТМ	CRZ	UTAV
+        ТРЫ	Туркменбаши	Krasnovodsk	БК	ТМ	KRW	UTAK
+        TKU	Турку	Turku	 	FI	TKU	EFTU
+        ТУЧ	Турочак	 	АЙ	РФ
+        ТРТ	Турткуль	 	РП	УЗ
+        ТУТ	Турукта	 	СФ	РФ
+        ТРХ	Туруханск	 	КЯ	РФ	 	UOTT
+        ТНЧ	Тутончаны	 	КЯ	РФ	 	UOTU
+        VQTU Тхимпху	Thimpu	 	BT	 	VQTU
+        ТЫЛ	Тымлат	 	КЧ	РФ
+        ТЫМ	Тымск	 	ТЯ	РФ
+        ТЫД	Тында	Tynda	АУ	РФ	TYD	UHBW
+        ТВЬ	Тынкобь	 	ИР	РФ
+        ТЫР	Тыр	 	ХБ	РФ
+        ТНЗ	Тырныауз	 	КБ	РФ
+        TAE	Тэгу	Taegu	 	KR	TAE
+        ТЮМ	Тюмень	Tyumen	ТЮ	РФ	TJM	USTU
+        ТЮХ	Тюхтет	 	КЯ	РФ	 	УНЯХ
+        ТСН	Тяньцзинь	Tianjin	 	ЦН	TSN	ZBTJ
+        ТЯН	Тяня	 	СФ	РФ
+        OUA	Уагадугу	Ouagadougou	 	BF	OUA	DFFD
+        YXY	Уайтхорс	Whitehorse	 	CA	YXY	CYXY
+        УВТ	Уват	 	ТЮ	РФ	 	USTA
+        УГЧ	Углич	 	ЯР	РФ
+        УГУ	Угут	 	ТЮ	РФ
+        УДЧ	Удачный	 	СФ	РФ
+        UDE	Уден	Uden	 	NL	UDE	EHVK
+        УДС	Удское	 	ХБ	РФ
+        УЕГ	Уег	 	КИ	РФ
+        УЖГ	Ужгород	Uzhgorod	ЗК	УА	UDJ	UKLU
+        УЖУ	Ужур	 	КЯ	РФ
+        УЗН	Узень	 	МЯ	КЗ
+        ZKUJ Уйзю	Uiju	 	KR	 	ZKUJ
+        УЙС	Уйское	 	ЧЛ	РФ
+        УКТ	Уктус [БАЛ]	 	БШ	РФ
+        УЛН	Улан-Батор	Ulan Bator	 	MN	ULN	ZMUB
+        УЛЭ	Улан-Удэ	Ulan-Ude	БР	РФ	UUD	UIUU
+        ULG	Ульгий	Ulgii	 	MN	ULG
+        УЛЬ	Ульяновка	 	КШ	УА
+        УЛК	Ульяновск	Ulyanovsk	УЛ	РФ	ULY	UWLL
+        ZMUL Улэгэй	 	 	MN	 	ZMUL
+        УМН	Умань	 	ЧЕ	УА	 	UKKX
+        УМБ	Умба	 	МУ	РФ	 	ULMA
+        UME	Умео	Umea	 	SE	UME	ESNU
+        UNK	Унайаклит	Unalakleet	 	US	UNK	PAUN
+        PADU Уналяска	Unalaska	 	US	 	PADU
+        YQH	Уотсон Лейк	Watson Lake	 	CA	YQH	CYQH
+        ESCM Упсала	Uppsala	 	SE	 	ESCM
+        УРА	Урай	Uraj	ТЮ	РФ	URJ	USHU
+        УРЛ	Уральск	Uralsk	ЗА	КЗ	URA	UARR
+        УТБ	Ура-Тюбе	 	ЛН	ТД
+        УГН	Ургенч	Urgench	ХЗ	УЗ	UGC	UTNU
+        УГТ	Ургут	 	СЖ	УЗ
+        УРД	Урджар	 	СЧ	КЗ	 	UASU
+        УРО	Урдома	 	АГ	РФ	 	ULKM
+        УРГ	Уренгой	 	ТЮ	РФ	 	USDU
+        УРЕ	Урень	 	НЖ	РФ
+        УРЖ	Уржум	 	КП	РФ
+        УРК	Урлук	 	ЧТ	РФ
+        УРМ	Урманный	 	ТЮ	РФ
+        OITR Уромие	Uromiyen	 	IR	 	OITR
+        УРЧ	Урумчи	Urumqi	 	ЦН	URC	ZWWW
+        УЮП	Урюпинск	 	ВГ	РФ
+        УСН	Усинск	Usinsk	КИ	РФ	USK	UUYS
+        УСЦ	Усольцево	 	КЯ	РФ	 	UNHU
+        УСС	Уссурийск	 	ПР	РФ	 	UHWU
+        УСИ	Устиновка	 	КШ	УА
+        УАВ	Усть-Авам	 	КЯ	РФ	 	UOOA
+        УАН	Усть-Анзас	 	КЗ	РФ
+        УБГ	Усть-Баргузин	 	БР	РФ
+        УБЛ	Усть-Белая	 	ЧА	РФ
+        УШЦ	Усть-Большерецк	 	КЧ	РФ	 	UHPB
+        УВЯ	Усть-Выя	 	АГ	РФ
+        УТК	Усть-Илимск	Ust-Ilimsk	ИР	РФ	UIK	UIBS
+        УИЧ	Усть-Илыч	 	КИ	РФ
+        УТШ	Усть-Ишим	 	ОЯ	РФ	 	UNOI
+        УКГ	Усть-Каменогорск	Ust-Kamenogorsk	ВЗ	КЗ	UKK	UASK
+        УКЧ	Усть-Камчатск	 	КЧ	РФ	 	UHPK
+        УСР	Усть-Кара	 	АГ	РФ
+        УСГ	Усть-Каренга	 	ЧТ	РФ
+        УКА	Усть-Карск	 	ЧТ	РФ
+        УКО	Усть-Кокса	 	АЙ	РФ	 	UNBU
+        УТЕ	Усть-Коликъеган	 	ТЮ	РФ
+        УКУ	Усть-Куйга	 	СФ	РФ	 	UEBT
+        УСТ	Усть-Кулом	 	КИ	РФ	 	UUYT
+        УСК	Усть-Кут	Ust-Kut	ИР	РФ	UKX	UITT
+        УЛА	Усть-Лабинск	 	КД	РФ
+        УТЛ	Усть-Лыжа	 	КИ	РФ
+        УСМ	Усть-Мая	 	СФ	РФ	 	UEMU
+        УНМ	Усть-Нем	 	КИ	РФ	 	UUYE
+        УНР	Усть-Нера	 	СФ	РФ	 	UEMT
+        УОМ	Усть-Омчуг	 	МГ	РФ
+        УОР	Усть-Ордынский	 	ИР	РФ	 	UIIO
+        УПИ	Усть-Пит	 	КЯ	РФ	 	UNJC
+        УПТ	Усть-Порт	 	КЯ	РФ	 	UOOP
+        УСБ	Усть-Соболевка	 	ПР	РФ
+        УТЯ	Усть-Тарея	 	КЯ	РФ	 	UOOU
+        УТЫ	Усть-Тым	 	ТЯ	РФ
+        УДА	Усть-Уда	 	ИР	РФ	 	UIIT
+        УУЛ	Усть-Улаган	 	АЙ	РФ
+        УУР	Усть-Уролка	 	ПМ	РФ
+        УХЙ	Усть-Хайрюзово	 	КЧ	РФ	 	UHPU
+        УТЦ	Усть-Цильма	 	КИ	РФ	 	UUYX
+        УЧР	Усть-Черная	 	ПМ	РФ
+        УЧИ	Усть-Чижапка	 	ТЯ	РФ
+        УСЧ	Усть-Чуласа	 	АГ	РФ
+        УСУ	Усугли	 	ЧТ	РФ
+        УТП	Утапао	Utapao	 	TH	UTP	VTBU
+        EFUT Утти	Utti	 	FI	 	EFUT
+        УФА	Уфа	Ufa	БШ	РФ	UFA	UWUU
+        УХО	Ухошино	 	ПС	РФ
+        УХТ	Ухта	Ukhta	КИ	РФ	UCT	UUYH
+        УЧЫ	Учалы	 	БШ	РФ
+        УМИ	Учами	 	КЯ	РФ	 	UNHI
+        УКД	Учкудук	 	НЙ	УЗ
+        УШВ	Ушаково	 	ТЮ	РФ
+        УША	Ушаковский	 	ЧА	РФ
+        УЧА	Уш-Арал	 	ТД	КЗ	 	UAAL
+        УШД	Ушбельдир	 	КЯ	РФ
+        УШТ	Уштобе	 	ТД	КЗ
+        УЭН	Уэлен	 	ЧА	РФ	 	UHLN
+        УЭЛ	Уэлькаль	 	ЧА	РФ
+        ФАК	Факел	 	КЯ	РФ
+        ESGK Фалкопинг	Falkoping	 	SE	 	ESGK
+        НФР	Фариха	 	АГ	РФ	 	ULEF
+        ФРК	Фарково	 	КЯ	РФ
+        FAB	Фарнборо	Farnborough	 	ГБ	FAB	EGLF
+        FAO	Фаро	Faro	 	PT	FAO	LPFR
+        ФЕВ	Февральск	 	АУ	РФ	 	UHWF
+        ФДС	Феодосия	 	РЫ	УА	 	UKFO
+        ФГН	Фергана	Fergana	ФА	УЗ	FEG	UTKF
+        FEZ	Фес	Fez	 	MA	FEZ	GMFF
+        ФЕТ	Фетинино	 	ВЯ	РФ
+        ФЗЛ	Физули	 	 	АЗ
+        PHL	Филадельфия	Philadelphia	 	US	PHL	KPHL
+        ФИЛ	Филимоново	 	ЯР	РФ
+        FLR	Флоренция	Florence	 	IT	FLR	LIRQ
+        FRO	Флоро	Floro	 	NO	FRO	ENFL
+        FRL	Форли	Forli	 	IT	FRL	LIPK
+        ФШЧ	Форт-Шевченко	 	МЯ	КЗ	 	UATF
+        FRW	Франкистоун	Francistown	 	BW	FRW	FBFT
+        ФРА	Франкфурт-на-Майне	Frankfurt	 	ДЕ	FRA	EDDF
+        FDH	Фридрихсхафен	Friedrichshafen	 	ДЕ	FDH	EDNY
+        FNA	Фритаун	Freetown	 	SL	FNA	GFLL
+        QFR	Фрозиноне	Frosinone [Mil]	 	IT	QFR	LIRH
+        ФРО	Фролово	 	КЯ	РФ	 	UNHF
+        OMFJ Фуджейра	Fujeirah	 	АЕ	 	OMFJ
+        FUK	Фукуока	Fukuoka	 	JP	FUK	RJFF
+        FKS	Фукусима	Fukushima	 	JP	FKS	RJSF
+        ФМК	Фурмановка	 	ЖА	КЗ
+        ФУР	Фурманово	 	ЗА	КЗ
+        FAI	Фэрбанкс	Fairbanks	 	US	FAI	PAFA
+        ХАБ	Хабариха	 	КИ	РФ
+        ХБР	Хабаровск	Khabarovsk	ХБ	РФ	KHV	UHHH
+        EGNR Хаварден	Hawarden	 	ГБ	 	EGNR
+        ЧЛК	Хазар	 	БК	ТМ	 	UTAL
+        ХАН	Хайдаркан	 	ОШ	КГ
+        HYD	Хайдерабад [ИНД]	Hyderabad	 	ИН	HYD	VOHY
+        HDD	Хайдерабад [ПАК]	Hyderabad	 	ПК	HDD	OPKD
+        HAK	Хайкоу	Haikou	 	ЦН	HAK	ZGHK
+        HLD	Хайлар	Hailar	 	ЦН	HLD	ZBLA
+        ХАИ	Хайлино	 	КЧ	РФ	 	UHPF
+        HKD	Хакодате	Hakodate	 	JP	HKD	RJCH
+        ХЛК	Халактырка	 	КЧ	РФ	 	UHPH
+        ХАЛ	Халач	 	ЛА	ТМ
+        HLF	Халтсфред	Hultsfred	 	SE	HLF	ESSF
+        HAD	Хальмстад	Halmstad	 	SE	HAD	ESMT
+        ХМЭ	Хамакар	 	ИР	РФ
+        HUY	Хамберсайд	Humberside	 	ГБ	HUY	EGNJ
+        ХМР	Хамра	 	СФ	РФ
+        ХМЫ	Хамсара	 	ТУ	РФ
+        HNM	Хана	Hana	 	US	HNM	PHHN
+        RJSI Ханамаки	Hanamaki	 	JP	 	RJSI
+        ХДЫ	Хандыга	 	СФ	РФ	 	UEMH
+        ХНЛ	Ханкала	 	ЧИ	РФ
+        ХНД	Ханкенди	 	 	АЗ	 	UBES
+        ХАО	Ханой	Hanoi	 	VN	HAN	VVNB
+        ХЙО	Хантайское Озеро	 	КЯ	РФ	 	UOIH
+        ХАС	Ханты-Мансийск	 	ТЮ	РФ	 	USHH
+        HGH	Ханчжоу	Hangzhou	 	ЦН	HGH	ZSHC
+        CHQ	Ханья	Chania	 	GR	CHQ	LGSA
+        ХГУ	Харанжеено	 	ИР	РФ
+        HRE	Хараре	Harare	 	ZW	HRE	FVHA
+        ХРЗ	Харасавей	 	ТЮ	РФ	 	USDH
+        ХБН	Харбин	Harbin	 	ЦН	HRB	ZYHB
+        HGA	Харгейса	Hargeisa	 	SO	HGA	HCMH
+        ХРИ	Харитоново	 	АГ	РФ
+        KRT	Хартум	Khartoum	 	SD	KRT	HSSS
+        HFD	Хартфорд	Hartford	 	US	HFD	KHFD
+        ХАУ	Харута	 	КИ	РФ
+        ХРК	Харьков	Kharkov	ХЬ	УА	HRK	UKHH
+        ХРЯ	Харьяга	 	КИ	РФ
+        ХАГ	Харьягинский	 	АГ	РФ
+        ХВЮ	Хасавюрт	 	ДГ	РФ
+        ХАТ	Хатанга	Hatanga	КЯ	РФ	HTG	UOHH
+        ХЫК	Хатырка	 	ЧА	РФ
+        HBT	Хафар-эль-Батин	Hafr Albatin	 	SA	HBT	OEPA
+        ХЧМ	Хачмас	 	 	АЗ	 	UBBH
+        ХВЯ	Хвойная	 	НГ	РФ
+        ХВЙ	Хвойный	 	ИР	РФ
+        HEK	Хейхе	Heihe	 	ЦН	HEK	ZYHE
+        ХЕЛ	Хельсинки	Helsinki	 	FI	HEL	EFHK
+        ХРП	Херпучи	 	ХБ	РФ	 	UHNH
+        ХРС	Херсон	Kherson	ХГ	УА	KHE	UKOH
+        ХЭТ	Хета	 	КЯ	РФ	 	UOHE
+        HTF	Хетфилд	Hatfield	 	ГБ	HTF	EGTH
+        JKH	Хиос	Chios	 	GR	JKH	LGHI
+        HIJ	Хиросима	Hiroshima	 	JP	HIJ	RJOA
+        ХЛБ	Хлебниково	 	МИ	РФ
+        ХМУ	Хмелевое	 	КШ	УА
+        ХМЛ	Хмельник	 	ВИ	УА
+        ХМЦ	Хмельницкий	Khmelnitskiy	ХЦ	УА	HMJ	UKLH
+        ХВГ	Ховалинг	 	ХЛ	ТД
+        ХУА	Хову-Аксы	 	ТУ	РФ	 	UNYH
+        HAU	Хогезанд	Haugesund	 	NO	HAU	ENHD
+        HOD	Ходейда	Hodeidah	 	YE	HOD
+        ХЖЛ	Ходжалы	 	 	АЗ
+        ХЙН	Хойники	 	 	БЛ
+        ХОЛ	Холм	 	НГ	РФ
+        HOM	Хомер	Homer	 	US	HOM	PAHO
+        HUQ	Хон	Houn	 	LY	HUQ	HLON
+        ХЙВ	Хорей-Вер	 	АГ	РФ	 	ULEH
+        ХРН	Хоринск	 	БР	РФ	 	UIUH
+        ХРГ	Хорог	 	ГА	ТД
+        ХРЛ	Хорол	 	ПО	УА
+        HTN	Хотан	Hotan	 	ЦН	HTN
+        ХТН	Хотин	 	ЧЦ	УА
+        HOQ	Хоф	Hof	 	ДЕ	HOQ	EDQM
+        ХОШ	Хошимин	Ho Chi Minh City	 	VN	SGN	VVTS
+        ХОЭ	Хоэ	 	СЯ	РФ
+        ХРБ	Хребтовый	 	КЯ	РФ	 	UNHY
+        ХСТ	Христиновка	 	ЧЕ	УА
+        ХДТ	Худжанд	Khudzhand	ЛН	ТД	LBD	UTDL
+        HUV	Худиксвалль	Hudiksvall	 	SE	HUV	ESNH
+        ХЖР	Хужир	 	ИР	РФ
+        ХЛМ	Хулимсунт	 	ТЮ	РФ
+        ХУН	Хунзах	 	ДГ	РФ
+        ХГД	Хургада	Hurghada	 	EG	HRG	HEGN
+        HET	Хух-Хото	Hohhot	 	ЦН	HET	ZBHH
+        XHE	Хьерес	Hyeres	 	FR	XHE	LFTH
+        HOU	Хьюстон	Houston	 	US	HOU	KHOU
+        ЦАМ	Цаган-Аман	 	КЦ	РФ
+        ЦАК	Царичанка	 	ДН	УА
+        ЦЛН	Целинное	 	 	РФ
+        ЦЕН	Ценогора	 	АГ	РФ	 	ULJC
+        ЦНТ	Центральный	 	КЗ	РФ
+        ЦНР	Центральный Рудник	 	КЗ	РФ
+        JMU	Цзямусы	Jiamusi	 	ЦН	JMU	ZYJM
+        ЦИМ	Циммермановка	 	ХБ	РФ	 	UHNO
+        ЦИН	Цингалы	 	ТЮ	РФ
+        CVG	Цинциннати	Cincinnati	 	US	CVG	KLUK
+        ЦНО	Цнори	 	 	ГР	 	UGGN
+        ЦХБ	Цхалтубо	 	 	ГР
+        ZRH	Цюрих	Zurich	 	CH	ZRH	LSZH
+        ЧГУ	Чагда	 	СФ	РФ
+        ЧДН	Чадан	 	ТУ	РФ
+        ЧБХ	Чайбуха	 	МГ	РФ	 	UHMG
+        ЧАК	Чайковский	 	ПМ	РФ
+        CNX	Чанг Май	Chiang Mai	 	TH	CNX	VTCC
+        CGD	Чангд	Changde	 	ЦН	CGD	ZGCD
+        CGQ	Чангчун	Changchun	 	ЦН	CGQ	ZYCC
+        ЧПА	Чапаево [ЗСУ]	 	ОЯ	РФ
+        ЧАП	Чапаево [ЯКТ]	 	СФ	РФ
+        ЧПЛ	Чаплинка	 	ХГ	УА
+        ЧПГ	Чаплыгин	 	ЛП	РФ
+        ЧАР	Чара	 	ЧТ	РФ	 	UIAR
+        ЧАД	Чардара	 	ЮК	КЗ
+        ЧАЗ	Чарозеро	 	ВЯ	РФ
+        ЧРЫ	Чарышское	 	АЛ	РФ
+        LFOC Чатаудун	Chateaudun	 	FR	 	LFOC
+        ЧАТ	Чаткал	 	 	КГ
+        ЧБЕ	Чебоксары	Cheboksary	ЧУ	РФ	CSY	UWKS
+        ЧБГ	Чебурга	 	ТЮ	РФ
+        ЧГД	Чегдомын	 	ХБ	РФ	 	UHHM
+        CJU	Чеджу	Jeju	 	KR	CJU	RKPC
+        ЧЛР	Челкар	 	АЮ	КЗ	 	UATR
+        ЧЛС	Челюскин	 	КЯ	РФ
+        ЧЛБ	Челябинск	Chelyabinsk	ЧЛ	РФ	CEK	USCC
+        ЧЕМ	Чемдальск	 	КЯ	РФ	 	UNJX
+        ЧМР	Чемеровцы	 	ХЦ	УА
+        CTU	Ченгду	Chengdu	 	ЦН	CTU	ZUUU
+        ЧЕП	Чепец	 	ПМ	РФ
+        ЧРИ	Черби	 	ТУ	РФ
+        ЧГР	Червоноград	 	ЛЬ	УА
+        ЧРД	Чердынь	 	ПМ	РФ
+        ЧЕР	Черевково	 	АГ	РФ	 	ULUR
+        ЧМШ	Черемушки	 	ХЯ	РФ
+        ЧРМ	Черемхово	 	ИР	РФ	 	UIIE
+        ЧРШ	Черемшан	 	ТГ	РФ
+        ЧРВ	Череповец	Cherepovets	ВЯ	РФ	CEE	ULWC
+        ЧСЫ	Черкассы	Cherkassy	ЧЕ	УА	CKC	UKKE
+        ЧКЕ	Черкесск	 	КЫ	РФ
+        ЧМЗ	Чермоз	 	ПМ	РФ
+        ЧНЯ	Черная	 	АГ	РФ
+        ЧГВ	Чернигов	Chernigov	ЧГ	УА	CEJ	UKRR
+        ЧРБ	Чернобыль	 	КЙ	УА
+        ЧРЦ	Черновцы	Chernovtsy	ЧЦ	УА	CWC	UKLN
+        ЧНГ	Черногорское	 	КИ	РФ
+        ЧОС	Черноостровское	 	КЯ	РФ
+        ЧХИ	Чернухи	 	ПО	УА
+        ЧЕК	Чернушка	 	ПМ	РФ
+        ЧРК	Чернышевск	 	ЧТ	РФ
+        ЧРС	Черский	Cherskiy	СФ	РФ	CYX	UESS
+        ЧСМ	Чесма	 	ЧЛ	РФ
+        CEG	Честер	Chester	 	ГБ	CEG
+        ЧЕХ	Чехломей	 	ТЮ	РФ
+        ЧЕЧ	Чечельник	 	ВИ	УА
+        ЧЧК	Чечуйск	 	ИР	РФ
+        CGO	Чжанчжоу	Zhengzhou	 	ЦН	CGO
+        ЧИГ	Чиганак	 	ЖА	КЗ
+        ЧГН	Чигирин	 	ЧЕ	УА
+        ЧИЖ	Чижа	 	АГ	РФ	 	ULBI
+        ЧИИ	Чиили	 	КЮ	КЗ
+        ЧИК	Чикаго	Chicago	 	US	CHI	KRGC
+        ЧСЗ	Чилису-Анзас	 	КЗ	РФ
+        ЧИР	Чиринда	 	КЯ	РФ	 	UNIR
+        ЧРЮ	Чири-Юрт	 	ЧИ	РФ
+        ЧСТ	Чистополь	 	ТГ	РФ	 	UWKI
+        ЧТЙ	Чистый	 	ИР	РФ
+        СХТ	Чита	Chita	ЧТ	РФ	HTA	UIAA
+        RJCJ Читозе	Chitose	 	JP	 	RJCJ
+        ЧКА	Чкалов	 	СФ	РФ
+        ЧКД	Чокурдах	Chokurdah	СФ	РФ	CKH	UESO
+        ЧЛА	Чолпон-Ата	 	ИК	КГ	 	UAFG
+        ЧУВ	Чуванское	 	ЧА	РФ
+        ЧУД	Чудиново	 	ЧЛ	РФ
+        ЧЕВ	Чулково	 	КЯ	РФ	 	UNHL
+        ЧМН	Чульман	Chulman	СФ	РФ	CNN
+        ЧМВ	Чумаково	 	НБ	РФ
+        ЧМИ	Чумикан	 	ХБ	РФ
+        ЧУП	Чупрово	 	КИ	РФ
+        ЧПЧ	Чурапча	 	СФ	РФ
+        ЧСЕ	Чусовское	 	ПМ	РФ
+        ЧУХ	Чухлома	 	КФ	РФ	 	UUBF
+        ШУЗ	Шаартуз	 	 	ТД
+        ШАБ	Шаблыкино	 	ОЛ	РФ
+        CMF	Шамбери	Chambery	 	FR	CMF	LFLB
+        СНН	Шаннон	Shannon	 	IE	SNN	EINN
+        ШАЙ	Шанхай	Shanghai	 	ЦН	SHA	ZSSS
+        ШРА	Шаранга	 	НЖ	РФ
+        ШРД	Шаргород	 	ВИ	УА
+        СХЙ	Шарджа	Sharjah	 	АЕ	SHJ	OMSJ
+        ССХ	Шарм Эль Шейх	Sharm El Sheikh	 	EG	SSH
+        LHSM Шармеллек	Sarmellek	 	HU	 	LHSM
+        ШРЫ	Шарыпово	 	КЯ	РФ	 	UNKO
+        ШАР	Шарья	 	КФ	РФ	 	УУБЯ
+        LFMX Шато-Арну	Chateau-Arnoux	 	FR	 	LFMX
+        CHR	Шатору	Chateauroux	 	FR	CHR	LFLX
+        ШАТ	Шатрово	 	КЭ	РФ
+        ШХР	Шахрисабз	 	КЬ	УЗ
+        ШАХ	Шахтерск	 	СЯ	РФ	 	UHSK
+        ШХТ	Шахты	 	РД	РФ	 	URRH
+        SZW	Шверин	Schwerin	 	ДЕ	SZW
+        EBCV Шеври	Chievres [Mil]	 	BE	 	EBCV
+        ШЕГ	Шегмас	 	АГ	РФ
+        ШКИ	Шеки	 	 	АЗ
+        ШЛП	Шелопугино	 	ЧТ	РФ
+        ШЕХ	Шемонаиха	 	ВЗ	КЗ
+        ШМШ	Шемышейка	 	ПЗ	РФ
+        SYA	Шемью	Shemya AFB	 	US	SYA	PASY
+        ШЕН	Шенкурск	 	АГ	РФ	 	ULAN
+        ZGSZ Шеньжень	 	 	ЦН	 	ZGSZ
+        ШНЯ	Шеньян	Shenyang	 	ЦН	SHE	ZYTX
+        ШПТ	Шепетовка	 	ХЦ	УА
+        CER	Шербур	Cherbourg	 	FR	CER
+        ШРЛ	Шеркалы	 	ТЮ	РФ
+        ШВС	Шиверский	 	КЯ	РФ
+        ЩИМ	Шимановск	 	АУ	РФ	 	UHBK
+        ШИР	Шира	 	ХЯ	РФ	 	UNAI
+        SYZ	Шираз	Shiraz	 	IR	SYZ	OISS
+        ШКО	Широкое	 	АГ	РФ
+        SJW	Шицзячжуань	Shijiazhuang	 	ЦН	SJW
+        ШИШ	Шишмарево	 	КЯ	РФ
+        QWI	Шлезвиг	Schleswig-Kropp	 	ДЕ	QWI	EDXC
+        ШМА	Шмаковка	 	ПР	РФ
+        ШОН	Шойна	 	АГ	РФ	 	ULBO
+        ШОЛ	Шола	 	ВЯ	РФ
+        SYO	Шонай	Shonai	 	JP	SYO	RJSY
+        ШОС	Шостка	 	СУ	УА
+        ШОШ	Шошельцы	 	АГ	РФ
+        ZQC	Шпейер	Speyer	 	ДЕ	ZQC	EDRY
+        ШПО	Шпола	 	ЧЕ	УА
+        STA	Штаунинг	Stauning	 	DK	STA	EKVJ
+        ШТР	Штутгарт	Stuttgart	 	ДЕ	STR	EDDS
+        ШБР	Шубарколь	 	КЩ	КЗ	 	UAKU
+        ШУГ	Шугур	 	ТЮ	РФ
+        ШУМ	Шуманай	 	РП	УЗ
+        ШЛЯ	Шумерля	 	ЧУ	РФ
+        ШМЛ	Шумилино	 	ВБ	БЛ
+        ШМВ	Шумилово	 	ЧТ	РФ
+        ШРШ	Шурышкары	 	ТЮ	РФ
+        ШУШ	Шушенское	 	КЯ	РФ	 	UNAU
+        ШМТ	Шымкент	Shimkent	ЮК	КЗ	CIT	UAII
+        HLJ	Шяуляй	Sauliaj	 	LT	HLJ	EYSA
+        EDTX Щвабиш Халл	Schwabisch Hall	 	ДЕ	 	EDTX
+        ЩЛБ	Щельябож	 	КИ	РФ
+        SZZ	Щецин	Szczecin	 	PL	SZZ	EPSC
+        ЫРБ	Ырбан	 	ТУ	РФ
+        ЫТК	Ытык-Кюель	 	СФ	РФ
+        АИН	Эбелях	 	СФ	РФ
+        ЭБХ	Эбях	 	СФ	РФ
+        ЭВН	Эвенск	 	МГ	РФ
+        PAE	Эверетт	Everett	 	US	PAE	KPAE
+        EVX	Эврё	Evreux	 	FR	EVX	LFOE
+        ЭГТ	Эгвекинот	 	ЧА	РФ	 	UHME
+        EDI	Эдинбург	Edinburgh	 	ГБ	EDI	EGPH
+        YEA	Эдмонтон	Edmonton	 	CA	YEA	CYEG
+        ЭЙК	Эйик	 	СФ	РФ
+        ETH	Эйлат	Elat	 	IL	ETH	LLET
+        EIN	Эйндховен	Eindhoven	 	NL	EIN	EHEH
+        ЭКИ	Экибастуз	Ekibastuz	ПЛ	КЗ	EKB	UASB
+        ЭМЧ	Экимчан	 	АУ	РФ	 	UHBP
+        ЭКО	Эконда	 	КЯ	РФ	 	UNIH
+        EXT	Эксетер	Exeter	 	ГБ	EXT	EGTE
+        ЭЛИ	Элиста	Elista	КЦ	РФ	ESL	URWI
+        AAN	Эль Айн	Al Ain	 	АЕ	AAN	OMAL
+        HLLQ Эль Бейда	El Beida	 	LY	 	HLLQ
+        EBM	Эль Борма	El Borma	 	TN	EBM	DTTR
+        ЭНМ	Энмелен	 	ЧА	РФ
+        ENS	Энсхеде	Enschede	 	NL	ENS	EHTW
+        EBB	Энтеббе	Entebbe	 	UG	EBB	HUEN
+        ЭНР	Энурмино	 	ЧА	РФ
+        EPL	Эпиналь	Epinal	 	FR	EPL
+        EDNE Эрбах	Erbach	 	ДЕ	 	EDNE
+        ЭРЗ	Эрзин	 	КЯ	РФ	 	UNYR
+        ERC	Эрзинджан	Erzincan	 	ТР	ERC	LTCD
+        ЭРУ	Эрзурум	Erzurum	 	ТР	ERZ	LTCE
+        ЭРТ	Эртиль	 	ВЖ	РФ
+        ERF	Эрфурт	Erfurt	 	ДЕ	ERF	EDDE
+        ЭСС	Эссо	 	КЧ	РФ
+        LFQE Этьен	Etain	 	FR	 	LFQE
+        ЭХТ	Эхты	 	ДГ	РФ
+        JYV	Ювяскюля	Jyvaskyla	 	FI	JYV	EFJY
+        ДЮГ	Юган	 	ТЮ	РФ
+        ЮГЛ	Юган-Лзу	 	ТЮ	РФ
+        ЮГР	Югоренок	 	СФ	РФ	 	UEEK
+        ЮЖА	Южа	 	ИВ	РФ
+        ЮЖЕ	Южно-Енисейск	 	КЯ	РФ
+        ЮЖК	Южно-Курильск	 	СЯ	РФ	 	UHSM
+        ЮЖХ	Южно-Сахалинск	Yuzhno-Sakhalinsk	СЯ	РФ	UUS	UHSS
+        ЮСУ	Южно-Сухокумск	 	ДГ	РФ
+        ЮЖЫ	Южный	 	ИР	РФ
+        ЮИЛ	Юильск	 	ТЮ	РФ
+        ЮКА	Юкаменское	 	УД	РФ
+        ЮКТ	Юкта	 	КЯ	РФ
+        ЮМА	Юмагузино	 	БШ	РФ
+        ЮМР	Юмурчен	 	ЧТ	РФ
+        UPG	Юнг Пандунг	Ujung Pandang	 	ID	UPG	WAAA
+        ЮРГ	Юрга	 	КЗ	РФ
+        ЮРН	Юрино	 	МИ	РФ
+        ЮРВ	Юрьевец	 	ИВ	РФ
+        ЮРП	Юрьев-Польский	 	ВЛ	РФ
+        ЮРХ	Юрюнг-Хая	 	СФ	РФ
+        ЮХТ	Юхта	 	ИР	РФ	 	UNHH
+        ЯВА	Явас	 	МД	РФ
+        ЯГР	Ягурьях	 	ТЮ	РФ
+        ЯЙВ	Яйва	 	ПМ	РФ	 	УВПЯ
+        YAK	Якутат	Yakutat	 	US	YAK	PAYA
+        ЯКТ	Якутск	Yakutsk	СФ	РФ	YKS	UEEE
+        LTBP Ялова	Ylova [Mil]	 	ТР	 	LTBP
+        ЯЛТ Ялта	 	РЫ	УА
+        GAJ	Ямагата	Yamagata	 	JP	GAJ	RJSC
+        ЯМБ	Ямбург	 	ТЮ	РФ	 	УСМЯ
+        ЯНЛ	Янаул	 	БШ	РФ
+        RGN	Янгон	Yangon	 	MM	RGN	VYYY
+        IOA	Янина	Ioannina	 	GR	IOA	LGIO
+        ЯСА	Янов Стан	 	КЯ	РФ
+        ЯНА	Янракыннот	 	ЧА	РФ
+        ЯПС	Яптик-Сале	 	ТЮ	РФ
+        ЯРА	Яранск	 	КП	РФ
+        ЯРЕ	Яренск	 	АГ	РФ	 	УЛКЯ
+        ЯРК	Яркино	 	КЯ	РФ
+        ЯКВ	Ярково	 	ТЮ	РФ
+        ЯРН	Ярнема	 	АГ	РФ
+        ЯРЛ	Ярославль	Yaroslavl	ЯР	РФ	IAR
+        ЯРО	Ярославский	 	СФ	РФ
+        ЯРС	Яр-Сале	 	ТЮ	РФ	 	USDR
+        ЯРЦ	Ярцево	 	КЯ	РФ	 	УНИЯ
+        ЯСН	Ясный	 	АУ	РФ
+        IAS	Яссы	Iasi	 	RO	IAS	LRIA
+        ЯШН	Яшкино	 	КЗ	РФ
+        ЯЯЯ	Яя

@@ -3,26 +3,43 @@ package com.inventorsoft.validator;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Customer;
+import com.inventorsoft.xml.ReadXMLFileDOMExample;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class TicketValidator {
+
+
+    private static final ReadXMLFileDOMExample xml = new ReadXMLFileDOMExample();
+
 
     public boolean validateForAllValues(String[] s) {
         return validateTicketName(s[0])
                 && validateCustomerId(s[1])
                 && validateOfferId(s[2])
                 && validateForUniqueTicket(s[1], s[2])
-                && validateRoute(s[3])
-                && validateDate(s[4])
+                && validateCityKey(s[3])
+                && validateCityKey(s[4])
                 && validateDate(s[5])
-                && validateNumberOfSeats(Integer.parseInt(s[6]))
-                && validatePrice(Integer.parseInt(s[7]));
+                && validateDate(s[6])
+                && validateNumberOfSeats(Integer.parseInt(s[7]))
+                && validatePrice(Integer.parseInt(s[8]));
+    }
+
+    public boolean validateCityKey(String cityKey) {
+        Map<String, String> cities = xml.getCities();
+        for (Map.Entry<String, String> entry : cities.entrySet()) {
+            if (entry.getKey().equals(cityKey)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean validateForUniqueTicket(List<Ticket> ticketList, Customer customer, int offerId) {

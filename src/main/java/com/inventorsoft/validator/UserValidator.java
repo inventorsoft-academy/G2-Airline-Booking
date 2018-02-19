@@ -8,6 +8,24 @@ public class UserValidator {
     private String logins = "";
     private String usersId = "";
 
+    public boolean validateForAllValuesAdmin(String[] s) {
+        return validateId(s[0]) && validateForUniqueUserId(s[0])
+                && validateLogin(s[1]) && validateForUniqueLogin(s[1])
+                && validatePassword(s[2])
+                && validateEmail(s[3]) && validateForUniqueEmail(s[3]);
+    }
+
+    public boolean validateForAllValuesOffer(String[] s) {
+        return validateId(s[0]) && validateForUniqueUserId(s[0])
+                && validateLogin(s[1]) && validateForUniqueLogin(s[1])
+                && validatePassword(s[2])
+                && validateEmail(s[3]) && validateForUniqueEmail(s[3])
+                && validateName(s[4]);
+    }
+
+
+
+
     public boolean validateForUniqueUserId(final String id) {
         if (!usersId.contains(id)) {
             usersId += id + ",";

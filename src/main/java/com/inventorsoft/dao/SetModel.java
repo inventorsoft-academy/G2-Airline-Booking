@@ -1,9 +1,10 @@
-package com.inventorsoft.setInfoToFile;
+package com.inventorsoft.dao;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 
-public class SetModelToFile implements SetInfoToFile {
+public class SetModel implements SetInfo {
 
     @Override
     public <T> void setInfo(List<T> list, final String fileName) throws IOException {

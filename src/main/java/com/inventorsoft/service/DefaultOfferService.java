@@ -1,5 +1,6 @@
 package com.inventorsoft.service;
 
+import com.inventorsoft.dao.OffersDao;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.repository.OfferInfoRepository;
 import lombok.AllArgsConstructor;
@@ -12,35 +13,35 @@ import java.util.Optional;
 @Service
 public class DefaultOfferService implements OfferService {
 
-    private OfferInfoRepository offerInfoRepository;
+    private OffersDao offersDao;
 
     @Override
     public Optional<Offer> findById(int id) {
-        return offerInfoRepository.findById(id);
+        return offersDao.findById(id);
     }
 
     @Override
     public List<Offer> getOffers() {
-        return offerInfoRepository.findAll();
+        return offersDao.getOffers();
     }
 
     @Override
     public Offer saveOffer(final Offer offer) {
-        return offerInfoRepository.save(offer);
+        return offersDao.saveOffer(offer);
     }
 
     @Override
-    public Optional<Offer> findByRoute(final String route) {
-        return offerInfoRepository.findByRoute(route);
+    public Optional<Offer> findByRoute(final String departureCity) {
+        return offersDao.findByDepartureCity(departureCity);
     }
 
     @Override
     public boolean update(int id, Offer updateOffer) {
-        return this.offerInfoRepository.update(id, updateOffer);
+        return this.offersDao.updateOffer(id, updateOffer);
     }
 
     @Override
     public boolean remove(int id) {
-        return this.offerInfoRepository.remove(id);
+        return this.offersDao.removeOffer(id);
     }
 }

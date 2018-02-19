@@ -1,10 +1,9 @@
 package com.inventorsoft.view;
 
 
-import com.inventorsoft.getInfoFromFile.GetAdminsFromFile;
-import com.inventorsoft.getInfoFromFile.GetCustomersFromFile;
-import com.inventorsoft.getInfoFromFile.GetOffersFromFile;
-import com.inventorsoft.getInfoFromFile.GetTicketsFromFile;
+import com.inventorsoft.dao.*;
+import com.inventorsoft.dao.GetCustomers;
+import com.inventorsoft.dao.GetTickets;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Admin;
@@ -18,10 +17,10 @@ import static com.inventorsoft.console.Console.logger;
 
 public class View {
     private ViewValidator vw = new ViewValidator();
-    private GetOffersFromFile getOffersFromFile = new GetOffersFromFile();
-    private GetTicketsFromFile getTicketsFromFile = new GetTicketsFromFile();
-    private GetAdminsFromFile getAdminsFromFile = new GetAdminsFromFile();
-    private GetCustomersFromFile getCustomersFromFile = new GetCustomersFromFile();
+    private OffersDao offersDaoFromFile = new OffersDao();
+    private GetTickets getTicketsFromFile = new GetTickets();
+    private GetAdmins getAdminsFromFile = new GetAdmins();
+    private GetCustomers getCustomersFromFile = new GetCustomers();
 
     public void welcome() {
         System.out.println("=====" + "Welcome to G2-Airline-Booking!" + "=====");
@@ -31,7 +30,7 @@ public class View {
     public void start() {
         welcome();
         logger.info("Start to get offers and tickets from file");
-        List<Offer> offerList = getOffersFromFile.getInfo();
+        List<Offer> offerList = offersDaoFromFile.getInfo();
         List<Ticket> ticketList = getTicketsFromFile.getInfo();
         logger.info("Correct work in get offers and tickets from file");
 

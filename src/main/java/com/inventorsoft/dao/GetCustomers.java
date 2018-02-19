@@ -1,4 +1,4 @@
-package com.inventorsoft.getInfoFromFile;
+package com.inventorsoft.dao;
 
 import com.inventorsoft.model.user.Customer;
 import com.inventorsoft.validator.UserValidator;
@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GetCustomersFromFile implements GetInfoFromFile {
+public class GetCustomers implements GetInfo {
 
-    private static final String CUSTOMERS_FILE = "resources/customers.txt";
+    private static final String CUSTOMERS_FILE = "src/main/resources/customers.txt";
     private final UserValidator userValidator = new UserValidator();
 
     public List<Customer> getInfo() {
@@ -24,11 +24,7 @@ public class GetCustomersFromFile implements GetInfoFromFile {
             while ((line = br.readLine()) != null) {
 
                 String[] s = line.split(" ");
-                if (userValidator.validateId(s[0]) && userValidator.validateForUniqueUserId(s[0])
-                        && userValidator.validateLogin(s[1]) && userValidator.validateForUniqueLogin(s[1])
-                        && userValidator.validatePassword(s[2])
-                        && userValidator.validateEmail(s[3]) && userValidator.validateForUniqueEmail(s[3])
-                        && userValidator.validateName(s[4])) {
+                if (userValidator.validateForAllValuesOffer(s)) {
                     Customer customer = new Customer();
                     customer.setId(Integer.parseInt(s[0]));
                     customer.setLogin(s[1]);

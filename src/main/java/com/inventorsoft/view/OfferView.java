@@ -32,7 +32,8 @@ public class OfferView {
     private String showOffer(Offer offer) {
         return "Offer{" +
                 "id=" + offer.getId() +
-                ", route='" + offer.getRoute() + '\'' +
+                ", departureCity='" + offer.getDepartureCity() + '\'' +
+                ", arrivalCity='" + offer.getArrivalCity() + '\'' +
                 ", departureDate=" + offer.getDepartureDate() +
                 ", arrivalDate=" + offer.getArrivalDate() +
                 ", numberOfSeats='" + offer.getNumberOfSeats() + '\'' +
@@ -44,7 +45,8 @@ public class OfferView {
         importAllOffers(offerList);
 
         offersController.createOffer(offerList,
-                setNewRoute(),
+                setNewCityKey(1),
+                setNewCityKey(2),
                 setNewDepartureDate(),
                 setNewArrivalDate(),
                 setNewNumberOfSeats(),
@@ -54,19 +56,22 @@ public class OfferView {
     }
 
 
-
-    public String setNewRoute() {
+    public String setNewCityKey(int side) {
         Scanner scn = new Scanner(System.in);
-        //check route
-        System.out.println("Input route:");
-        String route = scn.next();
-
-        while (!validator.validateRoute(route)) {
-            System.out.println("Please input correct type of route!");
-            route = scn.next();
+        if (side == 1) {
+            System.out.println("Input departure city key:");
+        } else {
+            System.out.println("Input arrival city key:");
         }
-        return route;
+        String key = scn.next();
+
+        while (!validator.validateCityKey(key)) {
+            System.out.println("This key does not exist");
+            key = scn.next();
+        }
+        return key;
     }
+
 
     public Date setNewDepartureDate() {
         Scanner scn = new Scanner(System.in);
@@ -155,7 +160,7 @@ public class OfferView {
             idForEdit = scn.nextInt();
         }
 
-        offersController.editOffer(offerList,index,idForEdit, new OfferView());
+        offersController.editOffer(offerList, index, idForEdit, new OfferView());
 
         System.out.println("You successful edit offer!");
     }
@@ -173,7 +178,7 @@ public class OfferView {
             idForDelete = scn.nextInt();
         }
 
-        offersController.delete(offerList,idForDelete);
+        offersController.delete(offerList, idForDelete);
 
         System.out.println("You successful delete offer!");
     }
@@ -185,7 +190,7 @@ public class OfferView {
         String location = scn.next();
 
         while (!validator.validateLocation(location)) {
-            System.out.println("Please input correct type of location!");
+            System.out.println("Please input exist location!");
             location = scn.next();
         }
         return location;
@@ -196,8 +201,7 @@ public class OfferView {
     public void searchOffer(List<Offer> offerList) {
         System.out.println("Please input your location and departure date:");
 
-        System.out.println(offersController.searchOffer(offerList,askLocation(), setNewDepartureDate()));
-
+        System.out.println(offersController.searchOffer(offerList, askLocation(), setNewDepartureDate()));
     }
 
 }

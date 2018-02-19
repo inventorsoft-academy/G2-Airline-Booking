@@ -22,7 +22,9 @@ public class Ticket {
 
     private int offerId;
 
-    private String route;
+    private String departureCity;
+
+    private String arrivalCity;
 
     private Date departureDate;
 
@@ -37,7 +39,8 @@ public class Ticket {
         return name + " "
                 + customerId + " "
                 + offerId + " "
-                + route + " "
+                + departureCity + " "
+                + arrivalCity + " "
                 + DATE_FORMAT.format(departureDate) + " "
                 + DATE_FORMAT.format(arrivalDate) + " "
                 + number + " "
@@ -48,7 +51,8 @@ public class Ticket {
         this.name = ticket.name;
         this.customerId = ticket.customerId;
         this.offerId = ticket.offerId;
-        this.route = ticket.route;
+        this.departureCity = ticket.departureCity;
+        this.arrivalCity = ticket.arrivalCity;
         this.departureDate = ticket.departureDate;
         this.arrivalDate = ticket.arrivalDate;
         this.number = ticket.number;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ticket>
+<name>vasya</name>
+<offerId>3</offerId>
+<route>Amsterdam-&gt;Ukraine</route>
+<departureDate>Mon Mar 12 12:03:00 EET 2018</departureDate>
+<arrivalDate>Mon Mar 12 18:45:00 EET 2018</arrivalDate>
+<number>4</number>
+<price>250</price>
+</ticket>

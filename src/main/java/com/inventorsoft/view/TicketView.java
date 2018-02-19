@@ -4,9 +4,11 @@ import com.inventorsoft.controller.TicketsController;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Customer;
-import com.inventorsoft.setInfoToFile.SetModelToFile;
+import com.inventorsoft.dao.SetModel;
 import com.inventorsoft.validator.TicketValidator;
+import com.inventorsoft.xml.WriteTicketInXML;
 
+import javax.xml.transform.TransformerException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
@@ -31,7 +33,8 @@ public class TicketView {
     private String showOffer(Offer offer) {
         return "Offer{" +
                 "id=" + offer.getId() +
-                ", route='" + offer.getRoute() + '\'' +
+                ", departureCity='" + offer.getDepartureCity() + '\'' +
+                ", arrivalCity='" + offer.getArrivalCity() + '\'' +
                 ", departureDate=" + offer.getDepartureDate() +
                 ", arrivalDate=" + offer.getArrivalDate() +
                 ", numberOfSeats='" + offer.getNumberOfSeats() + '\'' +
@@ -43,7 +46,8 @@ public class TicketView {
         return "Ticket{" +
                 "name='" + ticket.getName() + '\'' +
                 ", id=" + ticket.getOfferId() +
-                ", route='" + ticket.getRoute() + '\'' +
+                ", departureCity='" + ticket.getDepartureCity() + '\'' +
+                ", arrivalCity='" + ticket.getArrivalCity() + '\'' +
                 ", departure_time=" + ticket.getDepartureDate() +
                 ", arrival_time=" + ticket.getArrivalDate() +
                 ", number='" + ticket.getNumber() + '\'' +
@@ -140,7 +144,7 @@ public class TicketView {
 
     private void chooseFileNameToDownloadTicket(List<Ticket> orderedTickets, Customer customer, int id) {
         System.out.println(customer);
-        SetModelToFile setModelToFile = new SetModelToFile();
+        SetModel setModel = new SetModel();
         Scanner scn = new Scanner(System.in);
         Ticket orderedTicket = null;
         int answer = 0;
@@ -167,16 +171,24 @@ public class TicketView {
                     fileName = scn.next();
                 }
                 try {
-                    String specificFileName = "resources/" + customer.getId() + fileName + ".xml";
-                    setModelToFile.setInfo(showTicket(orderedTicket), specificFileName);
+                    String specificFileName = "src/main/resources/" + customer.getId() + fileName + ".xml";
+                    try {
+                        new WriteTicketInXML(orderedTicket,specificFileName);
+                    } catch (TransformerException e) {
+                        e.printStackTrace();
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 2:
                 try {
-                    String standardFileName = "resources/" + customer.getName() + orderedTicket.getOfferId() + ".xml";
-                    setModelToFile.setInfo(showTicket(orderedTicket), standardFileName);
+                    String standardFileName = "src/main/resources/" + customer.getName() + orderedTicket.getOfferId() + ".xml";
+                    try {
+                        new WriteTicketInXML(orderedTicket,standardFileName);
+                    } catch (TransformerException e) {
+                        e.printStackTrace();
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

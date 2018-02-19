@@ -15,7 +15,9 @@ public class OffersController {
     private List<Offer> offerList = new ArrayList<>();
 
 
-    public void createOffer(List<Offer> offerList, String route,
+    public void createOffer(List<Offer> offerList,
+                            String departureCityKey,
+                            String arrivalCityKey,
                             Date departureDate,
                             Date arrivalDate,
                             String numberOfSeats,
@@ -23,7 +25,8 @@ public class OffersController {
         Offer offer = new Offer();
 
         offer.setId(autoIncrementId(offerList));
-        offer.setRoute(route);
+        offer.setDepartureCity(departureCityKey);
+        offer.setArrivalCity(arrivalCityKey);
         offer.setDepartureDate(departureDate);
         offer.setArrivalDate(arrivalDate);
         offer.setNumberOfSeats(createNumberOfSeats(numberOfSeats));
@@ -61,7 +64,8 @@ public class OffersController {
         offerList.remove(changedOffer);
         switch (index) {
             case 1:
-                changedOffer.setRoute(view.setNewRoute());
+                changedOffer.setDepartureCity(view.setNewCityKey(1));
+                changedOffer.setDepartureCity(view.setNewCityKey(2));
                 break;
             case 2:
                 Date newDepartureDate = view.setNewDepartureDate();
@@ -117,8 +121,7 @@ public class OffersController {
     private List<Offer> searchOfferByLocation(List<Offer> offerList, List<Offer> searchOffers, String location) {
         logger.info("searchOfferByLocation find these offers:");
         for (Offer offer : offerList) {
-            String array[] = offer.getRoute().split("->");
-            if (array[0].equals(location)) {
+            if (offer.getDepartureCity().equals(location)) {
                 searchOffers.add(offer);
                 logger.info(offer.toString());
             }
