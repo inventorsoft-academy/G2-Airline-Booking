@@ -9,14 +9,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
 
-    private static final Logger logger = LoggerFactory.getLogger(App.class);
+    static Logger LOGGER = LoggerFactory.getLogger(App.class);
 
 
     public static void main(String[] args) {
 
-        logger.debug("Requesting tasdsfafas");
+
+        LOGGER.trace("doStuff needed more information - {}");
+        LOGGER.debug("doStuff needed to debug - {}");
+        LOGGER.info("doStuff took input - {}");
+        LOGGER.warn("doStuff needed to warn - {}");
+        LOGGER.error("doStuff encountered an error with value - {}");
 
         SpringApplication.run(App.class, args);
+
     }
 
 }
