@@ -18,4 +18,6 @@ public interface OfferService {
     boolean update(final int id, final Offer updates);
 
     boolean remove(final int id);
+
+    Integer getTicketPrice();
 }

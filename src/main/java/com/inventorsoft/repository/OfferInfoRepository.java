@@ -19,4 +19,5 @@ public interface OfferInfoRepository {
 
     boolean removeOffer(final int id);
 
+    Integer getTicketPrice();
 }

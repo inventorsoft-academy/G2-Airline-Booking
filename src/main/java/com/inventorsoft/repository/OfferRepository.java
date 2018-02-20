@@ -110,4 +110,9 @@ public class OfferRepository implements OfferInfoRepository {
         return offerList.removeIf(offer -> offer.getId() == id);
     }
 
+    @Override
+    public Integer getTicketPrice() {
+        return offerList.stream().mapToInt(Offer::getPrice).sum();
+    }
+
 }
