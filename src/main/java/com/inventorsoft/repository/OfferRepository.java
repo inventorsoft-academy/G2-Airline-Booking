@@ -1,4 +1,4 @@
-package com.inventorsoft.dao;
+package com.inventorsoft.repository;
 
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.validator.OfferValidator;
@@ -14,21 +14,21 @@ import java.util.List;
 import java.util.Optional;
 
 
-//@Repository
-public class OffersDao implements GetInfo {
+@Repository
+public class OfferRepository implements OfferInfoRepository {
 
     private static final String FILE_OFFERS = "src/main/resources/offers.txt";
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
     private final OfferValidator offerValidator = new OfferValidator();
     private List<Offer> offerList;
 
-    //@PostConstruct
+    @PostConstruct
     public void start() {
         offerList = getInfo();
         System.out.println(offerList);
     }
 
-    //@PreDestroy
+    @PreDestroy
     public void finish() throws IOException {
         FileWriter writer = new FileWriter(FILE_OFFERS, false);
         for (Offer offer : offerList) {

@@ -1,8 +1,9 @@
 package com.inventorsoft.service;
 
-import com.inventorsoft.dao.OffersDao;
+
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.repository.OfferInfoRepository;
+import com.inventorsoft.repository.OfferRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -13,35 +14,35 @@ import java.util.Optional;
 @Service
 public class DefaultOfferService implements OfferService {
 
-    private OffersDao offersDao;
+    private OfferInfoRepository offerRepository;
 
     @Override
     public Optional<Offer> findById(int id) {
-        return offersDao.findById(id);
+        return offerRepository.findById(id);
     }
 
     @Override
     public List<Offer> getOffers() {
-        return offersDao.getOffers();
+        return offerRepository.getOffers();
     }
 
     @Override
     public Offer saveOffer(final Offer offer) {
-        return offersDao.saveOffer(offer);
+        return offerRepository.saveOffer(offer);
     }
 
     @Override
     public Optional<Offer> findByRoute(final String departureCity) {
-        return offersDao.findByDepartureCity(departureCity);
+        return offerRepository.findByDepartureCity(departureCity);
     }
 
     @Override
     public boolean update(int id, Offer updateOffer) {
-        return this.offersDao.updateOffer(id, updateOffer);
+        return this.offerRepository.updateOffer(id, updateOffer);
     }
 
     @Override
     public boolean remove(int id) {
-        return this.offersDao.removeOffer(id);
+        return this.offerRepository.removeOffer(id);
     }
 }

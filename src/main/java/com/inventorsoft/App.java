@@ -14,12 +14,7 @@ public class App {
 
     public static void main(String[] args) {
 
-
-        LOGGER.trace("doStuff needed more information - {}");
-        LOGGER.debug("doStuff needed to debug - {}");
-        LOGGER.info("doStuff took input - {}");
-        LOGGER.warn("doStuff needed to warn - {}");
-        LOGGER.error("doStuff encountered an error with value - {}");
+        LOGGER.info("Start Spring");
 
         SpringApplication.run(App.class, args);
 

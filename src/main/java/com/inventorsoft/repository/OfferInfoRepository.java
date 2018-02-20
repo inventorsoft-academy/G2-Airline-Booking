@@ -7,16 +7,16 @@ import java.util.Optional;
 
 public interface OfferInfoRepository {
 
-    List<Offer> findAll();
+    List<Offer> getOffers();
 
-    Offer save(final Offer offer);
+    Offer saveOffer(final Offer offer);
 
-    Optional<Offer> findByRoute(final String route);
+    Optional<Offer> findByDepartureCity(final String departureCity);
 
     Optional<Offer> findById(final int id);
 
-    boolean update(final int id, final Offer newOffer);
+    boolean updateOffer(final int id, final Offer newOffer);
 
-    boolean remove(final int id);
+    boolean removeOffer(final int id);
 
 }
