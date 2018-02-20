@@ -46,9 +46,13 @@ public class WriteTicketInXML {
         offerId.appendChild(doc.createTextNode(String.valueOf(ticket.getOfferId())));
         RootElement.appendChild(offerId);
 
-        /*Element route = doc.createElement("route");
-        route.appendChild(doc.createTextNode(ticket.getRoute()));
-        RootElement.appendChild(route);*/
+        Element departureCity = doc.createElement("departureCity");
+        departureCity.appendChild(doc.createTextNode(ticket.getDepartureCity()));
+        RootElement.appendChild(departureCity);
+
+        Element arrivalCity = doc.createElement("arrivalCity");
+        arrivalCity.appendChild(doc.createTextNode(ticket.getArrivalCity()));
+        RootElement.appendChild(arrivalCity);
 
         Element departureDate = doc.createElement("departureDate");
         departureDate.appendChild(doc.createTextNode(String.valueOf(ticket.getDepartureDate())));

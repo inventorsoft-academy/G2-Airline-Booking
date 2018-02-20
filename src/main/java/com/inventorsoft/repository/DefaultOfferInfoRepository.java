@@ -4,7 +4,6 @@ package com.inventorsoft.repository;
 import com.inventorsoft.model.offer.Offer;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -22,21 +21,20 @@ public class DefaultOfferInfoRepository implements OfferInfoRepository {
         storage.add(new Offer(2, "ВДН", "УЛК", new Date(), new Date(), "1,2,3", 250));
     }
 
+
     @Override
-    public List<Offer> findAll() {
+    public List<Offer> getOffers() {
         return storage;
     }
 
     @Override
-    public Offer save(Offer offer) {
-        offer.setId(storage.size());
-        storage.add(offer);
-        return offer;
+    public Offer saveOffer(Offer offer) {
+        return null;
     }
 
     @Override
-    public Optional<Offer> findByRoute(String departureCity) {
-        return storage.stream().filter(offer -> offer.getDepartureCity().equals(departureCity)).findAny();
+    public Optional<Offer> findByDepartureCity(String departureCity) {
+        return null;
     }
 
     @Override
@@ -45,15 +43,19 @@ public class DefaultOfferInfoRepository implements OfferInfoRepository {
     }
 
     @Override
-    public boolean update(int id, Offer newOffer) {
-        final Optional<Offer> matchOfferOptional = findById(id);
-        matchOfferOptional.ifPresent(offer -> offer.update(newOffer));
-        return matchOfferOptional.isPresent();
+    public boolean updateOffer(int id, Offer newOffer) {
+        return false;
     }
 
     @Override
-    public boolean remove(int id) {
-        return storage.removeIf(offer -> offer.getId() == id);
+    public boolean removeOffer(int id) {
+        return false;
     }
+
+    @Override
+    public Integer getTicketPrice() {
+        return null;
+    }
+
 }
 */

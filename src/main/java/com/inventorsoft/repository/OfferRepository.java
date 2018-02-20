@@ -22,6 +22,8 @@ public class OfferRepository implements OfferInfoRepository {
     private final OfferValidator offerValidator = new OfferValidator();
     private List<Offer> offerList;
 
+
+
     @PostConstruct
     public void start() {
         offerList = getInfo();
@@ -86,7 +88,7 @@ public class OfferRepository implements OfferInfoRepository {
 
 
     public Offer saveOffer(Offer offer) {
-        offer.setId(offerList.size());
+        offer.setId(autoIncrementId());
         offerList.add(offer);
         return offer;
     }
@@ -113,6 +115,16 @@ public class OfferRepository implements OfferInfoRepository {
     @Override
     public Integer getTicketPrice() {
         return offerList.stream().mapToInt(Offer::getPrice).sum();
+    }
+
+    private int autoIncrementId() {
+        int maxId = 0;
+        for (Offer offer : offerList) {
+            if (maxId < offer.getId()) {
+                maxId = offer.getId();
+            }
+        }
+        return ++maxId;
     }
 
 }

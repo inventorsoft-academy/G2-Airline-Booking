@@ -13,40 +13,40 @@ import java.util.Optional;
 @Service
 public class DefaultOfferService implements OfferService {
 
-    private OfferInfoRepository offerRepository;
+    private OfferInfoRepository offerInfoRepository;
 
     @Override
     public Optional<Offer> findById(int id) {
-        return offerRepository.findById(id);
+        return offerInfoRepository.findById(id);
     }
 
     @Override
     public List<Offer> getOffers() {
-        return offerRepository.getOffers();
+        return offerInfoRepository.getOffers();
     }
 
     @Override
     public Offer saveOffer(final Offer offer) {
-        return offerRepository.saveOffer(offer);
+        return offerInfoRepository.saveOffer(offer);
     }
 
     @Override
     public Optional<Offer> findByRoute(final String departureCity) {
-        return offerRepository.findByDepartureCity(departureCity);
+        return offerInfoRepository.findByDepartureCity(departureCity);
     }
 
     @Override
     public boolean update(int id, Offer updateOffer) {
-        return this.offerRepository.updateOffer(id, updateOffer);
+        return this.offerInfoRepository.updateOffer(id, updateOffer);
     }
 
     @Override
     public boolean remove(int id) {
-        return this.offerRepository.removeOffer(id);
+        return this.offerInfoRepository.removeOffer(id);
     }
 
     @Override
     public Integer getTicketPrice() {
-        return this.offerRepository.getTicketPrice();
+        return this.offerInfoRepository.getTicketPrice();
     }
 }

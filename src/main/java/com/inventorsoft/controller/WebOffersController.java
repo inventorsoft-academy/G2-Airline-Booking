@@ -1,12 +1,8 @@
 package com.inventorsoft.controller;
 
-
-import com.inventorsoft.dao.OffersDao;
 import com.inventorsoft.model.offer.Offer;
-import com.inventorsoft.service.DefaultOfferService;
 import com.inventorsoft.service.OfferService;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -14,20 +10,17 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
-import static org.springframework.web.bind.annotation.RequestMethod.OPTIONS;
 
 @AllArgsConstructor
-@NoArgsConstructor
 @Controller
 @RequestMapping(value = "/offers")
 @CrossOrigin(origins = "*", methods = {GET, POST, PUT, DELETE, OPTIONS})
 public class WebOffersController {
 
-    private DefaultOfferService offerService;
+    private OfferService offerService;
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Offer>> getOffers() {
