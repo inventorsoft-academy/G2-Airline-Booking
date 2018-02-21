@@ -11,8 +11,8 @@
     <th>Price</th>
   </tr>
   </thead>
-  <tbody>
-  <tr *ngFor="let offer of offersList" (click)="showOfferDetails(offer.id)">
+  <tbody *ngFor="let offer of offersList">
+  <tr (click)="showOfferDetails(offer.id)">
     <td>{{offer.id}}</td>
     <td>{{offer.departureCity}}</td>
     <td>{{offer.arrivalCity}}</td>
@@ -20,6 +20,37 @@
     <td>{{offer.arrivalDate}}</td>
     <td>{{offer.numberOfSeats}}</td>
     <td>{{offer.price}}</td>
+    <td>
+      <button class="btn-danger" (click)="delete(offer)">Delete</button>
+      <button class="btn-primary" (click)="updateOffer(offer.id)">Update</button>
+    </td>
   </tr>
   </tbody>
 </table>
+  <!--<form [formGroup]="newOfferForm" style="width: max-content" (submit)="updateOffer(offer)">
+
+    <td><input formControlName="id" id="id" class='form-control' [value]='offer.id'
+               type='text'></td>
+    <td><input formControlName="departureCity" id="departureCity" class='form-control' [value]='offer.departureCity'
+               type='text'></td>
+    <td><input formControlName="arrivalCity" id="arrivalCity" class='form-control' [value]='offer.arrivalCity'
+               type='text'></td>
+    <td><input formControlName="departureDate" id="departureDate" class='form-control' [value]='offer.departureDate'
+               type='text'></td>
+    <td><input formControlName="arrivalDate" id="arrivalDate" class='form-control' [value]='offer.arrivalDate'
+               type='text'></td>
+    <td><input formControlName="numberOfSeats" id="numberOfSeats" class='form-control' [value]='offer.numberOfSeats'
+               type='text'></td>
+    <td><input formControlName="price" id="price" class='form-control' [value]='offer.price' type='text'></td>
+    <button type="submit" class="btn-primary" [disabled]="newOfferForm.invalid">Update</button>
+  </form>-->
+
+<!--<tr>
+   <td><input class='form-control' [value]='offer.departureCity' type='text'></td>
+   <td><input class='form-control' [value]='offer.arrivalCity' type='text'></td>
+   <td><input class='form-control' [value]='offer.departureDate' type='text'> </td>
+   <td><input class='form-control' [value]='offer.arrivalDate' type='text'></td>
+   <td><input class='form-control' [value]='offer.numberOfSeats' type='text'></td>
+   <td><input class='form-control' [value]='offer.price' type='text'> </td>
+   <td><button class="btn-primary" (click)="update(offer)">Update</button></td>
+ </tr>-->

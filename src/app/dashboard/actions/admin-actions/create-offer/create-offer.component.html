@@ -1,0 +1,18 @@
+<div class="container" style="width: 35%;">
+  <form [formGroup]="newOfferForm" (submit)="saveOffer()">
+    <label for="departureCity">Departure City</label>
+    <input formControlName="departureCity" id="departureCity" class="form-control">
+    <label for="arrivalCity">Arrival City</label>
+    <input formControlName="arrivalCity" id="arrivalCity" class="form-control">
+    <label for="departureDate">Departure Date</label>
+    <input formControlName="departureDate" id="departureDate" class="form-control">
+    <label for="arrivalDate">Arrival Date</label>
+    <input formControlName="arrivalDate" id="arrivalDate" class="form-control">
+    <label for="numberOfSeats">Number Of Seats</label>
+    <input formControlName="numberOfSeats" id="numberOfSeats" class="form-control">
+    <label for="price">Price</label>
+    <input formControlName="price" id="price" class="form-control">
+    <hr>
+    <button type="submit" class="btn btn-primary" [disabled]="newOfferForm.invalid">Save offer</button>
+  </form>
+</div>

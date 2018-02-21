@@ -2,8 +2,8 @@ export class Offer{
 id: number;
 departureCity: string;
 arrivalCity: string;
-departureDate: any;
-arrivalDate: any;
+departureDate: Date;
+arrivalDate: Date;
 numberOfSeats: string;
 price: number;
 }

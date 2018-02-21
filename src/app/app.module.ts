@@ -13,6 +13,7 @@ import {RouterModule} from "@angular/router";
 import {HttpOfferService} from "./common/services/http.offer.service";
 import {BalanceComponent} from "./dashboard/actions/admin-actions/balance-of-bought-tickets/balance.component";
 import {HttpBalanceService} from "./common/services/http.balance.service";
+import {UpdateOfferComponent} from "./dashboard/update-offer/update-offer.component";
 
 const routes = [
   {
@@ -31,6 +32,10 @@ const routes = [
       {
         path: 'offers-list',
         component: OffersListComponentList
+      },
+      {
+        path: 'update-offer/:id',
+        component: UpdateOfferComponent
       },
       {
         path: 'balance-of-bought-ticket',

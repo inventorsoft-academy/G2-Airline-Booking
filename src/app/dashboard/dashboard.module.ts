@@ -11,6 +11,7 @@ import {OffersListComponentList} from './offers-list/offers-list.component';
 import {OfferDetailsComponent} from './offer-details/offer-details.component';
 import { DashboardComponent } from './dashboard.component';
 import {BalanceComponent} from "./actions/admin-actions/balance-of-bought-tickets/balance.component";
+import {UpdateOfferComponent} from "./update-offer/update-offer.component";
 
 @NgModule({
     imports: [
@@ -23,6 +24,7 @@ import {BalanceComponent} from "./actions/admin-actions/balance-of-bought-ticket
         HeaderComponent,
         MainPageComponent,
         NewOfferComponent,
+        UpdateOfferComponent,
         OffersListComponentList,
         OfferDetailsComponent,
         DashboardComponent,

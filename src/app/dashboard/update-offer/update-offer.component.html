@@ -1,0 +1,57 @@
+<div class="container" style="width: 35%;">
+  <form [formGroup]="newOfferForm" (submit)="updateOffer()">
+    <label for="departureCity">Departure City</label>
+    <input formControlName="departureCity" id="departureCity" class="form-control">
+    <label for="arrivalCity">Arrival City</label>
+    <input formControlName="arrivalCity" id="arrivalCity" class="form-control">
+    <label for="departureDate">Departure Date</label>
+    <input formControlName="departureDate" id="departureDate" class="form-control">
+    <label for="arrivalDate">Arrival Date</label>
+    <input formControlName="arrivalDate" id="arrivalDate" class="form-control">
+    <label for="numberOfSeats">Number Of Seats</label>
+    <input formControlName="numberOfSeats" id="numberOfSeats" class="form-control">
+    <label for="price">Price</label>
+    <input formControlName="price" id="price" class="form-control">
+    <hr>
+    <button type="submit" class="btn btn-primary" [disabled]="newOfferForm.invalid">Update offer</button>
+  </form>
+</div>
+<!--label for="id">Id</label>
+    <input id="id" class='form-control' [value]='offer.id'
+               type='text'>
+    <label for="departureCity">Departure City</label>
+    <input id="departureCity" class='form-control' [value]='offer.departureCity'
+               type='text'>
+    <label for="arrivalCity">Arrival City</label>
+    <input id="arrivalCity" class='form-control' [value]='offer.arrivalCity'
+               type='text'>
+    <label for="departureDate">Departure Date</label>
+    <input id="departureDate" class='form-control' [value]='offer.departureDate'
+               type='text'>
+    <label for="arrivalDate">Arrival Date</label>
+    <input id="arrivalDate" class='form-control' [value]='offer.arrivalDate'
+               type='text'>
+    <label for="numberOfSeats">Number Of Seats</label>
+    <input id="numberOfSeats" class='form-control' [value]='offer.numberOfSeats'
+               type='text'>
+    <label for="price">Price</label>
+    <input id="price" class='form-control' [value]='offer.price' type='text'>
+    <button type="submit" class="btn-primary" [disabled]="newOfferForm.invalid">Update</button>
+  </form>-->
+<!-- <form [formGroup]="newOfferForm" (submit) = "updateOffer()">
+    <label for="departureCity">Departure City</label>
+    <input formControlName="departureCity" id="departureCity" class="form-control">
+    <label for="arrivalCity">Arrival City</label>
+    <input formControlName="arrivalCity" id="arrivalCity" class="form-control">
+    <label for="departureDate">Departure Date</label>
+    <input formControlName="departureDate" id="departureDate" class="form-control">
+    <label for="arrivalDate">Arrival Date</label>
+    <input formControlName="arrivalDate" id="arrivalDate" class="form-control">
+    <label for="numberOfSeats">Number Of Seats</label>
+    <input formControlName="numberOfSeats" id="numberOfSeats" class="form-control">
+    <label for="price">Price</label>
+    <input formControlName="price" id="price" class="form-control">
+    <hr>
+    <button type="submit" class="btn btn-primary" [disabled]="newOfferForm.invalid">Update offer</button>
+  </form>-->
+
