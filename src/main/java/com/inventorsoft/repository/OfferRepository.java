@@ -89,8 +89,20 @@ public class OfferRepository implements OfferInfoRepository {
 
     public Offer saveOffer(Offer offer) {
         offer.setId(autoIncrementId());
+        offer.setNumberOfSeats(offer.getNumberOfSeats());
         offerList.add(offer);
+        System.out.println(offer);
         return offer;
+    }
+
+    //only for create method, some comfort with input seats numbers 1,2,3,4,...50 (50)
+    private String createNumberOfSeats(String number) {
+        String numberOfSeats = "";
+        for (int k = 1; k < Integer.parseInt(number); k++) {
+            numberOfSeats += String.valueOf(k) + ",";
+        }
+        numberOfSeats += number;
+        return numberOfSeats;
     }
 
     public Optional<Offer> findByDepartureCity(String departureCity) {
@@ -104,7 +116,15 @@ public class OfferRepository implements OfferInfoRepository {
 
     public boolean updateOffer(int id, Offer newOffer) {
         final Optional<Offer> matchOfferOptional = findById(id);
-        matchOfferOptional.ifPresent(offer -> offer.update(newOffer));
+
+        matchOfferOptional.ifPresent(offer ->
+        {
+            offerList.remove(offer);
+            offer.update(newOffer);
+            offer.setNumberOfSeats(offer.getNumberOfSeats());
+            offerList.add(offer);
+        });
+        System.out.println(offerList);
         return matchOfferOptional.isPresent();
     }
 

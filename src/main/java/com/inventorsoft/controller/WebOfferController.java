@@ -18,13 +18,26 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 @Controller
 @RequestMapping(value = "/offers")
 @CrossOrigin(origins = "*", methods = {GET, POST, PUT, DELETE, OPTIONS})
-public class WebOffersController {
+public class WebOfferController {
 
     private OfferService offerService;
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Offer>> getOffers() {
         return ResponseEntity.ok(offerService.getOffers());
+    }
+
+    /*@GetMapping(value = "/search", params = "departureCity")
+    public ResponseEntity<Offer> getOfferByRoute(@RequestParam String departureCity) {
+        return renderOfferByRoute(departureCity);
+    }*/
+
+    @GetMapping("/{id:\\d+}")
+    public ResponseEntity<Offer> getOfferById(@PathVariable int id) {
+        System.out.println("you in GetOfferById!!!!");
+        return offerService.findById(id)
+                .map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
@@ -44,7 +57,7 @@ public class WebOffersController {
                                       @RequestBody Offer updates) {
         return offerService.update(id, updates)
                 ? new ResponseEntity(HttpStatus.OK)
-                : new ResponseEntity(HttpStatus.NOT_FOUND);
+                : new ResponseEntity(HttpStatus.BAD_REQUEST);
     }
 
     @DeleteMapping("/{id:\\d+}")
@@ -53,6 +66,9 @@ public class WebOffersController {
                 ? new ResponseEntity(HttpStatus.OK)
                 : new ResponseEntity(HttpStatus.NOT_FOUND);
     }
+
+
+
 
 
     private ResponseEntity<Offer> renderResponseWithLocation(Offer createdOffer) {

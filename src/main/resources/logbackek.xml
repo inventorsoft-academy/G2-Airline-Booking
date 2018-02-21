@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration>
+<configuration debug="true">
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n </Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+
 
     <appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>d:/tmp/rest-demo.log</File>
@@ -15,6 +24,7 @@
             <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern>
         </encoder>
     </appender>
+
     <appender name="minuteRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover every minute -->
@@ -30,10 +40,19 @@
     </appender>
 
     <root>
-        <level value="INFO" />
+        <level value="DEBUG"/>
         <appender-ref ref="dailyRollingFileAppender"/>
         <appender-ref ref="minuteRollingFileAppender"/>
+        <appender-ref ref="consoleAppender"/>
     </root>
+
+    <logger name="org.codingpedia" additivity="false">
+        <level value="INFO"/>
+        <appender-ref ref="dailyRollingFileAppender"/>
+        <appender-ref ref="minuteRollingFileAppender"/>
+        <appender-ref ref="consoleAppender"/>
+    </logger>
+
 
 </configuration>
   

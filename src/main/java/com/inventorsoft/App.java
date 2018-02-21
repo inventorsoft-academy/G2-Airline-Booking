@@ -9,12 +9,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
 
-    static Logger LOGGER = LoggerFactory.getLogger(App.class);
+
 
 
     public static void main(String[] args) {
+        /*Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-        LOGGER.info("Start Spring");
+        LOGGER.info("Start Spring");*/
 
         SpringApplication.run(App.class, args);
 
