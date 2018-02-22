@@ -11,10 +11,9 @@ import {ActivatedRoute} from "@angular/router";
 export class UpdateOfferComponent implements OnInit, OnDestroy {
 
 
-
   newOfferForm = this.fb.group({
-    departureCity: ['', [Validators.pattern("[A-ZА-Я]{3,4}"),Validators.required]],
-    arrivalCity: ['', [Validators.pattern("[A-ZА-Я]{3,4}") , Validators.required]],
+    departureCity: ['', [Validators.pattern("[A-ZА-Я]{3,4}"), Validators.required]],
+    arrivalCity: ['', [Validators.pattern("[A-ZА-Я]{3,4}"), Validators.required]],
     departureDate: ['', [Validators.pattern("\\d{2}/\\d{2}/\\d{4}-\\d{2}:\\d{2}"), Validators.required]],
     arrivalDate: ['', [Validators.pattern("\\d{2}/\\d{2}/\\d{4}-\\d{2}:\\d{2}"), Validators.required]],
     numberOfSeats: ['', [Validators.required, Validators.min(50)]],
@@ -47,18 +46,20 @@ export class UpdateOfferComponent implements OnInit, OnDestroy {
   }
 
   initializationForm() {
-    this.newOfferForm.patchValue({departureCity : this.offer.departureCity});
-    this.newOfferForm.patchValue({arrivalCity : this.offer.arrivalCity});
-    this.newOfferForm.patchValue({departureDate : this.offer.departureDate});
-    this.newOfferForm.patchValue({arrivalDate : this.offer.arrivalDate});
-    this.newOfferForm.patchValue({numberOfSeats : this.offer.numberOfSeats});
+    this.newOfferForm.patchValue({departureCity: this.offer.departureCity});
+    this.newOfferForm.patchValue({arrivalCity: this.offer.arrivalCity});
+    this.newOfferForm.patchValue({departureDate: this.offer.departureDate});
+    this.newOfferForm.patchValue({arrivalDate: this.offer.arrivalDate});
+    this.newOfferForm.patchValue({numberOfSeats: this.offer.numberOfSeats});
     this.newOfferForm.patchValue({price: this.offer.price});
   }
 
   updateOffer() {
     let updateOffersSubscription = this.httpService.updateOffer(this.newOfferForm.value)
       .subscribe(
-        res => console.log(res),
+        res => {
+          console.log(res)
+        },
         err => console.log(err));
     this.subscriptions.push(updateOffersSubscription);
     this.clearForm();

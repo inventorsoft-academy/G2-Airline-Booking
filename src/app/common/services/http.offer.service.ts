@@ -42,5 +42,10 @@ export class HttpOfferService {
     return this.http.delete(environment.API + '/offers/' + id);
   }
 
+  bookATicket(offerId: string, customerId: string) {
+    return this.http.get(environment.API + '/offers/' +
+      '?offerId='+ offerId +
+      '&customerId=' + customerId).map(res => res.json());
+  }
 
 }

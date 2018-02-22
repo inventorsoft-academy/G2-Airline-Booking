@@ -1,7 +1,7 @@
 /*
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
-import { HttpService } from '../../common/services/http.offer.service';
+import {HttpOfferService} from '../../common/services/http.offer.service';
 import { Subscription } from 'rxjs/Subscription';
 
 @Component({
@@ -20,7 +20,7 @@ export class NewOfferComponent implements OnInit, OnDestroy {
     subscriptions: Subscription[] = [];
 
     constructor(private fb: FormBuilder,
-                private httpService: HttpService) {
+                private httpService: HttpOfferService) {
     }
 
     ngOnInit() {

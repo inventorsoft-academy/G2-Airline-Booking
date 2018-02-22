@@ -1,5 +1,11 @@
 <h1>All offers</h1>
 
+
+<label for="customerId">Input customer id:</label>
+<input id="customerId" [ngModel]="customerId">
+
+<hr>
+
 <form [formGroup]="newFindForm">
   <label for="departureCity">Input your location:</label>
   <input formControlName="departureCity" id="departureCity" class='form-control' [ngModel]="newFindForm.departureCity">
@@ -31,8 +37,7 @@
     <td>{{offer.arrivalDate}}</td>
     <td>{{offer.numberOfSeats}}</td>
     <td>{{offer.price}}</td>
-    <td>
-    </td>
+    <td><button class="btn-primary" (click)="bookATicket(offer.id)">Update</button></td>
   </tr>
   </tbody>
 </table>

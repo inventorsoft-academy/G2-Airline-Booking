@@ -1,6 +1,4 @@
 export class Customer {
-  id: number;
-
   login: string
 
   password: string;

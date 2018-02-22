@@ -30,6 +30,8 @@ export class SearchByParameterComponent implements OnInit, OnDestroy {
 
   subscriptions: Subscription[] = [];
 
+  customerId : string;
+
   constructor(private httpService: HttpOfferService,
               private offerBuilder: FormBuilder,
               private searchBuilder: FormBuilder,
@@ -58,6 +60,18 @@ export class SearchByParameterComponent implements OnInit, OnDestroy {
       .subscribe(
         res => {
           console.log(res);
+        },
+        err => console.log(err));
+    this.subscriptions.push(deleteOffersSubscription);
+  }
+
+  bookATicket(offerId: string) {
+    let deleteOffersSubscription = this.httpService.bookATicket(offerId, this.customerId)
+      .subscribe(
+        res => {
+          console.log(res);
+          this.newOfferForm.reset();
+          this.newFindForm.reset();
         },
         err => console.log(err));
     this.subscriptions.push(deleteOffersSubscription);
