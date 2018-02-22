@@ -8,15 +8,6 @@ import java.util.Optional;
 
 public interface TicketInfoRepository {
 
-    List<Ticket> getTickets();
-
-    Offer saveTicket(final Ticket ticket);
-
-    Optional<Offer> findById(final int id);
-
-    boolean updateOffer(final int id, final Offer newOffer);
-
-    boolean removeTicket(final int id);
-
+    Integer getTicketPrice();
 
 }

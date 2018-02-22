@@ -9,6 +9,10 @@ public interface OfferInfoRepository {
 
     List<Offer> getOffers();
 
+    List<Offer> getOffersForCustomer();
+
+    List<Offer> searchOffers(String departureCity, String departureDate);
+
     Offer saveOffer(final Offer offer);
 
     Optional<Offer> findByDepartureCity(final String departureCity);
@@ -19,5 +23,7 @@ public interface OfferInfoRepository {
 
     boolean removeOffer(final int id);
 
-    Integer getTicketPrice();
+
+
+
 }

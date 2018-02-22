@@ -1,5 +1,6 @@
 package com.inventorsoft.controller;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.service.OfferService;
 import lombok.AllArgsConstructor;
@@ -10,6 +11,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
@@ -21,10 +24,16 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 public class WebOfferController {
 
     private OfferService offerService;
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Offer>> getOffers() {
         return ResponseEntity.ok(offerService.getOffers());
+    }
+
+    @GetMapping (value = "/forCustomer" , produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<Offer>> getOffersForCustomer() {
+        return ResponseEntity.ok(offerService.getOffersForCustomer());
     }
 
     /*@GetMapping(value = "/search", params = "departureCity")
@@ -40,11 +49,22 @@ public class WebOfferController {
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
+    @GetMapping( value = "/search/", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<Offer>> searchOffers(@RequestParam(value = "departureCity") String departureCity,
+                                                    @RequestParam(value = "departureDate") String departureDate) {
+        System.out.println("You want to searchhhhhhhhhhhhhh!");
+        System.out.println(departureCity);
+        System.out.println(departureDate);
+        return ResponseEntity.ok(offerService.searchOffers(departureCity,departureDate));
+    }
+
+
     @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Offer> createOfferFromUrlEncoded(@ModelAttribute Offer offer) {
         final Offer createdOffer = offerService.saveOffer(offer);
         return renderResponseWithLocation(createdOffer);
     }
+
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Offer> createOfferFromJson(@RequestBody Offer offer) {
@@ -66,8 +86,6 @@ public class WebOfferController {
                 ? new ResponseEntity(HttpStatus.OK)
                 : new ResponseEntity(HttpStatus.NOT_FOUND);
     }
-
-
 
 
 

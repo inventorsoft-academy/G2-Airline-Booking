@@ -54,7 +54,6 @@ public class Offer {
     }
 
     public void update(Offer offer) {
-        this.id = offer.id;
         this.departureCity = offer.departureCity;
         this.arrivalCity = offer.arrivalCity;
         this.departureDate = offer.departureDate;

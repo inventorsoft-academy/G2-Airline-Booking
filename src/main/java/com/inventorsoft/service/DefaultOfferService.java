@@ -6,6 +6,7 @@ import com.inventorsoft.repository.OfferInfoRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,6 +24,16 @@ public class DefaultOfferService implements OfferService {
     @Override
     public List<Offer> getOffers() {
         return offerInfoRepository.getOffers();
+    }
+
+    @Override
+    public List<Offer> getOffersForCustomer() {
+        return offerInfoRepository.getOffersForCustomer();
+    }
+
+    @Override
+    public List<Offer> searchOffers(String departureCity, String departureDate) {
+        return offerInfoRepository.searchOffers(departureCity,departureDate);
     }
 
     @Override
@@ -45,8 +56,4 @@ public class DefaultOfferService implements OfferService {
         return this.offerInfoRepository.removeOffer(id);
     }
 
-    @Override
-    public Integer getTicketPrice() {
-        return this.offerInfoRepository.getTicketPrice();
-    }
 }

@@ -2,6 +2,7 @@ package com.inventorsoft.repository;
 
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.validator.OfferValidator;
+import com.inventorsoft.xml.ReadXMLFileDOMExample;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -9,9 +10,7 @@ import javax.annotation.PreDestroy;
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 
 @Repository
@@ -19,14 +18,20 @@ public class OfferRepository implements OfferInfoRepository {
 
     private static final String FILE_OFFERS = "src/main/resources/offers.txt";
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
-    private final OfferValidator offerValidator = new OfferValidator();
-    private List<Offer> offerList;
+    private List<Offer> offerList = new ArrayList<>();
+    private List<Offer> customerOfferList = new ArrayList<>();
 
-
+    private ReadXMLFileDOMExample xml = new ReadXMLFileDOMExample();
+    private Map<String, String> cities = xml.getCities();
 
     @PostConstruct
     public void start() {
         offerList = getInfo();
+        customerOfferList = getInfo();
+        customerOfferList.forEach(offer -> {
+            offer.setDepartureCity(replaceCityCodeToCityName(offer.getDepartureCity(), cities));
+            offer.setArrivalCity(replaceCityCodeToCityName(offer.getArrivalCity(), cities));
+        });
         System.out.println(offerList);
     }
 
@@ -41,7 +46,7 @@ public class OfferRepository implements OfferInfoRepository {
     }
 
 
-    public List<Offer> getInfo() {
+    private List<Offer> getInfo() {
         List<Offer> offerList = new ArrayList<>();
         File file = new File(FILE_OFFERS);
         try {
@@ -50,7 +55,7 @@ public class OfferRepository implements OfferInfoRepository {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] s = line.split(" ");
-                if (offerValidator.validateForAllValues(s)) {
+                if (new OfferValidator().validateForAllValues(s)) {
                     Offer offer = new Offer();
                     offer.setId(Integer.parseInt(s[0]));
                     offer.setDepartureCity((s[1]));
@@ -86,6 +91,52 @@ public class OfferRepository implements OfferInfoRepository {
         return offerList;
     }
 
+    @Override
+    public List<Offer> getOffersForCustomer() {
+        return customerOfferList;
+    }
+
+    @Override
+    public List<Offer> searchOffers(String departureCity, String departureDate) {
+        List<Offer> searchOffersList = new ArrayList<>();
+        System.out.println(searchOffersList);
+        searchOffersList = deleteNotCorrectOffersFromCustomerRequest(searchOffersList, departureCity, departureDate);
+        System.out.println(searchOffersList);
+        System.out.println(offerList);
+        return searchOffersList;
+    }
+
+    private List<Offer> deleteNotCorrectOffersFromCustomerRequest(List<Offer> searchOffersList,
+                                                                 String departureCity,
+                                                                 String departureDate) {
+        System.out.println("method add some offers");
+
+        customerOfferList.forEach(offer -> {
+            System.out.println(offer.getDepartureCity());
+            System.out.println(departureCity);
+            System.out.println(offer.getDepartureDate());
+
+            try {
+                System.out.println(DATE_FORMAT.parse(departureDate));
+                if (offer.getDepartureCity().equals(departureCity) &&
+                      offer.getDepartureDate().equals(DATE_FORMAT.parse(departureDate))) {
+                    searchOffersList.add(offer);
+                }
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        });
+        return searchOffersList;
+    }
+    private String replaceCityCodeToCityName(String code, Map<String, String> cities) {
+        System.out.println("replaceCityCodeToCityName");
+        for (Map.Entry<String, String> entry : cities.entrySet()) {
+            if (entry.getKey().equals(code)) {
+                return entry.getValue();
+            }
+        }
+        return "fail";
+    }
 
     public Offer saveOffer(Offer offer) {
         offer.setId(autoIncrementId());
@@ -132,10 +183,6 @@ public class OfferRepository implements OfferInfoRepository {
         return offerList.removeIf(offer -> offer.getId() == id);
     }
 
-    @Override
-    public Integer getTicketPrice() {
-        return offerList.stream().mapToInt(Offer::getPrice).sum();
-    }
 
     private int autoIncrementId() {
         int maxId = 0;

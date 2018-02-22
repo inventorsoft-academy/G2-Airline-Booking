@@ -2,12 +2,17 @@ package com.inventorsoft.service;
 
 import com.inventorsoft.model.offer.Offer;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
 public interface OfferService {
 
     List<Offer> getOffers();
+
+    List<Offer> getOffersForCustomer();
+
+    List<Offer> searchOffers(final String departureCity, String departureDate);
 
     Offer saveOffer(final Offer offer);
 
@@ -19,5 +24,6 @@ public interface OfferService {
 
     boolean remove(final int id);
 
-    Integer getTicketPrice();
+
+
 }
