@@ -22,4 +22,10 @@ export class HttpTicketService {
     return this.http.post(environment.API + '/ticket', obj);
   }
 
+  getBalance(): Observable<any> {
+    return this.http.get(environment.API + '/tickets/balance').map(res => res.json());
+  }
+
+
+
 }

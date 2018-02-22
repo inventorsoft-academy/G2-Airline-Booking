@@ -1,7 +1,6 @@
 import {Component, OnDestroy, OnInit} from "@angular/core";
-import {Router} from "@angular/router";
 import {Subscription} from "rxjs/Subscription";
-import {HttpBalanceService} from "../../../../common/services/http.balance.service";
+import {HttpTicketService} from "../../common/services/http.ticket.service";
 
 @Component({
   templateUrl: './balance.component.html'
@@ -12,8 +11,7 @@ export class BalanceComponent implements OnInit, OnDestroy {
 
   subscriptions: Subscription[] = [];
 
-  constructor(private httpService: HttpBalanceService,
-              private router: Router) {
+  constructor(private httpService: HttpTicketService) {
   }
 
   ngOnInit() {

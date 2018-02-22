@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Http, Response} from '@angular/http';
+import {Http, RequestOptionsArgs, Response} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
@@ -14,6 +14,16 @@ export class HttpOfferService {
 
   getOffers(): Observable<Offer[]> {
     return this.http.get(environment.API + '/offers').map(res => res.json());
+  }
+
+  getOffersForCustomer(): Observable<Offer[]> {
+    return this.http.get(environment.API + '/offers/forCustomer').map(res => res.json());
+  }
+
+  searchOffers(departureCity: string, departureDate: string): Observable<Offer[]> {
+    return this.http.get(environment.API + '/offers/search/' +
+      '?departureCity='+ departureCity +
+    '&departureDate=' + departureDate).map(res => res.json());
   }
 
   findOfferById(id): Observable<Offer> {
@@ -31,5 +41,6 @@ export class HttpOfferService {
   deleteOffer(id): Observable<Response> {
     return this.http.delete(environment.API + '/offers/' + id);
   }
+
 
 }
