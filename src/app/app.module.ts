@@ -23,6 +23,7 @@ import {
 } from "@angular/material";
 import {AdminLogModule} from "./dashboard/admin-log/admin-log.module";
 import {HttpTicketService} from "./common/services/http.ticket.service";
+import {FormsModule} from "@angular/forms";
 
 const routes = [
   {

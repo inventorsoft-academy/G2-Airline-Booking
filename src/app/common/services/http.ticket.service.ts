@@ -10,22 +10,15 @@ export class HttpTicketService {
   constructor(private http: Http) {
   }
 
-  getTickets(): Observable<Ticket[]> {
-    return this.http.get(environment.API + '/tickets').map(res => res.json());
-  }
-
-  findTicketById(id): Observable<Ticket> {
-    return this.http.get(environment.API + `/ticket/${id}`).map(res => res.json());
-  }
-
-  saveTicket(obj: Ticket): Observable<Response> {
-    return this.http.post(environment.API + '/ticket', obj);
-  }
 
   getBalance(): Observable<any> {
     return this.http.get(environment.API + '/tickets/balance').map(res => res.json());
   }
 
-
+  download (offerId: number, customerId: number) : Observable<Response> {
+    return this.http.get(environment.API + '/tickets/' +
+      '?offerId='+ offerId +
+      '&customerId=' + customerId);
+  }
 
 }

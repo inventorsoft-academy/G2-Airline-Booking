@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import {HeaderComponent} from './header/header.component';
 import {MainPageComponent} from './main-page/main-page.component';
@@ -22,7 +22,8 @@ import {AdminLogModule} from "./admin-log/admin-log.module";
     HttpModule,
     RouterModule,
     ReactiveFormsModule,
-    AdminLogModule
+    AdminLogModule,
+    FormsModule
   ],
   declarations: [
     HeaderComponent,

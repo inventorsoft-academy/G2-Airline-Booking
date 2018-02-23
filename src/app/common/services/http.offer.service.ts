@@ -5,6 +5,7 @@ import 'rxjs/add/operator/map';
 
 import {Offer} from '../models/offer/offer';
 import {environment} from '../../../environments/environment';
+import {Ticket} from "../models/ticket/ticket";
 
 @Injectable()
 export class HttpOfferService {
@@ -42,10 +43,11 @@ export class HttpOfferService {
     return this.http.delete(environment.API + '/offers/' + id);
   }
 
-  bookATicket(offerId: string, customerId: string) {
+  bookATicket(offerId: string, customerId: string, numberOfSeat: string) : Observable<Ticket>{
     return this.http.get(environment.API + '/offers/' +
       '?offerId='+ offerId +
-      '&customerId=' + customerId).map(res => res.json());
+      '&customerId=' + customerId +
+      '&numberOfSeat=' + numberOfSeat).map(res => res.json());
   }
 
 }

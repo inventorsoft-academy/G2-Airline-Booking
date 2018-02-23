@@ -2,7 +2,7 @@
 
 
 <label for="customerId">Input customer id:</label>
-<input id="customerId" [ngModel]="customerId">
+<input id="customerId" [(ngModel)]="customerId" [ngModelOptions]="{updateOn: 'blur'}" pattern="\\d+" required>
 
 <hr>
 
@@ -14,6 +14,64 @@
   <button class="btn-primary" [disabled]="newFindForm.invalid" (click)="search()">Search</button>
 </form>
 
+<hr>
+
+<label>Found offers:</label>
+<table class="table table-responsive">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Departure City</th>
+    <th>Arrival City</th>
+    <th>Departure Date</th>
+    <th>Arrival Date</th>
+    <th>Number Of Seats</th>
+    <th>Price</th>
+  </tr>
+  </thead>
+  <tbody *ngFor="let offer of searchOffersList">
+  <tr>
+    <td>{{offer.id}}</td>
+    <td>{{offer.departureCity}}</td>
+    <td>{{offer.arrivalCity}}</td>
+    <td>{{offer.departureDate}}</td>
+    <td>{{offer.arrivalDate}}</td>
+    <td>
+      <select [(ngModel)]="numberOfSeat">
+        <option *ngFor="let numberOfSeats of offer.numberOfSeats.split(',')">
+          {{numberOfSeats}}
+        </option>
+      </select>
+    </td>
+    <td>{{offer.price}}</td>
+    <td><button class="btn-primary" (click)="bookATicket(offer.id)">Book</button></td>
+  </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<label>Booked ticked:</label>
+<div class="container" style="width: 35%;">
+  <form [formGroup]="newBookedTickedForm" (submit)="download()">
+    <label>Name</label>
+    <input formControlName="name" class="form-control" disabled>
+    <label>Departure City</label>
+    <input formControlName="departureCity" class="form-control" disabled>
+    <label>Arrival City</label>
+    <input formControlName="arrivalCity" id="arrivalCity" class="form-control" disabled>
+    <label>Departure Date</label>
+    <input formControlName="departureDate" class="form-control" disabled>
+    <label>Arrival Date</label>
+    <input formControlName="arrivalDate" class="form-control" disabled>
+    <label>Number Of Seat</label>
+    <input formControlName="numberOfSeat" class="form-control" disabled>
+    <label>Price</label>
+    <input formControlName="price" class="form-control" disabled>
+    <hr>
+    <button type="submit" class="btn btn-primary" [disabled]="newBookedTickedForm.invalid">Download</button>
+  </form>
+</div>
 <hr>
 
 <table class="table table-responsive">
@@ -37,7 +95,6 @@
     <td>{{offer.arrivalDate}}</td>
     <td>{{offer.numberOfSeats}}</td>
     <td>{{offer.price}}</td>
-    <td><button class="btn-primary" (click)="bookATicket(offer.id)">Update</button></td>
   </tr>
   </tbody>
 </table>

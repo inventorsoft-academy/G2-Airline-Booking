@@ -4,8 +4,8 @@ export class Ticket {
   offerId: number;
   departureCity: string;
   arrivalCity: string;
-  departureDate: any;
-  arrivalDate: any;
+  departureDate: Date;
+  arrivalDate: Date;
   number: number
   price: number
 }
