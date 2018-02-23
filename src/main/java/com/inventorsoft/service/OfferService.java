@@ -1,6 +1,7 @@
 package com.inventorsoft.service;
 
 import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
 
 import java.util.Date;
 import java.util.List;
@@ -24,6 +25,5 @@ public interface OfferService {
 
     boolean remove(final int id);
 
-
-
+    Ticket bookATicket(String offerId, String customerId, String numberOfSeat);
 }

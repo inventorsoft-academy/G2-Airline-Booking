@@ -66,7 +66,7 @@ public class TicketView {
             offerId = scn.nextInt();
         }
 
-        while (!ticketValidator.validateForUniqueTicket(ticketList, customer, offerId)) {
+        while (ticketValidator.validateForUniqueTicket(ticketList, customer, offerId)) {
             System.out.println("You already bought ticket for this plane, please choose other route!");
             importAllOffers(offerList);
             offerId = scn.nextInt();

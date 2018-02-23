@@ -15,4 +15,9 @@ public class DefaultTicketService implements TicketService {
         return this.ticketInfoRepository.getTicketPrice();
     }
 
+    @Override
+    public boolean download(String offerId, String customerId) {
+        return ticketInfoRepository.download(offerId, customerId);
+    }
+
 }

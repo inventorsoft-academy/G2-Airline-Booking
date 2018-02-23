@@ -24,18 +24,18 @@ public class TicketValidator {
                 && validateCustomerId(s[1])
                 && validateOfferId(s[2])
                 && validateForUniqueTicket(s[1], s[2])
-                && validateCityKey(s[3])
-                && validateCityKey(s[4])
+                && validateCityValue(s[3])
+                && validateCityValue(s[4])
                 && validateDate(s[5])
                 && validateDate(s[6])
                 && validateNumberOfSeats(Integer.parseInt(s[7]))
                 && validatePrice(Integer.parseInt(s[8]));
     }
 
-    public boolean validateCityKey(String cityKey) {
+    public boolean validateCityValue(String cityValue) {
         Map<String, String> cities = xml.getCities();
         for (Map.Entry<String, String> entry : cities.entrySet()) {
-            if (entry.getKey().equals(cityKey)) {
+            if (entry.getValue().equals(cityValue)) {
                 return true;
             }
         }
@@ -43,9 +43,12 @@ public class TicketValidator {
     }
 
     public boolean validateForUniqueTicket(List<Ticket> ticketList, Customer customer, int offerId) {
+        concatId = "";
         for (Ticket ticket: ticketList) {
             concatId += String.valueOf(ticket.getCustomerId()) + String.valueOf(ticket.getOfferId()) + ",";
         }
+        System.out.println(concatId);
+        System.out.println(concatId.contains(String.valueOf(customer.getId()) + String.valueOf(offerId)));
         return concatId.contains(String.valueOf(customer.getId()) + String.valueOf(offerId));
     }
 

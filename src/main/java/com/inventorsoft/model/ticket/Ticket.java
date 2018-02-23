@@ -1,5 +1,6 @@
 package com.inventorsoft.model.ticket;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,9 +26,9 @@ public class Ticket {
     private String departureCity;
 
     private String arrivalCity;
-
+    @JsonFormat(pattern = "dd/MM/yyyy-HH:mm")
     private Date departureDate;
-
+    @JsonFormat(pattern = "dd/MM/yyyy-HH:mm")
     private Date arrivalDate;
 
     private int number;

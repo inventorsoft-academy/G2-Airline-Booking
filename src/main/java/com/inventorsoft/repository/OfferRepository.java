@@ -1,8 +1,18 @@
 package com.inventorsoft.repository;
 
+import com.inventorsoft.controller.TicketsController;
+import com.inventorsoft.controller.WebOfferController;
+import com.inventorsoft.dao.GetCustomers;
+import com.inventorsoft.dao.GetTickets;
 import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
+import com.inventorsoft.model.user.Customer;
 import com.inventorsoft.validator.OfferValidator;
+import com.inventorsoft.validator.TicketValidator;
 import com.inventorsoft.xml.ReadXMLFileDOMExample;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -88,11 +98,16 @@ public class OfferRepository implements OfferInfoRepository {
 
     public List<Offer> getOffers() {
         System.out.println("translational");
-        return offerList;
+        return getInfo();
     }
 
     @Override
     public List<Offer> getOffersForCustomer() {
+        customerOfferList = getInfo();
+        customerOfferList.forEach(offer -> {
+            offer.setDepartureCity(replaceCityCodeToCityName(offer.getDepartureCity(), cities));
+            offer.setArrivalCity(replaceCityCodeToCityName(offer.getArrivalCity(), cities));
+        });
         return customerOfferList;
     }
 
@@ -107,8 +122,8 @@ public class OfferRepository implements OfferInfoRepository {
     }
 
     private List<Offer> deleteNotCorrectOffersFromCustomerRequest(List<Offer> searchOffersList,
-                                                                 String departureCity,
-                                                                 String departureDate) {
+                                                                  String departureCity,
+                                                                  String departureDate) {
         System.out.println("method add some offers");
 
         customerOfferList.forEach(offer -> {
@@ -119,7 +134,7 @@ public class OfferRepository implements OfferInfoRepository {
             try {
                 System.out.println(DATE_FORMAT.parse(departureDate));
                 if (offer.getDepartureCity().equals(departureCity) &&
-                      offer.getDepartureDate().equals(DATE_FORMAT.parse(departureDate))) {
+                        offer.getDepartureDate().equals(DATE_FORMAT.parse(departureDate))) {
                     searchOffersList.add(offer);
                 }
             } catch (ParseException e) {
@@ -128,6 +143,7 @@ public class OfferRepository implements OfferInfoRepository {
         });
         return searchOffersList;
     }
+
     private String replaceCityCodeToCityName(String code, Map<String, String> cities) {
         System.out.println("replaceCityCodeToCityName");
         for (Map.Entry<String, String> entry : cities.entrySet()) {
@@ -182,6 +198,53 @@ public class OfferRepository implements OfferInfoRepository {
     public boolean removeOffer(int id) {
         return offerList.removeIf(offer -> offer.getId() == id);
     }
+
+    @Override
+    public Ticket bookATicket(String offerId, String customerId, String numberOfSeat) {
+        if (!(new TicketValidator().validateForUniqueTicket(
+                new GetTickets().getInfo(),
+                findCustomerById(customerId),
+                Integer.parseInt(offerId)))) {
+        try {
+            new TicketsController().bookTicket(Integer.parseInt(offerId),
+                    Integer.parseInt(numberOfSeat),
+                    offerList,
+                    findCustomerById(customerId));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+            System.out.println("final method");
+            System.out.println(true);
+            return findTicketById(offerId,customerId);
+        }
+        System.out.println("final method");
+        System.out.println(false);
+        return new Ticket();
+    }
+
+
+    private Customer findCustomerById(String customerId) {
+        for (Customer customer : new GetCustomers().getInfo()) {
+            if (String.valueOf(customer.getId()).equals(customerId)) {
+                System.out.println(customer);
+                return customer;
+            }
+        }
+        return new Customer();
+    }
+
+    private Ticket findTicketById(String offerId, String customerId) {
+        for (Ticket ticket : new GetTickets().getInfo()) {
+            if (String.valueOf(ticket.getOfferId()).equals(offerId) &&
+                    String.valueOf(ticket.getCustomerId()).equals(customerId)) {
+                System.out.println(ticket);
+                return ticket;
+            }
+        }
+        return new Ticket();
+    }
+
+
 
 
     private int autoIncrementId() {

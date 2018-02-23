@@ -13,9 +13,9 @@ public class App {
 
 
     public static void main(String[] args) {
-        /*Logger LOGGER = LoggerFactory.getLogger(App.class);
+        Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-        LOGGER.info("Start Spring");*/
+        LOGGER.info("Start Spring");
 
         SpringApplication.run(App.class, args);
 

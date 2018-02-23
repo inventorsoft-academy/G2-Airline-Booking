@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ticket>
+<name>kostya</name>
+<offerId>3</offerId>
+<departureCity>Запорожье</departureCity>
+<arrivalCity>Зарафшан</arrivalCity>
+<departureDate>Mon Mar 12 12:03:00 GMT 2018</departureDate>
+<arrivalDate>Mon Mar 12 18:45:00 GMT 2018</arrivalDate>
+<number>98</number>
+<price>250</price>
+</ticket>

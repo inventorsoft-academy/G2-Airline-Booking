@@ -10,4 +10,5 @@ public interface TicketInfoRepository {
 
     Integer getTicketPrice();
 
+    boolean download(String offerId, String customerId);
 }

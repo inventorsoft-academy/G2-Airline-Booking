@@ -1,12 +1,15 @@
 package com.inventorsoft.repository;
 
+import com.inventorsoft.dao.GetTickets;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.validator.TicketValidator;
+import com.inventorsoft.xml.WriteTicketInXML;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import javax.xml.transform.TransformerException;
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -80,5 +83,32 @@ public class TicketRepository implements TicketInfoRepository {
     @Override
     public Integer getTicketPrice() {
         return ticketList.stream().mapToInt(Ticket::getPrice).sum();
+    }
+
+    @Override
+    public boolean download(String offerId, String customerId) {
+        String standardFileName = "src/main/resources/" + offerId + customerId + ".xml";
+        try {
+            try {
+                new WriteTicketInXML(findTicketById(offerId,customerId),standardFileName);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return true;
+        } catch (TransformerException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    private Ticket findTicketById(String offerId, String customerId) {
+        for (Ticket ticket : new GetTickets().getInfo()) {
+            if (String.valueOf(ticket.getOfferId()).equals(offerId) &&
+                    String.valueOf(ticket.getCustomerId()).equals(customerId)) {
+                System.out.println(ticket);
+                return ticket;
+            }
+        }
+        return new Ticket();
     }
 }

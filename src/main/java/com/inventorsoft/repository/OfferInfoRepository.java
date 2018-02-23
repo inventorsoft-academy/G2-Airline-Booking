@@ -1,6 +1,7 @@
 package com.inventorsoft.repository;
 
 import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
 
 import java.util.List;
 import java.util.Optional;
@@ -24,6 +25,5 @@ public interface OfferInfoRepository {
     boolean removeOffer(final int id);
 
 
-
-
+    Ticket bookATicket(String offerId, String customerId, String numberOfSeat);
 }

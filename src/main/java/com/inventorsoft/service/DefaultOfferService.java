@@ -2,6 +2,7 @@ package com.inventorsoft.service;
 
 
 import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.repository.OfferInfoRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -54,6 +55,11 @@ public class DefaultOfferService implements OfferService {
     @Override
     public boolean remove(int id) {
         return this.offerInfoRepository.removeOffer(id);
+    }
+
+    @Override
+    public Ticket bookATicket(String offerId, String customerId, String numberOfSeat) {
+        return this.offerInfoRepository.bookATicket(offerId,customerId,numberOfSeat);
     }
 
 }

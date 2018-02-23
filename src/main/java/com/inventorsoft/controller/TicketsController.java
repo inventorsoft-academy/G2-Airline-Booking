@@ -4,12 +4,17 @@ import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.model.user.Customer;
 import com.inventorsoft.dao.SetModel;
+import com.inventorsoft.xml.ReadXMLFileDOMExample;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class TicketsController {
+
+    private ReadXMLFileDOMExample xml = new ReadXMLFileDOMExample();
+    private Map<String, String> cities = xml.getCities();
 
     private SetModel setModel = new SetModel();
 
@@ -26,8 +31,8 @@ public class TicketsController {
         ticket.setName(customer.getName());
         ticket.setCustomerId(customer.getId());
         ticket.setOfferId(offer.getId());
-        ticket.setDepartureCity(offer.getDepartureCity());
-        ticket.setArrivalCity(offer.getArrivalCity());
+        ticket.setDepartureCity(replaceCityCodeToCityName(offer.getDepartureCity()));
+        ticket.setArrivalCity(replaceCityCodeToCityName(offer.getArrivalCity()));
         ticket.setDepartureDate(offer.getDepartureDate());
         ticket.setArrivalDate(offer.getArrivalDate());
         ticket.setNumber(number);
@@ -40,9 +45,9 @@ public class TicketsController {
         }
 
 
-        setModel.setInfo(offerList, "resources/offers.txt");
+        setModel.setInfo(offerList, "src/main/resources/offers.txt");
 
-        setModel.setInfo(ticket, "resources/tickets.txt");
+        setModel.setInfo(ticket, "src/main/resources/tickets.txt");
 
     }
 
@@ -53,6 +58,16 @@ public class TicketsController {
             }
         }
         return null;
+    }
+
+    private String replaceCityCodeToCityName(String code) {
+        System.out.println("replaceCityCodeToCityName");
+        for (Map.Entry<String, String> entry : cities.entrySet()) {
+            if (entry.getKey().equals(code)) {
+                return entry.getValue();
+            }
+        }
+        return "fail";
     }
 
     private boolean ifBoughtAllTheTickets(Offer offer) {

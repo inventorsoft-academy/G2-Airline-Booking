@@ -1,7 +1,8 @@
 package com.inventorsoft.controller;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
+import com.inventorsoft.App;
 import com.inventorsoft.model.offer.Offer;
+import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.service.OfferService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -12,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
@@ -23,6 +23,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 @CrossOrigin(origins = "*", methods = {GET, POST, PUT, DELETE, OPTIONS})
 public class WebOfferController {
 
+
     private OfferService offerService;
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
 
@@ -31,15 +32,10 @@ public class WebOfferController {
         return ResponseEntity.ok(offerService.getOffers());
     }
 
-    @GetMapping (value = "/forCustomer" , produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/forCustomer", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Offer>> getOffersForCustomer() {
         return ResponseEntity.ok(offerService.getOffersForCustomer());
     }
-
-    /*@GetMapping(value = "/search", params = "departureCity")
-    public ResponseEntity<Offer> getOfferByRoute(@RequestParam String departureCity) {
-        return renderOfferByRoute(departureCity);
-    }*/
 
     @GetMapping("/{id:\\d+}")
     public ResponseEntity<Offer> getOfferById(@PathVariable int id) {
@@ -49,15 +45,22 @@ public class WebOfferController {
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @GetMapping( value = "/search/", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/search/", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Offer>> searchOffers(@RequestParam(value = "departureCity") String departureCity,
                                                     @RequestParam(value = "departureDate") String departureDate) {
         System.out.println("You want to searchhhhhhhhhhhhhh!");
         System.out.println(departureCity);
         System.out.println(departureDate);
-        return ResponseEntity.ok(offerService.searchOffers(departureCity,departureDate));
+        return ResponseEntity.ok(offerService.searchOffers(departureCity, departureDate));
     }
 
+    @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Ticket> bookATicket(@RequestParam(value = "offerId") String offerId,
+                                              @RequestParam(value = "customerId") String customerId,
+                                              @RequestParam(value = "numberOfSeat") String numberOfSeat) {
+        System.out.println("You want to book!");
+        return ResponseEntity.ok(offerService.bookATicket(offerId,customerId,numberOfSeat));
+    }
 
     @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Offer> createOfferFromUrlEncoded(@ModelAttribute Offer offer) {
@@ -86,7 +89,6 @@ public class WebOfferController {
                 ? new ResponseEntity(HttpStatus.OK)
                 : new ResponseEntity(HttpStatus.NOT_FOUND);
     }
-
 
 
     private ResponseEntity<Offer> renderResponseWithLocation(Offer createdOffer) {
