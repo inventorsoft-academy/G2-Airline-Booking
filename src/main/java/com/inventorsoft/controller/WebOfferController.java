@@ -4,7 +4,9 @@ import com.inventorsoft.App;
 import com.inventorsoft.model.offer.Offer;
 import com.inventorsoft.model.ticket.Ticket;
 import com.inventorsoft.service.OfferService;
+import com.inventorsoft.service.TestOfferService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -23,8 +25,12 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 @CrossOrigin(origins = "*", methods = {GET, POST, PUT, DELETE, OPTIONS})
 public class WebOfferController {
 
-
     private OfferService offerService;
+
+    @Autowired
+    private TestOfferService testOfferService;
+
+
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy-kk:mm");
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
@@ -36,6 +42,15 @@ public class WebOfferController {
     public ResponseEntity<List<Offer>> getOffersForCustomer() {
         return ResponseEntity.ok(offerService.getOffersForCustomer());
     }
+
+    @GetMapping(value = "/adminsOffers", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<Offer>> getOffersFromDB() {
+        testOfferService.createTestOffer();
+        System.out.println("successful create");
+        return ResponseEntity.ok(testOfferService.getAll());
+    }
+
+
 
     @GetMapping("/{id:\\d+}")
     public ResponseEntity<Offer> getOfferById(@PathVariable int id) {

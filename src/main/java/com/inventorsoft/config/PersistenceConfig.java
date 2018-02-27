@@ -16,10 +16,10 @@ public class PersistenceConfig {
     @Primary
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("org.hsqldb.jdbc.JDBCDriver");
-        dataSource.setUrl("jdbc:hsqldb:mem:training");
-        dataSource.setUsername("SA");
-        dataSource.setPassword(StringUtils.EMPTY);
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/airline-booking?autoReconnect=true&useSSL=false");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
         return dataSource;
     }
 
